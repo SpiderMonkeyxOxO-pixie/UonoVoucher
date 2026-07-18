@@ -1,0 +1,111 @@
+.upcoming-game-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 24px;
+}
+
+.upcoming-game-top-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.upcoming-game-image {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+}
+
+.countdown {
+  display: flex;
+  gap: 10px;
+}
+
+.countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 58px;
+  padding: 8px 10px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.countdown-value {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.countdown-label {
+  margin-top: 2px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.countdown-live {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.upcoming-game-body h2 {
+  font-size: 1.3rem;
+  margin: 8px 0 10px;
+}
+
+.upcoming-game-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.upcoming-game-top .eyebrow {
+  margin-bottom: 0;
+}
+
+.upcoming-game-body p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  max-width: 640px;
+  margin-bottom: 18px;
+}
+
+.upcoming-game-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .upcoming-game-top-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .countdown-unit {
+    min-width: 50px;
+    padding: 6px 8px;
+  }
+
+  .countdown-value {
+    font-size: 1.15rem;
+  }
+}

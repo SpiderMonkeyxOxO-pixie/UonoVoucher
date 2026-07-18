@@ -1,0 +1,153 @@
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+@media (max-width: 980px) {
+  .promo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .promo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.promo-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.promo-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.promo-card-head img {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.promo-card-head-text {
+  min-width: 0;
+  flex: 1;
+}
+
+.promo-card-head-text a {
+  font-weight: 700;
+  font-size: 0.96rem;
+  color: var(--ink);
+}
+
+.promo-card-head-text a:hover {
+  color: var(--violet);
+}
+
+.promo-card-category {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
+
+.promo-tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.promo-tab {
+  flex: 1;
+  padding: 6px 0;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.promo-tab.has-code {
+  border-color: rgba(99, 56, 218, 0.35);
+  color: var(--violet);
+}
+
+.promo-tab.active {
+  background: var(--neutral-bg);
+  border-color: var(--violet-2);
+  color: var(--violet);
+}
+
+.promo-slot {
+  min-height: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+}
+
+.promo-slot-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.promo-code-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.promo-code-row code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--soft);
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  padding: 4px 10px;
+  overflow-wrap: anywhere;
+}
+
+.promo-awaiting {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--caution-fg);
+  font-weight: 600;
+}
+
+.promo-checked {
+  font-size: 0.74rem;
+  color: var(--muted);
+}
+
+.promo-card-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}

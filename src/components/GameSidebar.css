@@ -1,0 +1,89 @@
+.game-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 981px) {
+  .game-sidebar {
+    position: sticky;
+    top: calc(var(--header-height) + 20px);
+    align-self: start;
+  }
+}
+
+.sidebar-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.sidebar-card h3 {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+.sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-actions .btn {
+  width: 100%;
+}
+
+.sidebar-status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.86rem;
+}
+
+.sidebar-status-row span:first-child {
+  color: var(--muted);
+}
+
+.sidebar-status-row span:last-child {
+  color: var(--ink);
+  font-weight: 600;
+  text-align: right;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sidebar-nav a {
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  color: var(--muted);
+  border-left: 2px solid transparent;
+}
+
+.sidebar-nav a:hover {
+  color: var(--ink);
+  background: var(--soft);
+}
+
+.sidebar-nav a.active {
+  color: var(--violet);
+  border-left-color: var(--violet-2);
+  background: var(--neutral-bg);
+  font-weight: 600;
+}

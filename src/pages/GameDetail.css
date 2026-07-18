@@ -1,0 +1,52 @@
+.game-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 980px) {
+  .game-detail-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.game-detail-main {
+  min-width: 0;
+}
+
+.game-detail-section {
+  margin-bottom: 44px;
+  scroll-margin-top: calc(var(--header-height) + 16px);
+}
+
+.game-detail-section h2 {
+  font-size: 1.35rem;
+  margin-bottom: 14px;
+}
+
+.game-detail-meta-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 0.86rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.safety-notice-card {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+
+.safety-notice-card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.safety-notice-card p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}

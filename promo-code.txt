@@ -1,0 +1,79 @@
+UonoVoucher — Daily Promo Codes
+Date: ______________  (fill in the date you are entering these codes)
+
+HOW TO FILL THIS IN
+- Do not edit the slug (text before the first |) — it is the exact key used to match each game.
+- Fill in a code after AM / PM / EVE for whichever slots you have a code for today. Leave blank if none.
+- If a game has no new code today, just leave all three blank — it will be skipped.
+- One code per slot per game per day. Do not add extra lines or change the game order.
+- Send this file back (or paste its contents) when ready and codes will be synced into the site.
+
+==============================================================================
+
+[ Slots ]
+------------------------------------------------------------------------------
+101z | 101z | AM: | PM: | EVE:
+567-slots | 567 Slots | AM: | PM: | EVE:
+789-jackpot | 789 Jackpot | AM: | PM: | EVE:
+ind-slots | Ind Slots | AM: | PM: | EVE:
+jaiho-slot | Jaiho Slot | AM: | PM: | EVE:
+jaiho-spin | Jaiho Spin | AM: | PM: | EVE:
+jaiho91 | Jaiho 91 | AM: | PM: | EVE:
+saga-slots | Saga Slots | AM: | PM: | EVE:
+share-slots | Share Slots | AM: | PM: | EVE:
+slot-spin | Slot Spin | AM: | PM: | EVE:
+slots-winner | Slots Winner | AM: | PM: | EVE:
+spin-101 | Spin 101 | AM: | PM: | EVE:
+spin-crush | Spin Crush | AM: | PM: | EVE:
+spin-gold | Spin Gold | AM: | PM: | EVE:
+spin-winner | Spin Winner | AM: | PM: | EVE:
+yes-spin | Yes Spin | AM: | PM: | EVE:
+yono-slots | Yono Slots | AM: | PM: | EVE:
+
+[ Skill ]
+------------------------------------------------------------------------------
+777game | 777game | AM: | PM: | EVE:
+abc-rummy | Abc Rummy | AM: | PM: | EVE:
+boss-rummy | Boss Rummy | AM: | PM: | EVE:
+game-rummy | Game Rummy | AM: | PM: | EVE:
+gogo-rummy | Gogo Rummy | AM: | PM: | EVE:
+hi-rummy | Hi Rummy | AM: | PM: | EVE:
+ind-rummy | Ind Rummy | AM: | PM: | EVE:
+inr-rummy | INR Rummy | AM: | PM: | EVE:
+jaiho-rummy | Jaiho Rummy | AM: | PM: | EVE:
+joy-rummy | Joy Rummy | AM: | PM: | EVE:
+love-rummy | Love Rummy | AM: | PM: | EVE:
+maha-games | Maha Games | AM: | PM: | EVE:
+max-rummy | Max Rummy | AM: | PM: | EVE:
+ok-rummy | Ok Rummy | AM: | PM: | EVE:
+rumble-rummy | Rumble Rummy | AM: | PM: | EVE:
+rummy-91 | Rummy 91 | AM: | PM: | EVE:
+rummy-ludo | Rummy Ludo | AM: | PM: | EVE:
+rummy77 | Rummy 77 | AM: | PM: | EVE:
+rummy888 | Rummy 888 | AM: | PM: | EVE:
+top-rummy | Top Rummy | AM: | PM: | EVE:
+yono-rummy | Yono Rummy | AM: | PM: | EVE:
+
+[ Multiplayer ]
+------------------------------------------------------------------------------
+bet-213 | Bet 213 | AM: | PM: | EVE:
+bingo-101 | Bingo 101 | AM: | PM: | EVE:
+club-inr | Club INR | AM: | PM: | EVE:
+hindi777 | Hindi 777 | AM: | PM: | EVE:
+ind-club | Ind Club | AM: | PM: | EVE:
+mbm-bet | MBM Bet | AM: | PM: | EVE:
+neta-vip | Neta VIP | AM: | PM: | EVE:
+yn-777 | Yn 777 | AM: | PM: | EVE:
+yono-vip | Yono VIP | AM: | PM: | EVE:
+
+[ Fight / Flight ]
+------------------------------------------------------------------------------
+jaiho-777 | Jaiho 777 | AM: | PM: | EVE:
+jaiho-arcade | Jaiho Arcade | AM: | PM: | EVE:
+yono-777 | Yono 777 | AM: | PM: | EVE:
+yono-arcade | Yono Arcade | AM: | PM: | EVE:
+
+[ Fishing ]
+------------------------------------------------------------------------------
+jaiho-win | Jaiho Win | AM: | PM: | EVE:
+yono-games | Yono Games | AM: | PM: | EVE:
