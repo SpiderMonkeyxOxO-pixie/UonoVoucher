@@ -4,6 +4,15 @@ import type { PromoCode } from '../types';
 
 export const promoCodes: PromoCode[] = [
   {
+    "id": "promo-dhangame",
+    "gameId": "game-dhangame",
+    "code": "TBA",
+    "status": "scheduled",
+    "addedAt": "2026-07-19",
+    "sourceNote": "DhanGame is scheduled to launch 23 Jul 2026. No promo code has been published yet — this entry will be updated once one is confirmed and reviewed.",
+    "timeSlot": "morning"
+  },
+  {
     "id": "promo-101z",
     "gameId": "game-101z",
     "code": "101Z8146",

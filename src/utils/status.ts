@@ -22,5 +22,5 @@ export function getStatusMeta(status: string): StatusMeta {
 }
 
 export function isDisabledStatus(status: string): boolean {
-  return status === 'expired' || status === 'withdrawn' || status === 'none';
+  return status === 'expired' || status === 'withdrawn' || status === 'none' || status === 'scheduled';
 }

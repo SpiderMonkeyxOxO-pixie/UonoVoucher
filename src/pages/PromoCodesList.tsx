@@ -14,7 +14,7 @@ import { formatDate } from '../utils/format';
 import type { GameCategory, TimeSlot } from '../types';
 import './PromoCodesList.css';
 
-const STATUS_OPTIONS = ['checked', 'reported', 'unconfirmed', 'expired', 'withdrawn'] as const;
+const STATUS_OPTIONS = ['checked', 'reported', 'unconfirmed', 'expired', 'withdrawn', 'scheduled'] as const;
 const PERIOD_OPTIONS: { id: TimeSlot; label: string }[] = [
   { id: 'morning', label: 'Morning' },
   { id: 'afternoon', label: 'Afternoon' },
@@ -101,9 +101,14 @@ export function PromoCodesList() {
         const bDisabled = isDisabledStatus(b.status);
         if (aDisabled !== bDisabled) return aDisabled ? 1 : -1;
       }
-      const nameA = getGameById(a.gameId)?.name ?? '';
-      const nameB = getGameById(b.gameId)?.name ?? '';
-      return nameA.localeCompare(nameB);
+      const gameA = getGameById(a.gameId);
+      const gameB = getGameById(b.gameId);
+      if (sort === 'az') {
+        const rankA = gameA?.sortOrder ?? Infinity;
+        const rankB = gameB?.sortOrder ?? Infinity;
+        if (rankA !== rankB) return rankA - rankB;
+      }
+      return (gameA?.name ?? '').localeCompare(gameB?.name ?? '');
     });
 
     return list;

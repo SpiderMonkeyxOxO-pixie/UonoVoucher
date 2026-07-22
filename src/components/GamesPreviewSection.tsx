@@ -1,23 +1,12 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { games, CATEGORY_LABELS } from '../data/games';
+import { games, CATEGORY_LABELS, sortByPin } from '../data/games';
 import { categories } from '../data/categories';
 import type { GameCategory } from '../types';
 import { GameCard } from './GameCard';
 import { SearchBar } from './SearchBar';
 
 const PREVIEW_COUNT = 8;
-
-const FEATURED_SLUGS = [
-  'yono-rummy',
-  'yono-games',
-  'yono-slots',
-  'yono-777',
-  'yono-arcade',
-  'max-rummy',
-  'boss-rummy',
-  '777game',
-];
 
 export function GamesPreviewSection() {
   const [query, setQuery] = useState('');
@@ -33,7 +22,7 @@ export function GamesPreviewSection() {
 
   const showFeatured = category === 'all' && query.trim() === '';
   const preview = showFeatured
-    ? (FEATURED_SLUGS.map((slug) => games.find((g) => g.slug === slug)).filter(Boolean) as typeof games)
+    ? sortByPin(games.filter((g) => g.sortOrder !== undefined || g.featured)).slice(0, PREVIEW_COUNT)
     : filtered.slice(0, PREVIEW_COUNT);
 
   return (

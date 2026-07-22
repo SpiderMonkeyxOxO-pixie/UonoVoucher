@@ -9,11 +9,15 @@ const today = new Date().toISOString().slice(0, 10);
 
 function extractGames() {
   const src = readFileSync(join(root, 'src/data/games.ts'), 'utf8');
-  const objs = src.match(/\{[\s\S]*?"downloadUrl": "[^"]*"\s*\}/g) || [];
-  return objs.map((o) => ({
-    slug: (o.match(/"slug":\s*"([^"]+)"/) || [])[1],
-    lastmod: (o.match(/"reviewedAt":\s*"([^"]+)"/) || [])[1],
-  }));
+  // Split on top-level array-item boundaries rather than anchoring on any one field
+  // (e.g. "downloadUrl"), since not every game has every optional field.
+  const chunks = src.split(/\n  \{\n/).slice(1);
+  return chunks
+    .map((o) => ({
+      slug: (o.match(/"slug":\s*"([^"]+)"/) || [])[1],
+      lastmod: (o.match(/"reviewedAt":\s*"([^"]+)"/) || [])[1],
+    }))
+    .filter((g) => g.slug);
 }
 
 function extractPromoCodes() {

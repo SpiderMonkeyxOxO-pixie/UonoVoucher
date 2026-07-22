@@ -16,6 +16,54 @@ export const CATEGORY_LABELS: Record<Game['category'], string> = {
 
 export const games: Game[] = [
   {
+    "id": "game-dhangame",
+    "slug": "dhangame",
+    "name": "DhanGame",
+    "category": "slots",
+    "image": "/games/dhangame.webp",
+    "summary": "An upcoming Uono-family title scheduled to launch 23 Jul 2026 — full details are pending release.",
+    "description": [
+      "DhanGame has not launched yet. This page will be completed with a full independent review once the platform is live and can be checked directly, the same way every other record on this site is verified before specific claims are published.",
+      "Its official promotional artwork uses reel-style imagery similar to other Slots-category titles tracked here, which is why it is listed under that category for now — this has not been independently confirmed and should not be treated as certain until the game can be reviewed after launch."
+    ],
+    "formatNotes": [
+      "Format details are not yet confirmed. Once DhanGame is live, this section will describe how its game format generally works, the same way it does for every other title in this catalogue."
+    ],
+    "accessNotes": [
+      "No official download link has been confirmed yet. Do not download or install DhanGame from a page claiming to be official until a verified listing is available here."
+    ],
+    "promoExplanation": [
+      "No promo code has been published for DhanGame yet. This section will be updated once a code is confirmed and independently reviewed."
+    ],
+    "reviewNotes": [
+      "This entry was added on 19 Jul 2026 ahead of DhanGame's scheduled 23 Jul 2026 launch. It carries a Coming Soon status and will be fully reviewed after the platform becomes available."
+    ],
+    "safetyNotes": [
+      "Because DhanGame has not launched, no app, download link, or account process has been reviewed yet. Treat any download link, promo code, or bonus offer claiming to be from DhanGame with caution until it can be verified against an official source."
+    ],
+    "faqs": [
+      {
+        "question": "Is DhanGame available yet?",
+        "answer": "Not yet — DhanGame is scheduled to launch on 23 Jul 2026. This page will be updated with full details after release."
+      },
+      {
+        "question": "Does DhanGame have a promo code?",
+        "answer": "Not yet confirmed. Check back after launch for verified promo-code information."
+      },
+      {
+        "question": "Where can I download DhanGame?",
+        "answer": "No official download link has been confirmed yet. A verified link will be added here once one is available."
+      }
+    ],
+    "metaTitle": "DhanGame — Coming Soon | UonoVoucher",
+    "metaDescription": "DhanGame is an upcoming Uono-family game scheduled to launch 23 Jul 2026. Track its release date, promo-code and voucher status here.",
+    "publishedAt": "2026-07-19",
+    "reviewedAt": "2026-07-19",
+    "codeStatus": "none",
+    "featured": true,
+    "sortOrder": 1
+  },
+  {
     "id": "game-101z",
     "slug": "101z",
     "name": "101z",
@@ -1609,7 +1657,8 @@ export const games: Game[] = [
     "reviewedAt": "2026-07-10",
     "codeStatus": "checked",
     "featured": false,
-    "downloadUrl": "https://www.maxrummy99.com/?code=QUMV1MBQR7L&t=1783566019"
+    "downloadUrl": "https://www.maxrummy99.com/?code=QUMV1MBQR7L&t=1783566019",
+    "sortOrder": 2
   },
   {
     "id": "game-mbm-bet",
@@ -2749,7 +2798,8 @@ export const games: Game[] = [
     "reviewedAt": "2026-06-20",
     "codeStatus": "checked",
     "featured": false,
-    "downloadUrl": "https://uono777.co/?code=F9MPD4LNMMX&t=1781970461"
+    "downloadUrl": "https://uono777.co/?code=F9MPD4LNMMX&t=1781970461",
+    "sortOrder": 5
   },
   {
     "id": "game-yono-arcade",
@@ -2806,7 +2856,8 @@ export const games: Game[] = [
     "reviewedAt": "2026-07-09",
     "codeStatus": "reported",
     "featured": false,
-    "downloadUrl": "https://yonoofficial1.com/?code=96LVCHSK6LN&t=1781968544"
+    "downloadUrl": "https://yonoofficial1.com/?code=96LVCHSK6LN&t=1781968544",
+    "sortOrder": 6
   },
   {
     "id": "game-yono-games",
@@ -2863,7 +2914,8 @@ export const games: Game[] = [
     "reviewedAt": "2026-07-12",
     "codeStatus": "expired",
     "featured": false,
-    "downloadUrl": "https://yonogamese.com/?code=GK19NGYEZT2&t=1781968659"
+    "downloadUrl": "https://yonogamese.com/?code=GK19NGYEZT2&t=1781968659",
+    "sortOrder": 4
   },
   {
     "id": "game-yono-rummy",
@@ -2920,7 +2972,8 @@ export const games: Game[] = [
     "reviewedAt": "2026-07-07",
     "codeStatus": "expired",
     "featured": false,
-    "downloadUrl": "https://yonorummy044.com/?code=VIPDW9AGUXM&t=1781968802"
+    "downloadUrl": "https://yonorummy044.com/?code=VIPDW9AGUXM&t=1781968802",
+    "sortOrder": 3
   },
   {
     "id": "game-yono-slots",
@@ -3037,3 +3090,12 @@ export const games: Game[] = [
     "downloadUrl": "https://uonovipplay.vip/?code=9U8GYEWZ9LN&t=1781969008"
   }
 ];
+
+/**
+ * Sorts games with a manual `sortOrder` first (ascending), followed by everything else in
+ * its existing relative order. Update `sortOrder` on individual game entries to change pin
+ * position — e.g. when a new upcoming platform replaces the current #1.
+ */
+export function sortByPin<T extends { sortOrder?: number }>(list: T[]): T[] {
+  return [...list].sort((a, b) => (a.sortOrder ?? Infinity) - (b.sortOrder ?? Infinity));
+}

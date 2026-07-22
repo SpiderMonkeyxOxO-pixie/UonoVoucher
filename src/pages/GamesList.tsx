@@ -4,7 +4,7 @@ import { Seo } from '../components/Seo';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { GameCard } from '../components/GameCard';
 import { SearchBar } from '../components/SearchBar';
-import { games, CATEGORY_LABELS } from '../data/games';
+import { games, CATEGORY_LABELS, sortByPin } from '../data/games';
 import { categories } from '../data/categories';
 import type { GameCategory } from '../types';
 
@@ -16,11 +16,12 @@ export function GamesList() {
   const category = categoryParam && categories.some((c) => c.id === categoryParam) ? categoryParam : 'all';
 
   const filtered = useMemo(() => {
-    return games.filter((g) => {
+    const matches = games.filter((g) => {
       const matchesCategory = category === 'all' || g.category === category;
       const matchesQuery = g.name.toLowerCase().includes(query.trim().toLowerCase());
       return matchesCategory && matchesQuery;
     });
+    return sortByPin(matches);
   }, [query, category]);
 
   function setCategory(next: GameCategory | 'all') {

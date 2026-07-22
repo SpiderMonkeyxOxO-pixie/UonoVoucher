@@ -2,7 +2,7 @@ export type GameCategory = 'slots' | 'skill' | 'multiplayer' | 'fight-flight' | 
 
 export type CodeStatus = 'checked' | 'reported' | 'unconfirmed' | 'expired' | 'none';
 
-export type PromoCodeStatus = 'checked' | 'reported' | 'unconfirmed' | 'expired' | 'withdrawn';
+export type PromoCodeStatus = 'checked' | 'reported' | 'unconfirmed' | 'expired' | 'withdrawn' | 'scheduled';
 
 export type TimeSlot = 'morning' | 'afternoon' | 'evening';
 
@@ -39,6 +39,8 @@ export interface Game {
   featured?: boolean;
   /** Placeholder destination only — not a verified store listing. See Editorial Policy. */
   downloadUrl?: string;
+  /** Manual pin position for listing order (1 = shown first). Unset games sort after all pinned ones. */
+  sortOrder?: number;
 }
 
 export interface PromoCode {
