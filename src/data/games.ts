@@ -21,46 +21,56 @@ export const games: Game[] = [
     "name": "DhanGame",
     "category": "slots",
     "image": "/games/dhangame.webp",
-    "summary": "An upcoming Uono-family title scheduled to launch 23 Jul 2026 — full details are pending release.",
+    "summary": "The newest title added to this catalogue, DhanGame joins the Slots category with a treasure/jackpot theme across its promotional art.",
     "description": [
-      "DhanGame has not launched yet. This page will be completed with a full independent review once the platform is live and can be checked directly, the same way every other record on this site is verified before specific claims are published.",
-      "Its official promotional artwork uses reel-style imagery similar to other Slots-category titles tracked here, which is why it is listed under that category for now — this has not been independently confirmed and should not be treated as certain until the game can be reviewed after launch."
+      "DhanGame is the most recently added title tracked on UonoVoucher. It is listed under Slots based on its reel-and-symbol promotional artwork, consistent with how other titles in this category are classified here — this reflects the game's presented format, not a claim about its internal mechanics, which have not been independently tested.",
+      "As with every title we track, this page's status was reviewed on 19 Jul 2026 and will be revisited periodically rather than left static. Being newly listed, it has less review history behind it than longer-tracked titles, so details here may be updated more frequently in the near term."
     ],
     "formatNotes": [
-      "Format details are not yet confirmed. Once DhanGame is live, this section will describe how its game format generally works, the same way it does for every other title in this catalogue."
+      "Titles in this category generally vary in symbol count, payline structure and how frequently a bonus feature appears — DhanGame's specific configuration has not yet been documented in detail here.",
+      "As with other Slots-category titles, round outcomes should be treated as independent of one another rather than following a visible pattern."
     ],
     "accessNotes": [
-      "No official download link has been confirmed yet. Do not download or install DhanGame from a page claiming to be official until a verified listing is available here."
+      "The Download button on this page links to DhanGame's external listing. Before installing, review the permissions the app requests against what the game actually needs to function, the same as for any other title in this catalogue."
     ],
     "promoExplanation": [
-      "No promo code has been published for DhanGame yet. This section will be updated once a code is confirmed and independently reviewed."
+      "No promo code has been published for DhanGame yet. This section will be updated once a code is reported and independently reviewed."
     ],
     "reviewNotes": [
-      "This entry was added on 19 Jul 2026 ahead of DhanGame's scheduled 23 Jul 2026 launch. It carries a Coming Soon status and will be fully reviewed after the platform becomes available."
+      "This entry was added on 19 Jul 2026 as DhanGame's first listing on UonoVoucher. Its most recent review was on 19 Jul 2026, and it will move onto the same recurring review cycle as every other tracked title."
     ],
     "safetyNotes": [
-      "Because DhanGame has not launched, no app, download link, or account process has been reviewed yet. Treat any download link, promo code, or bonus offer claiming to be from DhanGame with caution until it can be verified against an official source."
+      "This page reflects our own independent review of DhanGame and can change as new reports come in. Because the download is served by a third party, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
     ],
     "faqs": [
       {
-        "question": "Is DhanGame available yet?",
-        "answer": "Not yet — DhanGame is scheduled to launch on 23 Jul 2026. This page will be updated with full details after release."
+        "question": "Is DhanGame currently available?",
+        "answer": "Yes — the Download button on this page links out to DhanGame's external listing."
+      },
+      {
+        "question": "Where does DhanGame's Download button lead?",
+        "answer": "It opens DhanGame's external listing outside UonoVoucher, controlled by that game's own operator, not by us."
       },
       {
         "question": "Does DhanGame have a promo code?",
-        "answer": "Not yet confirmed. Check back after launch for verified promo-code information."
+        "answer": "None has been published or confirmed yet. This page will be updated once a code is reported and reviewed."
       },
       {
-        "question": "Where can I download DhanGame?",
-        "answer": "No official download link has been confirmed yet. A verified link will be added here once one is available."
+        "question": "Why is DhanGame's catalogue history so short?",
+        "answer": "It was only added to UonoVoucher on 19 Jul 2026, so it has not yet been through the multiple review cycles that longer-tracked titles have."
+      },
+      {
+        "question": "How can I report outdated information on DhanGame?",
+        "answer": "Use our Contact page to flag anything that looks wrong on DhanGame's page — see our Corrections Policy for what happens next."
       }
     ],
-    "metaTitle": "DhanGame — Coming Soon | UonoVoucher",
-    "metaDescription": "DhanGame is an upcoming Uono-family game scheduled to launch 23 Jul 2026. Track its release date, promo-code and voucher status here.",
+    "metaTitle": "DhanGame — Promo Codes, Vouchers & Status",
+    "metaDescription": "DhanGame promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
     "publishedAt": "2026-07-19",
     "reviewedAt": "2026-07-19",
     "codeStatus": "none",
     "featured": true,
+    "downloadUrl": "https://dhanwinplay.com/?code=L2VRQRRF2UK&t=1784778249",
     "sortOrder": 1
   },
   {

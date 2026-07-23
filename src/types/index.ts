@@ -2,7 +2,7 @@ export type GameCategory = 'slots' | 'skill' | 'multiplayer' | 'fight-flight' | 
 
 export type CodeStatus = 'checked' | 'reported' | 'unconfirmed' | 'expired' | 'none';
 
-export type PromoCodeStatus = 'checked' | 'reported' | 'unconfirmed' | 'expired' | 'withdrawn' | 'scheduled';
+export type PromoCodeStatus = 'checked' | 'reported' | 'unconfirmed' | 'expired' | 'withdrawn' | 'scheduled' | 'none';
 
 export type TimeSlot = 'morning' | 'afternoon' | 'evening';
 

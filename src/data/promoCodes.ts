@@ -7,9 +7,10 @@ export const promoCodes: PromoCode[] = [
     "id": "promo-dhangame",
     "gameId": "game-dhangame",
     "code": "TBA",
-    "status": "scheduled",
+    "status": "none",
     "addedAt": "2026-07-19",
-    "sourceNote": "DhanGame is scheduled to launch 23 Jul 2026. No promo code has been published yet — this entry will be updated once one is confirmed and reviewed.",
+    "checkedAt": "2026-07-19",
+    "sourceNote": "DhanGame launched 19 Jul 2026. No promo code has been published or reported yet — this entry will be updated once one is confirmed and reviewed.",
     "timeSlot": "morning"
   },
   {
