@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -11,7 +12,16 @@ const today = new Date().toISOString().slice(0, 10);
 // which is this project's build output dir. Vite's own emptyOutDir step chokes
 // on it (ENOENT: not a directory, scandir '.../dist/.user.ini'), so clear dist/
 // ourselves before vite build ever runs, rather than relying on vite to do it.
-rmSync(join(root, 'dist'), { recursive: true, force: true });
+// Node's own recursive rmSync can ALSO throw ENOTDIR on that same file (its
+// readdir-based walker appears to mis-detect the entry type on some hosts) —
+// fall back to the real `rm -rf`, which doesn't share that bug, on POSIX.
+const distDir = join(root, 'dist');
+try {
+  rmSync(distDir, { recursive: true, force: true });
+} catch (err) {
+  if (process.platform === 'win32') throw err;
+  execFileSync('rm', ['-rf', distDir]);
+}
 
 function extractGames() {
   const src = readFileSync(join(root, 'src/data/games.ts'), 'utf8');
