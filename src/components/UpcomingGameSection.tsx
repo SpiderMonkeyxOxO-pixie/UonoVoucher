@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { StatusBadge } from './StatusBadge';
 import { formatDate } from '../utils/format';
 import './UpcomingGameSection.css';
 
 const TELEGRAM_CHANNEL_URL = 'https://t.me/OfficialUonovoucher';
 
-// Announced window is 8–9 AM IST; countdown targets the midpoint since a single tick needs one exact instant.
-const RELEASE_TARGET = new Date('2026-07-23T08:30:00+05:30').getTime();
+// ~3 days 15 hours out from when this was set, rounded to a clean hour.
+const RELEASE_TARGET = new Date('2026-07-29T09:00:00+05:30').getTime();
 
 interface TimeLeft {
   days: number;
@@ -46,9 +45,9 @@ export function UpcomingGameSection() {
       <div className="container">
         <div className="upcoming-game-card">
           <div className="upcoming-game-top-row">
-            <img src="/games/dhangame.webp" alt="" className="upcoming-game-image" width={128} height={128} />
+            <img src="/games/winrummy.png" alt="" className="upcoming-game-image" width={128} height={128} />
             {timeLeft ? (
-              <div className="countdown" role="timer" aria-label="Time remaining until DhanGame launch">
+              <div className="countdown" role="timer" aria-label="Time remaining until Win Rummy launch">
                 <div className="countdown-unit">
                   <span className="countdown-value">{timeLeft.days}</span>
                   <span className="countdown-label">Days</span>
@@ -67,7 +66,7 @@ export function UpcomingGameSection() {
                 </div>
               </div>
             ) : (
-              <div className="countdown-live">DhanGame&apos;s announced launch window has passed</div>
+              <div className="countdown-live">Win Rummy&apos;s announced launch window has passed</div>
             )}
           </div>
 
@@ -76,19 +75,15 @@ export function UpcomingGameSection() {
               <span className="eyebrow">Coming soon</span>
               <StatusBadge status="scheduled" />
             </div>
-            <h2>DhanGame is joining the Uono catalogue</h2>
+            <h2>Win Rummy is joining the Uono catalogue</h2>
             <p>
-              Expected to launch between 8:00–9:00 AM IST on {formatDate('2026-07-23')}. We&apos;ll add category,
-              promo-code, voucher and safety information once the game is available and can be independently
-              reviewed.
+              Expected to launch around {formatDate('2026-07-29')}. We&apos;ll add category, promo-code, voucher and
+              safety information once the game is available and can be independently reviewed.
             </p>
             <div className="upcoming-game-actions">
               <a href={TELEGRAM_CHANNEL_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
                 Join Telegram for launch updates
               </a>
-              <Link to="/blog/dhangame-launch-date-welcome-bonus/" className="btn btn-secondary btn-sm">
-                Read the full announcement
-              </Link>
             </div>
           </div>
         </div>
