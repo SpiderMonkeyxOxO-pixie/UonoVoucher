@@ -1,5 +1,4 @@
-import { readFileSync, writeFileSync, rmSync } from 'node:fs';
-import { execFileSync } from 'node:child_process';
+import { readFileSync, writeFileSync, rmSync, readdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -8,19 +7,17 @@ const root = join(__dirname, '..');
 const SITE_URL = 'https://uonovoucher.com';
 const today = new Date().toISOString().slice(0, 10);
 
-// Some hosts (aaPanel) auto-drop a .user.ini file into the site's web root,
-// which is this project's build output dir. Vite's own emptyOutDir step chokes
-// on it (ENOENT: not a directory, scandir '.../dist/.user.ini'), so clear dist/
-// ourselves before vite build ever runs, rather than relying on vite to do it.
-// Node's own recursive rmSync can ALSO throw ENOTDIR on that same file (its
-// readdir-based walker appears to mis-detect the entry type on some hosts) —
-// fall back to the real `rm -rf`, which doesn't share that bug, on POSIX.
+// aaPanel drops a chattr +i (immutable) .user.ini into the site's web root —
+// this project's build output dir — which can't be deleted even as root
+// (confirmed live: both vite's emptyOutDir and `rm -rf` fail on it). Clear
+// everything else in dist/ ourselves and leave that one file untouched;
+// vite.config.ts sets emptyOutDir: false so vite doesn't also try and fail.
 const distDir = join(root, 'dist');
-try {
-  rmSync(distDir, { recursive: true, force: true });
-} catch (err) {
-  if (process.platform === 'win32') throw err;
-  execFileSync('rm', ['-rf', distDir]);
+if (existsSync(distDir)) {
+  for (const entry of readdirSync(distDir)) {
+    if (entry === '.user.ini') continue;
+    rmSync(join(distDir, entry), { recursive: true, force: true });
+  }
 }
 
 function extractGames() {
