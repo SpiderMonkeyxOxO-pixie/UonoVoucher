@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -6,6 +6,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 const SITE_URL = 'https://uonovoucher.com';
 const today = new Date().toISOString().slice(0, 10);
+
+// Some hosts (aaPanel) auto-drop a .user.ini file into the site's web root,
+// which is this project's build output dir. Vite's own emptyOutDir step chokes
+// on it (ENOENT: not a directory, scandir '.../dist/.user.ini'), so clear dist/
+// ourselves before vite build ever runs, rather than relying on vite to do it.
+rmSync(join(root, 'dist'), { recursive: true, force: true });
 
 function extractGames() {
   const src = readFileSync(join(root, 'src/data/games.ts'), 'utf8');
