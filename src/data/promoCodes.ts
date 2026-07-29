@@ -4,6 +4,16 @@ import type { PromoCode } from '../types';
 
 export const promoCodes: PromoCode[] = [
   {
+    "id": "promo-win-rummy",
+    "gameId": "game-win-rummy",
+    "code": "TBA",
+    "status": "none",
+    "addedAt": "2026-07-29",
+    "checkedAt": "2026-07-29",
+    "sourceNote": "Win Rummy launched 29 Jul 2026. No promo code has been independently verified yet — this entry will be updated once one is confirmed and reviewed.",
+    "timeSlot": "morning"
+  },
+  {
     "id": "promo-dhangame",
     "gameId": "game-dhangame",
     "code": "TBA",

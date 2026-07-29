@@ -16,6 +16,64 @@ export const CATEGORY_LABELS: Record<Game['category'], string> = {
 
 export const games: Game[] = [
   {
+    "id": "game-win-rummy",
+    "slug": "win-rummy",
+    "name": "Win Rummy",
+    "category": "skill",
+    "image": "/games/win-rummy.png",
+    "summary": "Win Rummy is the latest addition to this catalogue, listed under Skill in line with its card-meld promotional format.",
+    "description": [
+      "Win Rummy joined the UonoVoucher catalogue on 29 Jul 2026. It is classified under Skill because its promotional material presents a traditional rummy card-meld format, the same basis we use to place other rummy-style titles in this category — this describes how the game is presented, not a verified claim about how its scoring or matchmaking actually works internally.",
+      "As a newly listed title, this page has been through only its first review and will be revisited on the same recurring cycle as every other game we track. Expect details here to firm up as more information becomes available."
+    ],
+    "formatNotes": [
+      "Rummy-style titles in this category are generally built around forming valid sets or sequences from a dealt hand before an opponent does, with turn order and card draws affecting how quickly a hand can be completed.",
+      "As with other titles in the Skill category, outcomes depend on the decisions a player makes with the hand they're dealt, not a fixed payout structure — Win Rummy's specific table formats and variants have not yet been documented here in detail."
+    ],
+    "accessNotes": [
+      "The Download button on this page links to Win Rummy's external listing. As with any title in this catalogue, it's worth reviewing the permissions the app requests against what a card game actually needs before installing."
+    ],
+    "promoExplanation": [
+      "No promo code has been independently verified for Win Rummy yet. This section will be updated once a code is reported and reviewed."
+    ],
+    "reviewNotes": [
+      "This entry was added on 29 Jul 2026 as Win Rummy's first listing on UonoVoucher, following its public release. Its most recent review was on 29 Jul 2026."
+    ],
+    "safetyNotes": [
+      "This page reflects our own independent review of Win Rummy and can change as new reports come in. Because the download is served by a third party, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
+    ],
+    "faqs": [
+      {
+        "question": "Is Win Rummy currently available?",
+        "answer": "Yes — the Download button on this page links out to Win Rummy's external listing."
+      },
+      {
+        "question": "Where does Win Rummy's Download button lead?",
+        "answer": "It opens Win Rummy's external listing outside UonoVoucher, controlled by that game's own operator, not by us."
+      },
+      {
+        "question": "Does Win Rummy have a promo code?",
+        "answer": "None has been independently verified yet. This page will be updated once a code is reported and reviewed."
+      },
+      {
+        "question": "Why is Win Rummy's catalogue history so short?",
+        "answer": "It was only added to UonoVoucher on 29 Jul 2026, so it has not yet been through the multiple review cycles that longer-tracked titles have."
+      },
+      {
+        "question": "How can I report outdated information on Win Rummy?",
+        "answer": "Use our Contact page to flag anything that looks wrong on Win Rummy's page — see our Corrections Policy for what happens next."
+      }
+    ],
+    "metaTitle": "Win Rummy — Promo Codes, Vouchers & Status",
+    "metaDescription": "Win Rummy promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-07-29",
+    "reviewedAt": "2026-07-29",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://www.winrummy10.com/?code=8JT9D83WCC3&t=1785293043",
+    "sortOrder": 1
+  },
+  {
     "id": "game-dhangame",
     "slug": "dhangame",
     "name": "DhanGame",
@@ -71,7 +129,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://dhanwinplay.com/?code=L2VRQRRF2UK&t=1784778249",
-    "sortOrder": 1
+    "sortOrder": 2
   },
   {
     "id": "game-101z",
@@ -1668,7 +1726,7 @@ export const games: Game[] = [
     "codeStatus": "checked",
     "featured": false,
     "downloadUrl": "https://www.maxrummy99.com/?code=QUMV1MBQR7L&t=1783566019",
-    "sortOrder": 2
+    "sortOrder": 3
   },
   {
     "id": "game-mbm-bet",
@@ -2809,7 +2867,7 @@ export const games: Game[] = [
     "codeStatus": "checked",
     "featured": false,
     "downloadUrl": "https://uono777.co/?code=F9MPD4LNMMX&t=1781970461",
-    "sortOrder": 5
+    "sortOrder": 6
   },
   {
     "id": "game-yono-arcade",
@@ -2867,7 +2925,7 @@ export const games: Game[] = [
     "codeStatus": "reported",
     "featured": false,
     "downloadUrl": "https://yonoofficial1.com/?code=96LVCHSK6LN&t=1781968544",
-    "sortOrder": 6
+    "sortOrder": 7
   },
   {
     "id": "game-yono-games",
@@ -2925,7 +2983,7 @@ export const games: Game[] = [
     "codeStatus": "expired",
     "featured": false,
     "downloadUrl": "https://yonogamese.com/?code=GK19NGYEZT2&t=1781968659",
-    "sortOrder": 4
+    "sortOrder": 5
   },
   {
     "id": "game-yono-rummy",
@@ -2983,7 +3041,7 @@ export const games: Game[] = [
     "codeStatus": "expired",
     "featured": false,
     "downloadUrl": "https://yonorummy044.com/?code=VIPDW9AGUXM&t=1781968802",
-    "sortOrder": 3
+    "sortOrder": 4
   },
   {
     "id": "game-yono-slots",
