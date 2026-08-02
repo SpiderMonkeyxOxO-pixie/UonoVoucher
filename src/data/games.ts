@@ -129,7 +129,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://dhanwinplay.com/?code=L2VRQRRF2UK&t=1784778249",
-    "sortOrder": 2
+    "sortOrder": 3
   },
   {
     "id": "game-101z",
@@ -1726,7 +1726,7 @@ export const games: Game[] = [
     "codeStatus": "checked",
     "featured": false,
     "downloadUrl": "https://www.maxrummy99.com/?code=QUMV1MBQR7L&t=1783566019",
-    "sortOrder": 3
+    "sortOrder": 4
   },
   {
     "id": "game-mbm-bet",
@@ -2833,7 +2833,8 @@ export const games: Game[] = [
       "The promo code on file for Yono 777 was directly confirmed by our team as of 20 Jun 2026, which is why it carries a \"Checked\" label."
     ],
     "reviewNotes": [
-      "This entry for Yono 777 was first published on 17 Dec 2025 and most recently reviewed on 20 Jun 2026. At that review, it carried a promo-code status of \"checked\" and a voucher status of \"active\"."
+      "This entry for Yono 777 was first published on 17 Dec 2025 and most recently reviewed on 20 Jun 2026. At that review, it carried a promo-code status of \"checked\" and a voucher status of \"active\".",
+      "Its access link was updated on 29 Jul 2026 to a new external listing."
     ],
     "safetyNotes": [
       "As with the rest of our catalogue, Yono 777's record here is independently reviewed and subject to change. The install itself is controlled by an external source, not UonoVoucher, so checking permissions first is recommended. Anything unconfirmed is marked that way rather than stated as fact."
@@ -2863,11 +2864,11 @@ export const games: Game[] = [
     "metaTitle": "Yono 777 — Promo Codes, Vouchers & Status",
     "metaDescription": "Yono 777 promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
     "publishedAt": "2025-12-17",
-    "reviewedAt": "2026-06-20",
+    "reviewedAt": "2026-07-29",
     "codeStatus": "checked",
     "featured": false,
-    "downloadUrl": "https://uono777.co/?code=F9MPD4LNMMX&t=1781970461",
-    "sortOrder": 6
+    "downloadUrl": "https://yononewgames.vip/?code=SCHFQRY8DAS",
+    "sortOrder": 2
   },
   {
     "id": "game-yono-arcade",
@@ -2983,7 +2984,7 @@ export const games: Game[] = [
     "codeStatus": "expired",
     "featured": false,
     "downloadUrl": "https://yonogamese.com/?code=GK19NGYEZT2&t=1781968659",
-    "sortOrder": 5
+    "sortOrder": 6
   },
   {
     "id": "game-yono-rummy",
@@ -3041,7 +3042,7 @@ export const games: Game[] = [
     "codeStatus": "expired",
     "featured": false,
     "downloadUrl": "https://yonorummy044.com/?code=VIPDW9AGUXM&t=1781968802",
-    "sortOrder": 4
+    "sortOrder": 5
   },
   {
     "id": "game-yono-slots",
