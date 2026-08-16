@@ -17,8 +17,8 @@ export function Hero() {
             manually reviewed promo-code records, special vouchers, and practical guides.
           </p>
           <div className="hero-actions">
-            <Link to="/uono-games/" className="btn btn-primary">
-              Explore Uono Games
+            <Link to="/promo-codes/" className="btn btn-primary">
+              Browse Promo Codes
             </Link>
             <Link to="/vouchers/" className="btn btn-secondary">
               View Latest Vouchers

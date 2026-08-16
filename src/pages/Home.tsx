@@ -15,9 +15,9 @@ export function Home() {
         path="/"
       />
       <Hero />
+      <PromoCodeSection />
       <CategoryRibbon />
       <GamesPreviewSection />
-      <PromoCodeSection />
       <GuidesSection />
       <TransparencySection />
     </>

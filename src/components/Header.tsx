@@ -5,9 +5,9 @@ import './Header.css';
 
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
-  { to: '/uono-games/', label: 'Uono Games' },
   { to: '/promo-codes/', label: 'Promo Codes' },
   { to: '/vouchers/', label: 'Vouchers' },
+  { to: '/uono-games/', label: 'Uono Games' },
   { to: '/guides/', label: 'Guides' },
   { to: '/blog/', label: 'Blog' },
 ];

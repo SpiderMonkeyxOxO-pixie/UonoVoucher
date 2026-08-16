@@ -30,7 +30,7 @@ export function GamesPreviewSection() {
       <div className="container">
         <div className="section-head-row">
           <div className="section-heading">
-            <span className="eyebrow">Games directory</span>
+            <span className="eyebrow">Uono games we track</span>
             <h2>Our documented Uono games</h2>
             <p>Browse a structured selection from the {games.length} games currently tracked by UonoVoucher.</p>
           </div>

@@ -22,13 +22,13 @@ export function Footer() {
             <h4>Explore</h4>
             <ul>
               <li>
-                <Link to="/uono-games/">All Uono Games</Link>
-              </li>
-              <li>
                 <Link to="/promo-codes/">Promo Codes</Link>
               </li>
               <li>
                 <Link to="/vouchers/">Special Vouchers</Link>
+              </li>
+              <li>
+                <Link to="/uono-games/">All Uono Games</Link>
               </li>
               <li>
                 <Link to="/guides/">Guides</Link>

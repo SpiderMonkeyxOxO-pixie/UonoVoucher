@@ -1,4 +1,5 @@
 import { useState, type CSSProperties, type FormEvent } from 'react';
+import { Link } from 'react-router-dom';
 import { Seo } from '../components/Seo';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 
@@ -61,6 +62,24 @@ export function VouchersList() {
 
       <section className="section">
         <div className="container" style={{ display: 'grid', gap: 32, maxWidth: 640 }}>
+          <div className="card" style={{ padding: 24 }}>
+            <span className="eyebrow">How "voucher" is used on this page</span>
+            <p style={{ color: 'var(--muted)', marginTop: 8 }}>
+              UonoVoucher does not yet publish a separate, independently-verified voucher listing
+              — with its own per-record status, eligibility and expiration date — apart from its
+              promo-code database. Codes with a status label and last-checked date are tracked on
+              the <Link to="/promo-codes/">Promo Codes page</Link>. This page instead covers two
+              things: joining the Telegram channel for voucher drops as they're posted, and the
+              process by which an agent can request a voucher code for a group's members.
+            </p>
+            <p style={{ color: 'var(--muted)', marginTop: 8 }}>
+              The agent request below is not a referral or invite-code service — submitting it
+              does not generate a personal referral link or a signup credit. See our{' '}
+              <Link to="/blog/uono-voucher-guide/">Uono Voucher Guide</Link> for how voucher terms
+              generally work.
+            </p>
+          </div>
+
           <div className="card" style={{ padding: 32, textAlign: 'center', display: 'grid', gap: 16, justifyItems: 'center' }}>
             <span className="eyebrow">Stay updated</span>
             <h2 style={{ fontSize: '1.4rem', margin: 0 }}>Join the UonoVoucher Telegram channel</h2>

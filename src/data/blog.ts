@@ -862,7 +862,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'paragraph', text: `People searching for a Uono voucher code may be trying to find current voucher listings, check whether a code is still valid, understand who is eligible or determine why a voucher is not being accepted.` },
       { type: 'paragraph', text: `Voucher conditions can vary. Some offers may apply only to selected accounts, specific games, limited campaigns or particular regions. Others may have activation dates, redemption limits or additional requirements that are not visible in the voucher code itself.` },
       { type: 'paragraph', text: `This guide explains how Uono vouchers generally work, how they differ from promo codes, how to review voucher validity and eligibility, and how to identify suspicious or misleading offers.` },
-      { type: 'paragraph', text: 'Readers looking for current listings can visit the [Uono voucher directory](/vouchers/).' },
+      { type: 'paragraph', text: 'Readers can visit the [UonoVoucher voucher page](/vouchers/) for the Telegram channel and agent voucher-request process; reviewed code records with a status and check date are tracked separately on the [promo-code page](/promo-codes/).' },
       { type: 'quote', text: `**Important:** A listed voucher does not guarantee acceptance, eligibility, a particular benefit or availability for every account.` },
 
       { type: 'heading', level: 2, text: 'What Is a Uono Voucher?' },
@@ -1242,9 +1242,9 @@ export const blogPosts: BlogPost[] = [
       { type: 'list', items: ['What vouchers are', 'Voucher types', 'Validity', 'Eligibility', 'Verification', 'Redemption errors', 'Safety checks', 'Warning signs'] },
 
       { type: 'heading', level: 3, text: 'Uono voucher directory' },
-      { type: 'paragraph', text: 'The [voucher directory](/vouchers/) should provide:' },
+      { type: 'paragraph', text: 'A dedicated voucher listing, if published, should provide:' },
       { type: 'list', items: ['Current voucher listings', 'Status information', 'Applicable games', 'Update dates', 'Expiration information', 'Eligibility notes', 'Verification labels'] },
-      { type: 'paragraph', text: 'The guide should remain evergreen, while the directory can be updated as voucher information changes.' },
+      { type: 'paragraph', text: `UonoVoucher does not yet publish that per-voucher listing separately from its promo-code database. The [voucher page](/vouchers/) currently covers the Telegram channel and the agent voucher-request process instead — this guide remains the evergreen reference until a dedicated listing exists.` },
 
       { type: 'heading', level: 2, text: 'How Uono Vouchers Connect With Game Pages' },
       { type: 'paragraph', text: 'Some vouchers may apply to specific Uono games.' },
@@ -1284,13 +1284,13 @@ export const blogPosts: BlogPost[] = [
       { type: 'paragraph', text: 'A Uono voucher should be treated as a conditional digital offer rather than a guaranteed benefit.' },
       { type: 'paragraph', text: 'Before redeeming one, users should confirm the voucher source, applicable platform, activation period, expiration date, account eligibility and game restrictions. A voucher can be genuine but unavailable to a particular user because of campaign conditions.' },
       { type: 'paragraph', text: 'Users should also protect passwords, OTPs and account-recovery information. Voucher activation should never require sensitive credentials to be shared with another person.' },
-      { type: 'paragraph', text: 'For current listings, visit the [Uono voucher directory](/vouchers/). Readers can also review the [complete Uono Play guide](/blog/uono-play-guide/), read the [Uono promo code guide](/blog/uono-promo-code-guide/), browse the [Uono games directory](/uono-games/) and learn [how to verify a gaming platform](/blog/how-to-verify-a-gaming-platform/).' },
+      { type: 'paragraph', text: 'For the Telegram channel and voucher-request process, visit the [UonoVoucher voucher page](/vouchers/); for reviewed codes with a status and check date, see the [promo-code page](/promo-codes/). Readers can also review the [complete Uono Play guide](/blog/uono-play-guide/), read the [Uono promo code guide](/blog/uono-promo-code-guide/), browse the [Uono games directory](/uono-games/) and learn [how to verify a gaming platform](/blog/how-to-verify-a-gaming-platform/).' },
       { type: 'paragraph', text: 'See [how vouchers apply to Uono games](/blog/uono-games-guide/#how-uono-games-connect-with-vouchers) for game-specific voucher conditions.' },
     ],
     faqs: [
       { question: 'What is a Uono voucher?', answer: 'A Uono voucher is a digital code, ticket or promotional item that may be redeemed on an eligible Uono-related platform under stated conditions.' },
       { question: 'Does every Uono voucher work for every user?', answer: 'No. A voucher may be limited to selected users, new accounts, existing accounts, specific games or particular regions.' },
-      { question: 'Where can I find current Uono vouchers?', answer: 'Current listings should be available in the Uono voucher directory with status, eligibility and update information.' },
+      { question: 'Where can I find current Uono vouchers?', answer: 'UonoVoucher does not currently publish a separate, per-record voucher-status listing. The voucher page covers the Telegram channel and the agent voucher-request process; reviewed code records with a status and check date are tracked on the promo-code page instead.' },
       { question: 'How can I check whether a Uono voucher is valid?', answer: 'Check its source, activation date, expiration date, applicable platform, eligible accounts, regional availability and complete redemption terms.' },
       { question: 'Can a Uono voucher expire?', answer: 'Yes. A voucher may expire on a stated date, when a campaign closes or after a redemption limit is reached.' },
       { question: 'Why is my Uono voucher not working?', answer: 'The voucher may be expired, inactive, entered incorrectly, already used, restricted to another region or unavailable to the account.' },

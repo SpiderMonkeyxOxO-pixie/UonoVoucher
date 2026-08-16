@@ -75,7 +75,11 @@ const staticEntries = [
 ];
 
 const urls = [
-  ...staticEntries.map((e) => ({ loc: e.path, lastmod: today, priority: e.priority, changefreq: e.changefreq })),
+  // Static pages have no genuine per-page last-modified data source (no CMS/edit
+  // timestamp is tracked for them) — omitting <lastmod> here rather than stamping
+  // every build with today's date, which would fabricate a "changed today" signal
+  // to crawlers on every single deploy regardless of whether the page actually changed.
+  ...staticEntries.map((e) => ({ loc: e.path, priority: e.priority, changefreq: e.changefreq })),
   ...games.map((g) => ({ loc: `/uono-games/${g.slug}`, lastmod: g.lastmod || today, priority: '0.6', changefreq: 'weekly' })),
   ...promoCodes.map((p) => ({ loc: `/promo-codes/${p.id}`, lastmod: p.lastmod || today, priority: '0.5', changefreq: 'daily' })),
   ...guides.map((g) => ({ loc: `/guides/${g.slug}`, lastmod: g.lastmod || today, priority: '0.7', changefreq: 'monthly' })),
@@ -88,8 +92,7 @@ ${urls
   .map(
     (u) => `  <url>
     <loc>${SITE_URL}${u.loc}</loc>
-    <lastmod>${u.lastmod}</lastmod>
-    <changefreq>${u.changefreq}</changefreq>
+${u.lastmod ? `    <lastmod>${u.lastmod}</lastmod>\n` : ''}    <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
   </url>`,
   )
