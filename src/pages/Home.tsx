@@ -1,5 +1,6 @@
 import { Seo } from '../components/Seo';
 import { Hero } from '../components/Hero';
+import { UpcomingGameSection } from '../components/UpcomingGameSection';
 import { CategoryRibbon } from '../components/CategoryRibbon';
 import { GamesPreviewSection } from '../components/GamesPreviewSection';
 import { PromoCodeSection } from '../components/PromoCodeSection';
@@ -15,6 +16,7 @@ export function Home() {
         path="/"
       />
       <Hero />
+      <UpcomingGameSection />
       <PromoCodeSection />
       <CategoryRibbon />
       <GamesPreviewSection />
