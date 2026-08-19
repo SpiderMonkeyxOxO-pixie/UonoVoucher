@@ -16,6 +16,64 @@ export const CATEGORY_LABELS: Record<Game['category'], string> = {
 
 export const games: Game[] = [
   {
+    "id": "game-gold-rummy",
+    "slug": "gold-rummy",
+    "name": "Gold Rummy",
+    "category": "skill",
+    "image": "/games/gold-rummy.png",
+    "summary": "Gold Rummy is the latest addition to this catalogue, listed under Skill in line with its card-meld promotional format.",
+    "description": [
+      "Gold Rummy joined the UonoVoucher catalogue on 19 Aug 2026. It is classified under Skill because its promotional material presents a traditional rummy card-meld format, the same basis we use to place other rummy-style titles in this category — this describes how the game is presented, not a verified claim about how its scoring or matchmaking actually works internally.",
+      "As a newly listed title, this page has been through only its first review and will be revisited on the same recurring cycle as every other game we track. Expect details here to firm up as more information becomes available."
+    ],
+    "formatNotes": [
+      "Rummy-style titles in this category are generally built around forming valid sets or sequences from a dealt hand before an opponent does, with turn order and card draws affecting how quickly a hand can be completed.",
+      "As with other titles in the Skill category, outcomes depend on the decisions a player makes with the hand they're dealt, not a fixed payout structure — Gold Rummy's specific table formats and variants have not yet been documented here in detail."
+    ],
+    "accessNotes": [
+      "The Download button on this page links to Gold Rummy's external listing. As with any title in this catalogue, it's worth reviewing the permissions the app requests against what a card game actually needs before installing."
+    ],
+    "promoExplanation": [
+      "No promo code has been independently verified for Gold Rummy yet. This section will be updated once a code is reported and reviewed."
+    ],
+    "reviewNotes": [
+      "This entry was added on 19 Aug 2026 as Gold Rummy's first listing on UonoVoucher, following its public release. Its most recent review was on 19 Aug 2026."
+    ],
+    "safetyNotes": [
+      "This page reflects our own independent review of Gold Rummy and can change as new reports come in. Because the download is served by a third party, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
+    ],
+    "faqs": [
+      {
+        "question": "Is Gold Rummy currently available?",
+        "answer": "Yes — the Download button on this page links out to Gold Rummy's external listing."
+      },
+      {
+        "question": "Where does Gold Rummy's Download button lead?",
+        "answer": "It opens Gold Rummy's external listing outside UonoVoucher, controlled by that game's own operator, not by us."
+      },
+      {
+        "question": "Does Gold Rummy have a promo code?",
+        "answer": "None has been independently verified yet. This page will be updated once a code is reported and reviewed."
+      },
+      {
+        "question": "Why is Gold Rummy's catalogue history so short?",
+        "answer": "It was only added to UonoVoucher on 19 Aug 2026, so it has not yet been through the multiple review cycles that longer-tracked titles have."
+      },
+      {
+        "question": "How can I report outdated information on Gold Rummy?",
+        "answer": "Use our Contact page to flag anything that looks wrong on Gold Rummy's page — see our Corrections Policy for what happens next."
+      }
+    ],
+    "metaTitle": "Gold Rummy — Promo Codes, Vouchers & Status",
+    "metaDescription": "Gold Rummy promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-08-19",
+    "reviewedAt": "2026-08-19",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://goldrummy20.com/?code=JLX7LRP2YTG&t=1787111858",
+    "sortOrder": 1
+  },
+  {
     "id": "game-win-rummy",
     "slug": "win-rummy",
     "name": "Win Rummy",
@@ -71,7 +129,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://www.winrummy10.com/?code=8JT9D83WCC3&t=1785293043",
-    "sortOrder": 1
+    "sortOrder": 2
   },
   {
     "id": "game-dhangame",

@@ -76,6 +76,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://uonovoucher.com/uono-games/gold-rummy</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://uonovoucher.com/uono-games/win-rummy</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,6 +410,12 @@
     <lastmod>2026-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://uonovoucher.com/promo-codes/promo-gold-rummy</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://uonovoucher.com/promo-codes/promo-win-rummy</loc>
