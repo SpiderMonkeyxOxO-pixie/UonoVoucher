@@ -16,6 +16,63 @@ export const CATEGORY_LABELS: Record<Game['category'], string> = {
 
 export const games: Game[] = [
   {
+    "id": "game-money-rummy",
+    "slug": "money-rummy",
+    "name": "Money Rummy",
+    "category": "skill",
+    "image": "/games/money-rummy.jpg",
+    "summary": "Money Rummy is reported to join this catalogue on 9 Sep 2026, listed under Skill in line with its card-meld promotional format.",
+    "description": [
+      "Money Rummy is reported to launch on 9 September 2026, and reported to be the 57th platform on the Yono network. It is provisionally classified under Skill because its promotional material presents a traditional rummy card-meld format, the same basis we use to place other rummy-style titles in this category — this describes how the game is presented, not a verified claim about how its scoring or matchmaking actually works internally.",
+      "As of publication, Money Rummy has not been confirmed as officially launched. This page will be filled in with real information — verified access details, promo-code status and safety notes — once the platform is live and can be independently reviewed."
+    ],
+    "formatNotes": [
+      "Rummy-style titles in this category are generally built around forming valid sets or sequences from a dealt hand before an opponent does, with turn order and card draws affecting how quickly a hand can be completed.",
+      "Money Rummy's specific table formats and variants have not been documented here yet, since the app has not launched."
+    ],
+    "accessNotes": [
+      "No verified download link exists for Money Rummy yet. This page will be updated with a Download button once a working, verified link is available."
+    ],
+    "promoExplanation": [
+      "No promo code exists for Money Rummy yet, since the app has not launched. This section will be updated once a code is reported and reviewed."
+    ],
+    "reviewNotes": [
+      "This entry was added to UonoVoucher on 8 Sep 2026 ahead of Money Rummy's reported 9 September 2026 launch. It has not yet been through the review cycles that longer-tracked titles have."
+    ],
+    "safetyNotes": [
+      "This page reflects our own independent review and can change as new reports come in. Because Money Rummy has not launched, no download or permissions review is possible yet — this section will be completed once a verified download exists."
+    ],
+    "faqs": [
+      {
+        "question": "Is Money Rummy currently available?",
+        "answer": "No — Money Rummy is reported to launch on 9 September 2026, but this has not been officially confirmed. This page will be updated once a working, verified link exists."
+      },
+      {
+        "question": "Where does Money Rummy's Download button lead?",
+        "answer": "There is no Download button yet, since no verified link exists. Once one is confirmed, it will open Money Rummy's external listing, controlled by that game's own operator, not by us."
+      },
+      {
+        "question": "Does Money Rummy have a promo code?",
+        "answer": "No — none exists yet, since the app has not launched. This page will be updated once a code is reported and reviewed."
+      },
+      {
+        "question": "Is Money Rummy part of the Yono network?",
+        "answer": "It has been reported to be the 57th platform on the Yono network, though this has not been independently verified by UonoVoucher."
+      },
+      {
+        "question": "How can I report outdated information on Money Rummy?",
+        "answer": "Use our Contact page to flag anything that looks wrong on Money Rummy's page — see our Corrections Policy for what happens next."
+      }
+    ],
+    "metaTitle": "Money Rummy — Launch Status, Promo Codes & Vouchers",
+    "metaDescription": "Money Rummy's reported launch date, promo-code status and voucher records — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-09-08",
+    "reviewedAt": "2026-09-08",
+    "codeStatus": "none",
+    "featured": true,
+    "sortOrder": 1
+  },
+  {
     "id": "game-gold-rummy",
     "slug": "gold-rummy",
     "name": "Gold Rummy",
@@ -71,7 +128,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://goldrummy20.com/?code=JLX7LRP2YTG&t=1787111858",
-    "sortOrder": 1
+    "sortOrder": 2
   },
   {
     "id": "game-win-rummy",
@@ -129,7 +186,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://www.winrummy10.com/?code=8JT9D83WCC3&t=1785293043",
-    "sortOrder": 2
+    "sortOrder": 3
   },
   {
     "id": "game-dhangame",
@@ -187,7 +244,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://dhanwinplay.com/?code=L2VRQRRF2UK&t=1784778249",
-    "sortOrder": 3
+    "sortOrder": 4
   },
   {
     "id": "game-101z",
