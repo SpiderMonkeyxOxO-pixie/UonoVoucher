@@ -21,39 +21,39 @@ export const games: Game[] = [
     "name": "Money Rummy",
     "category": "skill",
     "image": "/games/money-rummy.jpg",
-    "summary": "Money Rummy is reported to join this catalogue on 9 Sep 2026, listed under Skill in line with its card-meld promotional format.",
+    "summary": "Money Rummy joined this catalogue on 9 Sep 2026, listed under Skill in line with its card-meld promotional format.",
     "description": [
-      "Money Rummy is reported to launch on 9 September 2026, and reported to be the 57th platform on the Yono network. It is provisionally classified under Skill because its promotional material presents a traditional rummy card-meld format, the same basis we use to place other rummy-style titles in this category — this describes how the game is presented, not a verified claim about how its scoring or matchmaking actually works internally.",
-      "As of publication, Money Rummy has not been confirmed as officially launched. This page will be filled in with real information — verified access details, promo-code status and safety notes — once the platform is live and can be independently reviewed."
+      "Money Rummy launched on 9 September 2026, reported to be the 57th platform on the Yono network. It is provisionally classified under Skill because its promotional material presents a traditional rummy card-meld format, the same basis we use to place other rummy-style titles in this category — this describes how the game is presented, not a verified claim about how its scoring or matchmaking actually works internally.",
+      "As a newly launched title, this page has been through only its first review and will be revisited on the same recurring cycle as every other game we track. Expect details here to firm up as more information becomes available."
     ],
     "formatNotes": [
       "Rummy-style titles in this category are generally built around forming valid sets or sequences from a dealt hand before an opponent does, with turn order and card draws affecting how quickly a hand can be completed.",
-      "Money Rummy's specific table formats and variants have not been documented here yet, since the app has not launched."
+      "As with other titles in the Skill category, outcomes depend on the decisions a player makes with the hand they're dealt, not a fixed payout structure — Money Rummy's specific table formats and variants have not yet been documented here in detail."
     ],
     "accessNotes": [
-      "No verified download link exists for Money Rummy yet. This page will be updated with a Download button once a working, verified link is available."
+      "The Download button on this page links to Money Rummy's external listing. As with any title in this catalogue, it's worth reviewing the permissions the app requests against what a card game actually needs before installing."
     ],
     "promoExplanation": [
-      "No promo code exists for Money Rummy yet, since the app has not launched. This section will be updated once a code is reported and reviewed."
+      "No promo code has been independently verified for Money Rummy yet. This section will be updated once a code is reported and reviewed."
     ],
     "reviewNotes": [
-      "This entry was added to UonoVoucher on 8 Sep 2026 ahead of Money Rummy's reported 9 September 2026 launch. It has not yet been through the review cycles that longer-tracked titles have."
+      "This entry was added on 9 Sep 2026 as Money Rummy's first listing on UonoVoucher, following its public release. Its most recent review was on 9 Sep 2026."
     ],
     "safetyNotes": [
-      "This page reflects our own independent review and can change as new reports come in. Because Money Rummy has not launched, no download or permissions review is possible yet — this section will be completed once a verified download exists."
+      "This page reflects our own independent review of Money Rummy and can change as new reports come in. Because the download is served by a third party, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
     ],
     "faqs": [
       {
         "question": "Is Money Rummy currently available?",
-        "answer": "No — Money Rummy is reported to launch on 9 September 2026, but this has not been officially confirmed. This page will be updated once a working, verified link exists."
+        "answer": "Yes — the Download button on this page links out to Money Rummy's external listing."
       },
       {
         "question": "Where does Money Rummy's Download button lead?",
-        "answer": "There is no Download button yet, since no verified link exists. Once one is confirmed, it will open Money Rummy's external listing, controlled by that game's own operator, not by us."
+        "answer": "It opens Money Rummy's external listing outside UonoVoucher, controlled by that game's own operator, not by us."
       },
       {
         "question": "Does Money Rummy have a promo code?",
-        "answer": "No — none exists yet, since the app has not launched. This page will be updated once a code is reported and reviewed."
+        "answer": "None has been independently verified yet. This page will be updated once a code is reported and reviewed."
       },
       {
         "question": "Is Money Rummy part of the Yono network?",
@@ -64,12 +64,13 @@ export const games: Game[] = [
         "answer": "Use our Contact page to flag anything that looks wrong on Money Rummy's page — see our Corrections Policy for what happens next."
       }
     ],
-    "metaTitle": "Money Rummy — Launch Status, Promo Codes & Vouchers",
-    "metaDescription": "Money Rummy's reported launch date, promo-code status and voucher records — independently tracked by UonoVoucher.",
+    "metaTitle": "Money Rummy — Promo Codes, Vouchers & Status",
+    "metaDescription": "Money Rummy promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
     "publishedAt": "2026-09-08",
-    "reviewedAt": "2026-09-08",
+    "reviewedAt": "2026-09-09",
     "codeStatus": "none",
     "featured": true,
+    "downloadUrl": "https://moneyrummyff.com/?code=T1XR7S7YJ9T&t=1788922546",
     "sortOrder": 1
   },
   {

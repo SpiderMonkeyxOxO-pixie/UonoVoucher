@@ -2271,8 +2271,8 @@ export const blogPosts: BlogPost[] = [
     image: '/s-blog/money-rummy-promo-code-status.jpg',
     content: [
       { type: 'paragraph', text: `The current Money Rummy promo code status is no verified code on record.` },
-      { type: 'paragraph', text: `Money Rummy is expected to join the UonoVoucher catalogue around September 9, 2026, reported to be the 57th platform on the Yono network. Its game page, voucher information and promo-code record will be added or updated after the platform and its offers can be independently reviewed.` },
-      { type: 'paragraph', text: `This does not mean a Money Rummy promo code will definitely be released on September 9. It only means no public code has been recorded and verified by UonoVoucher as of the latest review.` },
+      { type: 'paragraph', text: `Money Rummy joined the UonoVoucher catalogue on September 9, 2026, reported to be the 57th platform on the Yono network. Its game page, voucher information and promo-code record will be updated as the platform and its offers can be independently reviewed.` },
+      { type: 'paragraph', text: `This does not mean a Money Rummy promo code will never be released. It only means no public code has been recorded and verified by UonoVoucher as of the latest review.` },
       { type: 'paragraph', text: `UonoVoucher does not create, distribute or activate Money Rummy codes.` },
 
       { type: 'heading', level: 2, text: 'Money Rummy Promo Code Status at a Glance' },
@@ -2281,14 +2281,14 @@ export const blogPosts: BlogPost[] = [
         headers: ['Status field', 'Current information'],
         rows: [
           ['Public promo code', 'No verified code on record'],
-          ['Review status', 'Awaiting platform release and offer review'],
-          ['Expected catalogue date', 'Around September 9, 2026'],
+          ['Review status', 'Launched — awaiting offer review'],
+          ['Catalogue date', 'September 9, 2026'],
           ['Morning code', 'Not recorded'],
           ['Afternoon code', 'Not recorded'],
           ['Evening code', 'Not recorded'],
           ['Welcome reward', 'Not yet announced'],
           ['Reported network position', '57th Yono platform (per operator, unverified)'],
-          ['Last checked', 'September 8, 2026'],
+          ['Last checked', 'September 9, 2026'],
         ],
       },
       { type: 'paragraph', text: `UonoVoucher normally records codes by game and by morning, afternoon and evening release periods. Its tracker warns that even a listed code is not guaranteed to remain active and advises readers to review the status and checking date.` },
@@ -2325,10 +2325,10 @@ export const blogPosts: BlogPost[] = [
       { type: 'paragraph', text: `A legitimate code can normally be shared as text. It should not require another person to access the user's private account. UonoVoucher states that it does not request passwords, OTPs, payment details or private screenshots. Review the [app-permissions guide](/guides/review-app-permissions-before-installation/) before installing an APK from outside a recognised app store.` },
 
       { type: 'heading', level: 2, text: 'Current Money Rummy Code Verdict' },
-      { type: 'paragraph', text: `As of September 8, 2026:` },
+      { type: 'paragraph', text: `As of September 9, 2026:` },
       { type: 'list', items: [
         'No public Money Rummy promo code has been independently recorded.',
-        'The platform is reported to launch around September 9, 2026.',
+        'The platform launched on September 9, 2026, with a working download link.',
         'No welcome reward has been announced.',
         'It is reported to be the 57th platform on the Yono network — a claim from the app\'s own operator, not independently verified.',
         'Any code circulated before verification should be labelled Reported or Unconfirmed.',
