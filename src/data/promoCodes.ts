@@ -4,6 +4,16 @@ import type { PromoCode } from '../types';
 
 export const promoCodes: PromoCode[] = [
   {
+    "id": "promo-jeet-spin",
+    "gameId": "game-jeet-spin",
+    "code": "TBA",
+    "status": "none",
+    "addedAt": "2026-09-29",
+    "checkedAt": "2026-09-29",
+    "sourceNote": "Jeet Spin is scheduled to launch on 30 Sep 2026. No promo code has been announced yet — this entry will be updated once one is confirmed and reviewed.",
+    "timeSlot": "morning"
+  },
+  {
     "id": "promo-gold-rummy",
     "gameId": "game-gold-rummy",
     "code": "TBA",
