@@ -3,6 +3,118 @@ import { games } from './games';
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'blog-jeet-spin-promo-code',
+    slug: 'jeet-spin-promo-code',
+    title: 'Jeet Spin Promo Code: Status, Eligibility & What to Expect',
+    metaTitle: 'Jeet Spin Promo Code: Current Status & Eligibility',
+    metaDescription: 'Check the current Jeet Spin promo code status. No verified code yet — learn what to expect after the 30 Sep 2026 launch and how UonoVoucher tracks codes.',
+    excerpt: 'No Jeet Spin promo code has been independently recorded yet. This page explains what to expect after the 30 September 2026 launch.',
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-09-29',
+    image: '/s-blog/jeet-spin-promo-code.jpg',
+    content: [
+      { type: 'paragraph', text: 'The current Jeet Spin promo code status is no verified code on record.' },
+      { type: 'paragraph', text: 'Jeet Spin is a spin-and-win gaming app launching on 30 September 2026 as part of the Yono network. Its promo-code record, voucher information and game page will be added or updated after the platform and its offers can be independently reviewed by UonoVoucher.' },
+      { type: 'paragraph', text: 'This does not mean a Jeet Spin promo code will definitely be released on launch day. It only means no public code has been recorded and verified by UonoVoucher as of the latest review.' },
+
+      { type: 'heading', level: 2, text: 'Jeet Spin Promo Code Status at a Glance' },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Public promo code', 'No verified code on record'],
+          ['Review status', 'Awaiting platform launch and offer review'],
+          ['Expected launch date', '30 September 2026'],
+          ['Morning code', 'Not recorded'],
+          ['Afternoon code', 'Not recorded'],
+          ['Evening code', 'Not recorded'],
+          ['Welcome reward', 'Expected ₹50–₹500 range (not confirmed)'],
+          ['Deposit bonus', 'Not confirmed'],
+          ['Code required for bonuses', 'Not confirmed'],
+          ['Code expiry', 'Not applicable until a code is recorded'],
+          ['Last checked', 'September 29, 2026'],
+        ],
+      },
+      { type: 'paragraph', text: 'UonoVoucher normally records codes by game and by morning, afternoon and evening release periods. Its tracker warns that even a listed code is not guaranteed to remain active and advises readers to review the status and checking date.' },
+      { type: 'paragraph', text: 'Readers can review the [complete promo-code tracker](/promo-codes/) for all currently documented games.' },
+
+      { type: 'heading', level: 2, text: 'Is There a Working Jeet Spin Promo Code?' },
+      { type: 'paragraph', text: 'No working Jeet Spin code has been independently confirmed by UonoVoucher at the time of publication.' },
+      { type: 'paragraph', text: 'A code should not be published merely because it appears in:' },
+      { type: 'list', items: [
+        'A Telegram message.',
+        'A WhatsApp group.',
+        'A social-media comment.',
+        'A promotional screenshot.',
+        'An unrelated app directory.',
+        'A video description.',
+      ] },
+      { type: 'paragraph', text: 'Before a code is shown as checked or active, the record should identify its source, date, applicable platform and any known eligibility conditions.' },
+      { type: 'paragraph', text: 'UonoVoucher uses visible labels such as Scheduled, Checked, Active, Limited, Reported, Unconfirmed, Expired and Withdrawn. A reported code does not receive a Checked or Active label based only on reader submissions.' },
+
+      { type: 'heading', level: 2, text: 'What "No Code on Record" Means' },
+      { type: 'paragraph', text: '"No code on record" means UonoVoucher has not found enough evidence to publish a specific Jeet Spin code.' },
+      { type: 'paragraph', text: 'It does not mean:' },
+      { type: 'list', items: [
+        'Jeet Spin will never release a code.',
+        'A code is guaranteed to appear after launch.',
+        'The welcome reward is unavailable.',
+        'A referral link cannot apply an offer automatically.',
+        'Selected accounts cannot receive private campaigns.',
+      ] },
+      { type: 'paragraph', text: 'Some promotions do not use a typed code. They may be activated automatically through registration, a referral link, an in-app banner or a selected-account campaign.' },
+
+      { type: 'heading', level: 2, text: 'Expected Welcome Reward' },
+      { type: 'paragraph', text: 'Based on how similar spin-category apps in this network handle launches, a welcome bonus in the ₹50–₹500 range is typical for new accounts. It has not been confirmed whether this reward requires a promo code or is credited automatically after registration.' },
+      { type: 'paragraph', text: 'The correct wording is: Jeet Spin is expected to offer eligible new users a welcome reward. The exact amount and redemption method are not yet confirmed.' },
+
+      { type: 'heading', level: 2, text: 'How to Use a Jeet Spin Promo Code (Once Available)' },
+      { type: 'paragraph', text: 'Once a code is verified, the general redemption process across apps in this network typically involves:' },
+      { type: 'list', items: [
+        'Open the Jeet Spin app after installation.',
+        'Look for a "Promo Code" or "Redeem Code" field, usually under a wallet or rewards section.',
+        'Enter the code exactly as published — codes may be case-sensitive.',
+        'Tap submit and check whether the reward was credited to your balance.',
+      ] },
+      { type: 'paragraph', text: 'The exact location of the redemption field will depend on Jeet Spin\'s app layout, which is not yet available for review.' },
+
+      { type: 'heading', level: 2, text: 'How Jeet Spin Compares to Other Spin-Category Apps' },
+      {
+        type: 'table',
+        headers: ['App', 'Category', 'Status', 'Promo Code Status'],
+        rows: [
+          ['Jeet Spin', 'Spin / Arcade', 'Launching 30 Sep 2026', 'No code on record'],
+          ['Jaiho Spin', 'Arcade', 'Live', 'Check tracker'],
+          ['Spin Gold', 'Arcade', 'Live', 'Check tracker'],
+          ['Spin 101', 'Arcade', 'Live', 'Check tracker'],
+          ['Slot Spin', 'Arcade', 'Live', 'Check tracker'],
+          ['Yes Spin', 'Arcade', 'Live', 'Check tracker'],
+        ],
+      },
+      { type: 'paragraph', text: 'Each app has its own promo codes, accounts and update schedule. A code from one spin app will not work on another.' },
+
+      { type: 'heading', level: 2, text: 'Legal Note' },
+      { type: 'paragraph', text: 'Online money games are prohibited in India since 1 May 2026 under the Promotion and Regulation of Online Gaming Act, 2025. Free spin games that do not involve real money or stakes are not affected. Players should confirm Jeet Spin\'s classification and their state\'s specific regulations before playing.' },
+
+      { type: 'heading', level: 2, text: 'Frequently Asked Questions' },
+
+      { type: 'heading', level: 3, text: 'Is there a Jeet Spin promo code today?' },
+      { type: 'paragraph', text: 'No. UonoVoucher has not recorded a verified Jeet Spin promo code as of the latest check. This page and the promo-code tracker will be updated once a code is confirmed.' },
+
+      { type: 'heading', level: 3, text: 'When will a Jeet Spin code be available?' },
+      { type: 'paragraph', text: 'Codes for apps in this network are typically released inside the app at or shortly after launch. Jeet Spin launches on 30 September 2026.' },
+
+      { type: 'heading', level: 3, text: 'Can I use another spin app\'s promo code on Jeet Spin?' },
+      { type: 'paragraph', text: 'No. Each app in the network has its own separate promo-code system. A code from Spin Gold, Jaiho Spin or any other app will not work on Jeet Spin.' },
+
+      { type: 'heading', level: 3, text: 'Does Jeet Spin offer a welcome bonus without a code?' },
+      { type: 'paragraph', text: 'This has not been confirmed. Some apps in this network credit a welcome reward automatically after registration, while others require a code. The exact method will be known once the app is live.' },
+
+      { type: 'heading', level: 3, text: 'Where is the safest place to find Jeet Spin promo codes?' },
+      { type: 'paragraph', text: 'The safest sources are the platform\'s own website and in-app announcements. Third-party codes from social media or messaging groups should be treated with caution.' },
+    ],
+  },
+  {
     id: 'blog-win-rummy-promo-code-status',
     slug: 'win-rummy-promo-code-status',
     title: `Win Rummy Promo Code Status: How to Check Whether a Code Works`,
