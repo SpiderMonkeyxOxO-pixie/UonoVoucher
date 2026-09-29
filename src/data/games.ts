@@ -16,6 +16,63 @@ export const CATEGORY_LABELS: Record<Game['category'], string> = {
 
 export const games: Game[] = [
   {
+    "id": "game-jeet-spin",
+    "slug": "jeet-spin",
+    "name": "Jeet Spin",
+    "category": "slots",
+    "image": "/games/jeet-spin.webp",
+    "summary": "Jeet Spin is a forthcoming spin-format title expected to launch on 30 Sep 2026, listed under Slots in line with its reel-and-spin promotional format.",
+    "description": [
+      "Jeet Spin is an upcoming spin-format title scheduled to launch on 30 September 2026. It is provisionally classified under Slots because its promotional material presents a reel-and-spin format, the same basis we use to place other spin-style titles in this category — this describes how the game is presented, not a verified claim about how its mechanics actually work internally.",
+      "As a pre-launch title, this page has been created ahead of the app's public release and will be updated once the platform becomes available. Expect details here to firm up as more information becomes available after launch."
+    ],
+    "formatNotes": [
+      "Spin-format titles in this category are generally built around randomised reel spins, with each round independent of the last. Symbol tiers, payline counts and bonus-trigger mechanics vary from title to title.",
+      "As with other titles in the Slots category, round outcomes should be treated as independent of one another rather than following a visible pattern — Jeet Spin's specific configuration has not yet been documented here in detail."
+    ],
+    "accessNotes": [
+      "Jeet Spin has not yet launched and no download link is available at this time. This section will be updated once the app's external listing becomes available."
+    ],
+    "promoExplanation": [
+      "No promo code has been published for Jeet Spin yet. This section will be updated once a code is reported and independently reviewed."
+    ],
+    "reviewNotes": [
+      "This entry was added on 29 Sep 2026 as Jeet Spin's pre-launch listing on UonoVoucher, ahead of its expected 30 Sep 2026 release. Its most recent review was on 29 Sep 2026."
+    ],
+    "safetyNotes": [
+      "This page reflects our own independent review of Jeet Spin and can change as new reports come in. Once a download becomes available, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
+    ],
+    "faqs": [
+      {
+        "question": "Is Jeet Spin currently available?",
+        "answer": "Not yet — Jeet Spin is expected to launch on 30 Sep 2026. This page will be updated with a download link once it becomes available."
+      },
+      {
+        "question": "When does Jeet Spin launch?",
+        "answer": "Jeet Spin is expected to launch on 30 September 2026. This date is based on available reports and may change."
+      },
+      {
+        "question": "Does Jeet Spin have a promo code?",
+        "answer": "None has been published or confirmed yet. This page will be updated once a code is reported and reviewed."
+      },
+      {
+        "question": "Will Jeet Spin have a download link on this page?",
+        "answer": "Yes — once the app launches and an external listing becomes available, a Download button will be added to this page."
+      },
+      {
+        "question": "How can I report outdated information on Jeet Spin?",
+        "answer": "Use our Contact page to flag anything that looks wrong on Jeet Spin's page — see our Corrections Policy for what happens next."
+      }
+    ],
+    "metaTitle": "Jeet Spin — Promo Codes, Vouchers & Status",
+    "metaDescription": "Jeet Spin promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-09-29",
+    "reviewedAt": "2026-09-29",
+    "codeStatus": "none",
+    "featured": true,
+    "sortOrder": 1
+  },
+  {
     "id": "game-money-rummy",
     "slug": "money-rummy",
     "name": "Money Rummy",
@@ -71,7 +128,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://moneyrummyff.com/?code=T1XR7S7YJ9T&t=1788922546",
-    "sortOrder": 1
+    "sortOrder": 2
   },
   {
     "id": "game-gold-rummy",
@@ -129,7 +186,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://goldrummy20.com/?code=JLX7LRP2YTG&t=1787111858",
-    "sortOrder": 2
+    "sortOrder": 3
   },
   {
     "id": "game-win-rummy",
@@ -187,7 +244,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://www.winrummy10.com/?code=8JT9D83WCC3&t=1785293043",
-    "sortOrder": 3
+    "sortOrder": 4
   },
   {
     "id": "game-dhangame",
@@ -245,7 +302,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://dhanwinplay.com/?code=L2VRQRRF2UK&t=1784778249",
-    "sortOrder": 4
+    "sortOrder": 5
   },
   {
     "id": "game-101z",
