@@ -10,7 +10,7 @@ export const promoCodes: PromoCode[] = [
     "status": "none",
     "addedAt": "2026-09-29",
     "checkedAt": "2026-09-29",
-    "sourceNote": "Jeet Spin is scheduled to launch on 30 Sep 2026. No promo code has been announced yet — this entry will be updated once one is confirmed and reviewed.",
+    "sourceNote": "Jeet Spin launched on 30 Sep 2026. No promo code has been announced yet — this entry will be updated once one is confirmed and reviewed.",
     "timeSlot": "morning"
   },
   {
