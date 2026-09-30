@@ -40,7 +40,7 @@ export const games: Game[] = [
       "This entry was added on 29 Sep 2026 as Jeet Spin's pre-launch listing on UonoVoucher. Jeet Spin launched on 30 Sep 2026 and is now live. Its most recent review was on 30 Sep 2026."
     ],
     "safetyNotes": [
-      "This page reflects our own independent review of Jeet Spin and can change as new reports come in. Once a download becomes available, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
+      "This page reflects our own independent review of Jeet Spin and can change as new reports come in. Because the download is served by a third party, reviewing its requested permissions before installing is worth doing. We label unverified information clearly rather than presenting it as confirmed."
     ],
     "faqs": [
       {
@@ -68,6 +68,7 @@ export const games: Game[] = [
     "metaDescription": "Jeet Spin promo-code status, voucher records and review dates — independently tracked by UonoVoucher.",
     "publishedAt": "2026-09-29",
     "reviewedAt": "2026-09-30",
+    "downloadUrl": "https://www.jeetspin12.com/?code=SYHPBD5M972&t=1790735445",
     "codeStatus": "none",
     "featured": true,
     "sortOrder": 1
