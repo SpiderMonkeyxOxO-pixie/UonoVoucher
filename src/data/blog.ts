@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     image: '/s-blog/jeet-spin-promo-code.jpg',
     content: [
       { type: 'paragraph', text: 'The current Jeet Spin promo code status is no verified code on record.' },
-      { type: 'paragraph', text: 'Jeet Spin is a spin-and-win gaming app launching on 30 September 2026 as part of the Yono network. Its promo-code record, voucher information and game page will be added or updated after the platform and its offers can be independently reviewed by UonoVoucher.' },
+      { type: 'paragraph', text: 'Jeet Spin is a spin-and-win gaming app that launched on 30 September 2026 as part of the Yono network. Download it from jeetspin12.com. Its promo-code record, voucher information and game page will be added or updated after the platform and its offers can be independently reviewed by UonoVoucher.' },
       { type: 'paragraph', text: 'This does not mean a Jeet Spin promo code will definitely be released on launch day. It only means no public code has been recorded and verified by UonoVoucher as of the latest review.' },
 
       { type: 'heading', level: 2, text: 'Jeet Spin Promo Code Status at a Glance' },
@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
         rows: [
           ['Public promo code', 'No verified code on record'],
           ['Review status', 'Awaiting platform launch and offer review'],
-          ['Expected launch date', '30 September 2026'],
+          ['Launch date', '30 September 2026 (now live)'],
           ['Morning code', 'Not recorded'],
           ['Afternoon code', 'Not recorded'],
           ['Evening code', 'Not recorded'],
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
         type: 'table',
         headers: ['App', 'Category', 'Status', 'Promo Code Status'],
         rows: [
-          ['Jeet Spin', 'Spin / Arcade', 'Launching 30 Sep 2026', 'No code on record'],
+          ['Jeet Spin', 'Spin / Arcade', 'Live — jeetspin12.com', 'No code on record'],
           ['Jaiho Spin', 'Arcade', 'Live', 'Check tracker'],
           ['Spin Gold', 'Arcade', 'Live', 'Check tracker'],
           ['Spin 101', 'Arcade', 'Live', 'Check tracker'],
