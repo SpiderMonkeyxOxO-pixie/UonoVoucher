@@ -2472,7 +2472,7 @@ const allBlogPosts: BlogPost[] = [
     metaDescription: `What is a referral code? Learn the meaning, how referral codes work, how they differ from promo codes and how to use one safely. 18+ information only.`,
     excerpt: `A referral code links a new account to the person who invited them. Learn how it works, how it differs from a promo code and how to use one safely.`,
     category: 'Code Basics',
-    publishedAt: '2026-10-03',
+    publishedAt: '2026-10-02',
     image: '/s-blog/what-is-a-referral-code.webp',
     content: [
       { type: 'paragraph', text: `A referral code is a short code that links a new account to the person or campaign that invited them. It is entered during sign-up so the platform can credit the referral. It is different from a promo code, and no code guarantees a reward or result.` },
