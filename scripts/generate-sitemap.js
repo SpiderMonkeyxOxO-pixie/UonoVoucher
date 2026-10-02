@@ -24,7 +24,7 @@ function extractGames() {
   const src = readFileSync(join(root, 'src/data/games.ts'), 'utf8');
   // Split on top-level array-item boundaries rather than anchoring on any one field
   // (e.g. "downloadUrl"), since not every game has every optional field.
-  const chunks = src.split(/\n  \{\n/).slice(1);
+  const chunks = src.split(/\r?\n  \{\r?\n/).slice(1);
   return chunks
     .map((o) => ({
       slug: (o.match(/"slug":\s*"([^"]+)"/) || [])[1],
@@ -44,17 +44,26 @@ function extractPromoCodes() {
 
 function extractContentEntries(file) {
   const src = readFileSync(join(root, file), 'utf8');
-  const objs = src.split(/\n  \{\n/).slice(1);
+  const objs = src.split(/\r?\n  \{\r?\n/).slice(1);
   return objs.map((chunk) => ({
     slug: (chunk.match(/slug:\s*'([^']+)'/) || [])[1],
     lastmod: (chunk.match(/updatedAt:\s*'([^']+)'/) || chunk.match(/publishedAt:\s*'([^']+)'/) || [])[1],
+    publishedAt: (chunk.match(/publishedAt:\s*'([^']+)'/) || [])[1],
   })).filter((e) => e.slug);
 }
 
 const games = extractGames();
 const promoCodes = extractPromoCodes();
 const guides = extractContentEntries('src/data/guides.ts');
-const blogPosts = extractContentEntries('src/data/blog.ts');
+// Scheduled posts go live at 07:00 IST on their publishedAt date. Keep in sync
+// with src/utils/publish.ts. Unpublished posts are left out of the sitemap, and
+// therefore are not prerendered either, until a later build runs on/after that time.
+function isPublished(publishedAt) {
+  const goLive = Date.parse(`${publishedAt}T07:00:00+05:30`);
+  return Number.isNaN(goLive) || Date.now() >= goLive;
+}
+
+const blogPosts = extractContentEntries('src/data/blog.ts').filter((b) => isPublished(b.publishedAt));
 
 const staticEntries = [
   { path: '/', priority: '1.0', changefreq: 'daily' },

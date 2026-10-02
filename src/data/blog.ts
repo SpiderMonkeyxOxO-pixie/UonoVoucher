@@ -1,7 +1,8 @@
 import type { BlogPost } from '../types';
 import { games } from './games';
+import { isPublished } from '../utils/publish';
 
-export const blogPosts: BlogPost[] = [
+const allBlogPosts: BlogPost[] = [
   {
     id: 'blog-jeet-spin-promo-code',
     slug: 'jeet-spin-promo-code',
@@ -2463,4 +2464,1741 @@ export const blogPosts: BlogPost[] = [
       { question: 'Does UonoVoucher issue Money Rummy codes?', answer: 'No. UonoVoucher is an independent information portal. It records and reviews codes but does not create, activate or guarantee them.' },
     ],
   },
+  {
+    id: 'blog-what-is-a-referral-code',
+    slug: 'what-is-a-referral-code',
+    title: `What Is a Referral Code? Meaning, Uses and Safety Tips`,
+    metaTitle: `What Is a Referral Code? Meaning, Uses & Safety Tips`,
+    metaDescription: `What is a referral code? Learn the meaning, how referral codes work, how they differ from promo codes and how to use one safely. 18+ information only.`,
+    excerpt: `A referral code links a new account to the person who invited them. Learn how it works, how it differs from a promo code and how to use one safely.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-03',
+    image: '/s-blog/what-is-a-referral-code.webp',
+    content: [
+      { type: 'paragraph', text: `A referral code is a short code that links a new account to the person or campaign that invited them. It is entered during sign-up so the platform can credit the referral. It is different from a promo code, and no code guarantees a reward or result.` },
+
+      { type: 'heading', level: 2, text: `The meaning in plain words` },
+      { type: 'paragraph', text: `A referral code is an identifier. When a person invites a friend to an app, website or service, the platform gives the inviter a code. The new user types that code, or taps a link that contains it, when creating an account. The platform then knows who sent the invitation.` },
+      { type: 'paragraph', text: `The code itself is not money, a voucher or a prize. It is a label that connects two accounts.` },
+
+      { type: 'heading', level: 2, text: `Referral codes at a glance` },
+      {
+        type: 'table',
+        headers: [`Feature`, `What it usually means`],
+        rows: [
+          [`Purpose`, `Connects a new account to an inviter or campaign`],
+          [`Where it is used`, `Sign-up screen, referral field or invite link`],
+          [`Who issues it`, `The platform, to an existing user or partner`],
+          [`Typical life`, `Tied to the inviter's account; may be changed or withdrawn`],
+          [`Guaranteed reward?`, `No. Any benefit depends on the platform's own terms`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `How a referral code works` },
+      { type: 'list', ordered: true, items: [
+        `The platform issues the code. Each eligible user, or a campaign, gets a code.`,
+        `The code is shared. It may be sent as text or as a link with the code built in.`,
+        `The new user enters it. This normally happens at registration, because many platforms accept it only once, at account creation.`,
+        `The platform checks it. It confirms the code exists, is active and matches the rules, such as new accounts only.`,
+        `The referral is recorded. Any benefit is decided by the platform's terms, not by the code alone.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Who benefits from a referral code?` },
+      { type: 'paragraph', text: `A referral programme can benefit the invited user, the person who invited them, both or neither. The platform may also use it to see where sign-ups come from. Read the programme's terms to see what, if anything, a referral changes. Do not assume a benefit exists because a code exists.` },
+
+      { type: 'heading', level: 2, text: `Referral code vs promo code` },
+      { type: 'paragraph', text: `The two are often mixed up.` },
+      {
+        type: 'table',
+        headers: [``, `Referral code`, `Promo code`],
+        rows: [
+          [`Connects to`, `A person or invitation`, `A campaign or offer`],
+          [`Typical field`, `Referral or invite box`, `Promo or coupon box`],
+          [`Usually entered`, `At sign-up`, `At sign-up or at a later step`],
+          [`Can be reused?`, `Rules vary`, `Rules vary, often single use`],
+        ],
+      },
+      { type: 'paragraph', text: `A valid referral code can fail in a promo-code box, because the platform may treat them as different fields. The [Uono Promo Code Guide](/blog/uono-promo-code-guide) explains the promo-code side in more detail.` },
+
+      { type: 'heading', level: 2, text: `Where do people find referral codes?` },
+      { type: 'paragraph', text: `Usually in an app's own "invite" or "refer a friend" section, in a message from the person inviting them, or inside an invite link. Where a code comes from matters. A code taken from a screenshot of unknown origin, a forum post or an unfamiliar message has no known source.` },
+
+      { type: 'heading', level: 2, text: `Why a referral code may not work` },
+      { type: 'list', items: [
+        `It was typed in the wrong field.`,
+        `The account is not new, and the programme covers new accounts only.`,
+        `The code has expired or been withdrawn.`,
+        `It has a usage limit that has been reached.`,
+        `The app version or location is not covered.`,
+        `A character was mistyped; some codes are case-sensitive.`,
+      ] },
+      { type: 'paragraph', text: `The guide [Why a Promo Code May Not Work](/guides/why-a-promo-code-may-not-work/) lists the same causes for promo codes, and most apply to referral codes too.` },
+
+      { type: 'heading', level: 2, text: `How to use a referral code safely` },
+      { type: 'list', items: [
+        `Use the code at sign-up only if you want to. It is optional, and you can register without one.`,
+        `Share only the code. Never share an OTP, password, PIN or bank login. A referral never needs them.`,
+        `Be wary of "exclusive" codes. Anyone who asks for payment, remote access to your phone or a private screenshot in exchange for a code is not offering a referral.`,
+        `Check the platform first. Use the steps in [How to Verify a Gaming Platform](/blog/how-to-verify-a-gaming-platform) before registering anywhere.`,
+        `Read the terms. Look for eligibility, expiry and usage limits.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Can a referral code guarantee anything?` },
+      { type: 'paragraph', text: `No. A referral code cannot guarantee a reward, a bonus amount or any result in a game. If a page promises one, treat it as a warning sign. UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so. See the [Uono Voucher Guide](/blog/uono-voucher-guide) for how vouchers differ.` },
+
+      { type: 'heading', level: 2, text: `Quick checklist before you enter a code` },
+      { type: 'list', items: [
+        `Is this the right field?`,
+        `Do I know where the code came from?`,
+        `Is my account eligible?`,
+        `Did I read the expiry and limits?`,
+        `Am I sharing anything private? If yes, stop.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `A worked example in words` },
+      { type: 'paragraph', text: `Imagine Asha uses an app and sees an "Invite a friend" screen that shows her personal code. She sends it to Ravi. When Ravi creates his account, he types the code into the referral box. The app now records that Ravi joined through Asha. What happens next, if anything, is set out in the app's own terms. The code did not create a reward by itself. It only recorded who invited whom.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What does referral code mean?`, answer: `It is a code that links a new account to the person or campaign that invited them.` },
+      { question: `Is a referral code the same as a promo code?`, answer: `No. A referral code connects accounts, and a promo code is tied to a campaign or offer. They may use different fields.` },
+      { question: `Do I have to enter a referral code?`, answer: `No. It is optional, and you can usually register without one.` },
+      { question: `Is it safe to share my referral code?`, answer: `Sharing the code itself is generally low risk. Never share passwords, OTPs or payment details alongside it.` },
+    ],
+  },
+  {
+    id: 'blog-what-is-a-promo-code',
+    slug: 'what-is-a-promo-code',
+    title: `What Is a Promo Code? Meaning, Types and How It Works`,
+    metaTitle: `What Is a Promo Code? Meaning, Types & How It Works`,
+    metaDescription: `What is a promo code? Understand the meaning, common types, why codes fail and how to use one safely. Informational guide, 18+ only, no codes published.`,
+    excerpt: `A promo code is entered to activate a specific campaign or offer. Learn the meaning, common types, why codes fail and how to use one safely.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-04',
+    image: '/s-blog/what-is-a-promo-code.webp',
+    content: [
+      { type: 'paragraph', text: `A promo code is a short combination of letters or numbers entered on a platform to activate a specific campaign or offer. The platform checks the code against its rules, such as validity, eligibility and usage limits. A promo code does not guarantee a reward, and some campaigns need no code at all.` },
+
+      { type: 'heading', level: 2, text: `The meaning in plain words` },
+      { type: 'paragraph', text: `"Promo" is short for promotion. A promo code is a keyword that tells a platform which promotion you want applied. You enter it in a designated box. The platform then checks whether the code is real, still valid and allowed for your account.` },
+      { type: 'paragraph', text: `The code is only a key. Whether anything unlocks depends on the platform's conditions at that moment.` },
+
+      { type: 'heading', level: 2, text: `Promo codes at a glance` },
+      {
+        type: 'table',
+        headers: [`Feature`, `What it usually means`],
+        rows: [
+          [`Format`, `Letters, numbers or both`],
+          [`Tied to`, `A campaign, offer or time window`],
+          [`Checked for`, `Validity, eligibility, usage limit`],
+          [`Typical field`, `"Promo code" or "Coupon" box`],
+          [`Guaranteed result`, `No`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `How a promo code works` },
+      { type: 'list', ordered: true, items: [
+        `A platform creates a campaign.`,
+        `It assigns one or more codes to that campaign.`,
+        `A user enters a code in the correct field.`,
+        `The platform checks it against the rules.`,
+        `The screen shows whether it was accepted, and under what conditions.`,
+      ] },
+      { type: 'paragraph', text: `The [Uono Promo Code Guide](/blog/uono-promo-code-guide) walks through this process for Uono-network platforms in more detail.` },
+
+      { type: 'heading', level: 2, text: `Common types of promo codes` },
+      {
+        type: 'table',
+        headers: [`Type`, `Description`],
+        rows: [
+          [`New-user`, `Limited to accounts created recently`],
+          [`Existing-user`, `Limited to accounts that already exist`],
+          [`Event or seasonal`, `Tied to a date range or occasion`],
+          [`Account-specific`, `Issued to selected accounts only`],
+          [`Platform-specific`, `Works on one platform or feature only`],
+        ],
+      },
+      { type: 'paragraph', text: `Some people also include referral codes here. They are a different thing; see [What Is a Referral Code?](/blog/what-is-a-referral-code).` },
+
+      { type: 'heading', level: 2, text: `Do all promotions need a code?` },
+      { type: 'paragraph', text: `No. Many promotions apply automatically through registration, an invite link, an in-app banner or a selected-account campaign. A missing code does not mean a promotion is unavailable. It may simply not use one.` },
+
+      { type: 'heading', level: 2, text: `Why a promo code may not work` },
+      { type: 'paragraph', text: `Most failures have ordinary causes:` },
+      { type: 'list', items: [
+        `Expired: the campaign window closed.`,
+        `Wrong field: it was typed into the referral box, or the reverse.`,
+        `Not eligible: it is for new accounts, a region or a specific feature only.`,
+        `Already used: many codes are single-use.`,
+        `Typed wrongly: spaces, capital letters or look-alike characters such as O and 0.`,
+        `App version: an older version may not support the campaign.`,
+      ] },
+      { type: 'paragraph', text: `The guide [Why a Promo Code May Not Work](/guides/why-a-promo-code-may-not-work/) covers each of these step by step.` },
+
+      { type: 'heading', level: 2, text: `How to read a promo code offer` },
+      { type: 'paragraph', text: `Before you enter a code, check four things:` },
+      { type: 'list', ordered: true, items: [
+        `The date. When was it published, and does it show an expiry?`,
+        `The platform. Is it for the exact platform you are using?`,
+        `The conditions. Look for eligibility, minimums and limits.`,
+        `The source. Is it from the platform or from an unknown third party?`,
+      ] },
+
+      { type: 'heading', level: 2, text: `How to use a promo code safely` },
+      { type: 'list', items: [
+        `Enter codes only in the platform's own app or website.`,
+        `Never share an OTP, password, PIN or banking login to "unlock" a code.`,
+        `Avoid anyone who asks for an advance payment for a code.`,
+        `Avoid modified APK files promising "special" codes.`,
+        `Treat any claim of guaranteed rewards as a red flag.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `What UonoVoucher does and does not do` },
+      { type: 'paragraph', text: `UonoVoucher records codes by game and release period, with visible labels such as Scheduled, Checked, Active, Expired and Unconfirmed. The [promo-code tracker](/promo-codes/) shows the current status of each entry. UonoVoucher does not create, distribute or activate codes. It does not operate games or process payments, and it publishes no code unless one has been independently recorded.` },
+
+      { type: 'heading', level: 2, text: `Promo code myths` },
+      {
+        type: 'table',
+        headers: [`Myth`, `Reality`],
+        rows: [
+          [`"A longer code is more valuable"`, `Length has no link to value`],
+          [`"All codes work for everyone"`, `Eligibility often differs by account`],
+          [`"A code means a guaranteed bonus"`, `Terms decide the outcome`],
+          [`"Old codes can be reactivated"`, `Expired codes normally stay expired`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `A worked example in words` },
+      { type: 'paragraph', text: `Suppose a platform runs a limited-time campaign for new accounts and publishes a code for it. A new user registers, opens the offer box and enters the code exactly as published. The platform checks that the campaign is still running, that the account is new and that the code has not been used up. If every check passes, the offer is applied. If one check fails, the platform shows a message such as "invalid" or "expired", even though the code looked correct.` },
+
+      { type: 'heading', level: 2, text: `Questions people often ask before entering a code` },
+      { type: 'list', items: [
+        `Do I need a code at all? Not always. Check whether the offer applies automatically.`,
+        `Is it safe to type a code I found online? Only if you can trace where it came from. An untraceable code is a risk.`,
+        `What if two codes are offered? Many platforms allow only one per account or per purchase. Read the terms.`,
+        `What if I enter it twice? A single-use code may be marked as used after the first attempt.`,
+      ] },
+      { type: 'paragraph', text: `If you are unsure at any point, the safest step is to leave the box empty and register without a code. You can usually continue without one.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What is a promo code in simple words?`, answer: `A keyword you enter to apply a particular promotion, which the platform then checks against its rules.` },
+      { question: `Is a promo code the same as a coupon code?`, answer: `In everyday use, mostly yes. Some platforms use "coupon" for shopping discounts and "promo" for broader campaigns.` },
+      { question: `Why does my promo code say invalid?`, answer: `It may be expired, mistyped, already used, in the wrong field or not valid for your account.` },
+      { question: `Can a promo code guarantee a bonus?`, answer: `No. Any benefit depends on the platform's terms, and some promotions need no code.` },
+    ],
+  },
+  {
+    id: 'blog-what-is-a-voucher',
+    slug: 'what-is-a-voucher',
+    title: `What Is a Voucher? Meaning, Types and How to Read One`,
+    metaTitle: `What Is a Voucher? Meaning, Types & How to Read One`,
+    metaDescription: `What is a voucher? Learn the meaning (voucher kya hota hai), common types, how it differs from a promo code and how to check one safely. 18+ info only.`,
+    excerpt: `A voucher is an entitlement you can exchange for a specific value or benefit. Learn the meaning, types and how to read one before use.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-05',
+    image: '/s-blog/what-is-a-voucher.webp',
+    content: [
+      { type: 'paragraph', text: `A voucher is a document or digital code that can be exchanged for a specific value, service or benefit instead of cash. In India it is also searched as "voucher kya hota hai" in Hindi. Vouchers have their own expiry, terms and redemption steps, so always read the conditions first.` },
+
+      { type: 'heading', level: 2, text: `The meaning in plain words` },
+      { type: 'paragraph', text: `A voucher is proof that you are entitled to something. It states what it can be exchanged for, and under what conditions. Examples include a gift voucher for a shop, a meal voucher or a digital voucher issued inside an app.` },
+      { type: 'paragraph', text: `In Hindi searches the question appears as "voucher kya hota hai" (वाउचर क्या होता है). The idea is the same: a voucher is an entitlement, and the terms printed on it decide what it is worth.` },
+      { type: 'paragraph', text: `A second meaning, so the right page finds you: in accounting, a "voucher" is a document that records a transaction, such as a payment voucher. This article is about vouchers a consumer receives and redeems, not accounting records.` },
+
+      { type: 'heading', level: 2, text: `Vouchers at a glance` },
+      {
+        type: 'table',
+        headers: [`Feature`, `What it usually means`],
+        rows: [
+          [`Form`, `Printed slip, email, SMS or in-app entry`],
+          [`Value`, `A fixed benefit or a set amount of credit`],
+          [`Conditions`, `Expiry date, eligible items, one-time use`],
+          [`Redeemed at`, `The issuer's own platform or partner`],
+          [`Transferable?`, `Depends on the terms`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Common types of vouchers` },
+      {
+        type: 'table',
+        headers: [`Type`, `Description`],
+        rows: [
+          [`Gift voucher`, `Bought or given as a present for use at a particular store`],
+          [`Discount voucher`, `Reduces the price of a purchase under stated conditions`],
+          [`Service voucher`, `Entitles the holder to a service, such as a meal or a ride`],
+          [`Digital voucher`, `A code or entry in an app, applied at checkout or in an account`],
+          [`Campaign voucher`, `Issued as part of a limited promotion`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Voucher vs promo code vs referral code` },
+      { type: 'paragraph', text: `These three terms are used loosely, and mixing them causes errors.` },
+      {
+        type: 'table',
+        headers: [``, `Voucher`, `Promo code`, `Referral code`],
+        rows: [
+          [`What it is`, `An entitlement`, `A key for a campaign`, `A link between accounts`],
+          [`Has its own expiry?`, `Often yes`, `Often yes`, `Rules vary`],
+          [`Entered where`, `Redemption or account screen`, `Promo field`, `Sign-up or referral field`],
+        ],
+      },
+      { type: 'paragraph', text: `See [What Is a Promo Code?](/blog/what-is-a-promo-code) and [What Is a Referral Code?](/blog/what-is-a-referral-code) for the other two. A voucher often has a separate redemption step from a promo code, which is why the same string can work in one field and fail in another.` },
+
+      { type: 'heading', level: 2, text: `How a voucher works` },
+      { type: 'list', ordered: true, items: [
+        `It is issued to a person or account.`,
+        `It carries terms: value, expiry, eligible use.`,
+        `The holder redeems it through the issuer's own screen or process.`,
+        `The issuer checks it against its records.`,
+        `It is marked used and normally cannot be used again.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `How to read a voucher before using it` },
+      { type: 'list', items: [
+        `Expiry date: most vouchers lapse. An expired voucher usually cannot be revived.`,
+        `What it covers: specific items, categories or a platform only.`,
+        `Minimums and limits: some need a minimum purchase or one use per account.`,
+        `Who it is for: new users, selected accounts or anyone.`,
+        `How to redeem: the exact screen or step.`,
+      ] },
+      { type: 'paragraph', text: `The guide [Understanding Voucher Eligibility Notes](/guides/understanding-voucher-eligibility-notes/) explains the wording used in eligibility notes, and [How to Check Whether a Uono Voucher Has Expired](/guides/how-to-check-whether-a-uono-voucher-has-expired/) shows what to look for on the date.` },
+
+      { type: 'heading', level: 2, text: `Voucher on UonoVoucher` },
+      { type: 'paragraph', text: `UonoVoucher records voucher information with visible status labels. It does not issue vouchers, hold money or process payments. The [Uono Voucher Guide](/blog/uono-voucher-guide) covers how the site approaches this.` },
+
+      { type: 'heading', level: 2, text: `Staying safe with vouchers` },
+      { type: 'list', items: [
+        `Redeem only inside the issuer's own app or website.`,
+        `Never share an OTP, password or PIN to claim a voucher.`,
+        `Be cautious of vouchers that ask for a fee to release them.`,
+        `Be cautious of anything advertised as "free", unlimited or guaranteed.`,
+        `Keep a record of when and where you received the voucher.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Warning signs of a fake voucher` },
+      { type: 'list', items: [
+        `It arrives unprompted with a pressure message.`,
+        `It asks for personal details you would not normally give.`,
+        `It links to a site that imitates another brand.`,
+        `It has no expiry or terms at all.`,
+        `It promises unusually large value.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `A short checklist to keep` },
+      { type: 'paragraph', text: `Before you act on any voucher, run through these quick questions. They take less than a minute and prevent most mistakes.` },
+      { type: 'list', items: [
+        `Who issued it, and can I contact them?`,
+        `What exactly does it entitle me to?`,
+        `When does it expire?`,
+        `Is it tied to my account or can anyone use it?`,
+        `Where is the official redemption screen?`,
+      ] },
+      { type: 'paragraph', text: `If you cannot answer the first question, treat the voucher as unconfirmed. A voucher is only as reliable as the issuer behind it, and a code on its own tells you very little.` },
+
+      { type: 'heading', level: 2, text: `Do and do not` },
+      {
+        type: 'table',
+        headers: [`Do`, `Do not`],
+        rows: [
+          [`Read the expiry date on day one`, `Wait until the last day to try it`],
+          [`Redeem on the issuer's own screen`, `Use a link from an unknown message`],
+          [`Keep a record of the code and date`, `Post the code publicly`],
+          [`Ask the issuer if terms are unclear`, `Pay a stranger for help redeeming`],
+        ],
+      },
+      { type: 'paragraph', text: `A voucher is a simple idea that attracts a lot of scams, because people hope for value without checking the source. A short pause to confirm the issuer and the terms protects both your account and your time.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `Voucher kya hota hai?`, answer: `A voucher is a document or digital code that can be exchanged for a specific benefit or value, under stated conditions.` },
+      { question: `Is a voucher the same as cash?`, answer: `No. It is redeemable only as the terms allow, and it normally has an expiry date.` },
+      { question: `What is the difference between a voucher and a promo code?`, answer: `A voucher is an entitlement. A promo code is a key that activates a campaign. They may be redeemed in different places.` },
+      { question: `Can an expired voucher be used?`, answer: `Usually not. Check the issuer's terms before relying on it.` },
+    ],
+  },
+  {
+    id: 'blog-yono-rummy-51-bonus-explained',
+    slug: 'yono-rummy-51-bonus-explained',
+    title: `Yono Rummy 51 Bonus Explained: What the Phrase Means and What Is Verified`,
+    metaTitle: `Yono Rummy 51 Bonus Explained: What It Means & Status`,
+    metaDescription: `Searching "Yono Rummy 51 bonus"? See what the phrase means, why no verified record exists and how to check any welcome offer safely. 18+ only, no codes shown.`,
+    excerpt: `No verified "Yono Rummy 51 bonus" record exists on UonoVoucher. Learn what the phrase means and how to check any bonus claim safely.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-10-06',
+    image: '/s-blog/yono-rummy-51-bonus-explained.webp',
+    content: [
+      { type: 'paragraph', text: `"Yono Rummy 51 bonus" is a search phrase people use for a small welcome bonus on a Yono-style rummy app. UonoVoucher has no verified record of such an offer, and no platform named "Yono Rummy" in its catalogue. Treat any claim as unconfirmed until its terms are checked.` },
+
+      { type: 'heading', level: 2, text: `What people are searching for` },
+      { type: 'paragraph', text: `"51 bonus" appears in many searches next to a rummy app name. Searchers generally seem to want to know whether a new-user bonus of a small fixed figure exists, and how to get it. The phrase is widely used, but a widely used phrase is not evidence of an offer.` },
+
+      { type: 'heading', level: 2, text: `What UonoVoucher can and cannot confirm` },
+      {
+        type: 'table',
+        headers: [`Question`, `Current status`],
+        rows: [
+          [`Is there a verified "Yono Rummy" platform page?`, `No entry under that name in the UonoVoucher catalogue`],
+          [`Is a "51 bonus" independently recorded?`, `No`],
+          [`Is a "51 bonus" code on file?`, `No`],
+          [`Is any welcome reward announced for this name?`, `Not recorded`],
+        ],
+      },
+      { type: 'paragraph', text: `This is not a claim that such an offer cannot exist. It only means nothing has been independently recorded.` },
+
+      { type: 'heading', level: 2, text: `Why "Yono" appears in so many names` },
+      { type: 'paragraph', text: `Many apps use "Yono" in their name or description, and the word also belongs to a major bank's app, which is unrelated to rummy platforms. A name that sounds familiar does not show that an app belongs to any network. UonoVoucher does not treat a name as proof; see [How to Verify a Gaming Platform](/blog/how-to-verify-a-gaming-platform).` },
+
+      { type: 'heading', level: 2, text: `Where verified rummy records exist` },
+      { type: 'paragraph', text: `The catalogue does include other rummy-style platforms with their own status notes:` },
+      { type: 'list', items: [
+        `[Win Rummy Promo Code Status](/blog/win-rummy-promo-code-status)`,
+        `[Money Rummy Promo Code Status](/blog/money-rummy-promo-code-status)`,
+      ] },
+      { type: 'paragraph', text: `Each shows what has and has not been recorded. Neither carries a "51 bonus" claim, and the [promo-code tracker](/promo-codes/) shows the latest labels.` },
+
+      { type: 'heading', level: 2, text: `What a "bonus" actually is` },
+      { type: 'paragraph', text: `A welcome bonus is an offer defined by the platform's terms. It is not a promo code, although a code can be one way to claim it. The difference matters:` },
+      {
+        type: 'table',
+        headers: [`Term`, `Meaning`],
+        rows: [
+          [`Welcome bonus`, `A promotion offered to new accounts under stated terms`],
+          [`Promo code`, `A key entered to activate a campaign`],
+          [`Referral code`, `A link between accounts`],
+        ],
+      },
+      { type: 'paragraph', text: `See [What Is a Promo Code?](/blog/what-is-a-promo-code) and [What Is a Referral Code?](/blog/what-is-a-referral-code) for the definitions. Some bonuses apply automatically at registration. Others need a code or an invite link. Many come with conditions on use. See [Dhangame Launch Date and Welcome Bonus](/blog/dhangame-launch-date-welcome-bonus) for how an announced welcome reward is described when it has been recorded.` },
+
+      { type: 'heading', level: 2, text: `Questions to ask about any "51 bonus" claim` },
+      { type: 'list', ordered: true, items: [
+        `Who announced it? The platform itself, or an unnamed third party?`,
+        `Is there a date? An offer with no date cannot be checked.`,
+        `What are the terms? Look for eligibility, usage conditions and expiry.`,
+        `Is it a code or automatic? Do not enter a "code" you cannot trace.`,
+        `Does it ask for private details? If it does, stop.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Red flags around bonus claims` },
+      { type: 'list', items: [
+        `Promises of guaranteed or "free" money.`,
+        `Pressure to act within minutes.`,
+        `Requests for an OTP, password or PIN.`,
+        `Modified APK files advertised with bigger bonuses.`,
+        `Screenshots of "winnings" as proof.`,
+      ] },
+      { type: 'paragraph', text: `The permissions guide [Review App Permissions Before Installation](/guides/review-app-permissions-before-installation/) lists what to inspect before you install any app from outside a recognised store.` },
+
+      { type: 'heading', level: 2, text: `What to do instead` },
+      { type: 'list', items: [
+        `Check the [promo-code tracker](/promo-codes/) for the status of a specific game.`,
+        `Read the platform's own terms for any bonus.`,
+        `If an offer is real, it can be explained plainly, with conditions.`,
+        `If it cannot be traced to a source, treat it as unconfirmed.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so. It does not publish a code that has not been independently recorded.` },
+
+      { type: 'heading', level: 2, text: `How a genuine welcome offer is usually described` },
+      { type: 'paragraph', text: `Real offers tend to be explained in a consistent way. They name the platform, state who qualifies, show a start and end date, list the conditions and say plainly whether a code is needed. When a claim lacks most of these, it is hard to check, and a claim that cannot be checked should not shape your decision.` },
+      {
+        type: 'table',
+        headers: [`Element`, `Present in a checkable offer`, `Often missing in a rumour`],
+        rows: [
+          [`Platform name`, `Exact and consistent`, `Vague or changing`],
+          [`Eligibility`, `Stated (new, existing, selected)`, `Not mentioned`],
+          [`Dates`, `Start and end shown`, `No date at all`],
+          [`Conditions`, `Listed in full`, `Hidden or "ask us"`],
+          [`Code needed?`, `Stated clearly`, `Unclear`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Why small round numbers attract attention` },
+      { type: 'paragraph', text: `Searches that pair a platform name with a small fixed figure are common because the figure feels concrete. But a number in a search phrase is not a record. It can come from an old campaign, a different app with a similar name, an advertisement that has ended or simple repetition across websites. Repetition is not verification.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What is the Yono Rummy 51 bonus?`, answer: `It is a search phrase for a small welcome bonus. UonoVoucher has no verified record of it.` },
+      { question: `Is there a verified 51 bonus code?`, answer: `No. None has been independently recorded, and UonoVoucher does not publish unverified codes.` },
+      { question: `Is Yono Rummy on UonoVoucher?`, answer: `There is no catalogue entry under that name. Other rummy platforms do have status pages.` },
+      { question: `How do I check a bonus claim?`, answer: `Find the source, the date and the full terms, and never share OTPs, PINs or passwords.` },
+    ],
+  },
+  {
+    id: 'blog-yono-rummy-promo-code-today-status',
+    slug: 'yono-rummy-promo-code-today-status',
+    title: `Yono Rummy Promo Code Today: Current Status and How to Check`,
+    metaTitle: `Yono Rummy Promo Code Today: Status & How to Check`,
+    metaDescription: `Looking for a Yono Rummy promo code today? See the current status, why none is listed and how to check any code safely. Informational, 18+ only.`,
+    excerpt: `No verified Yono Rummy promo code is on record. See the current status and a simple method for checking any code before you trust it.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-10-07',
+    image: '/s-blog/yono-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `The current Yono Rummy promo code status is no verified code on record. UonoVoucher has no catalogue entry under that name and does not publish unverified codes. Check the promo-code tracker for each game's label, checking date and conditions before trusting any code shared elsewhere.` },
+
+      { type: 'heading', level: 2, text: `Status at a glance` },
+      {
+        type: 'table',
+        headers: [`Field`, `Current information`],
+        rows: [
+          [`Public promo code`, `No verified code on record`],
+          [`Catalogue entry named "Yono Rummy"`, `None`],
+          [`Morning / afternoon / evening code`, `Not recorded`],
+          [`Welcome reward`, `Not recorded`],
+          [`Last checked`, `Review date shown on the tracker`],
+        ],
+      },
+      { type: 'paragraph', text: `This does not mean a code will never exist. It means none has been independently recorded as of the latest review.` },
+
+      { type: 'heading', level: 2, text: `Why "today" searches rarely have a clean answer` },
+      { type: 'paragraph', text: `People add "today" because they expect codes to change daily. Some platforms release codes by period. UonoVoucher's tracker records them by game and by morning, afternoon and evening periods. But a code seen on social media has no source, and "today" in a title says nothing about whether it was ever checked. A listing is only useful if it carries the date it was checked.` },
+
+      { type: 'heading', level: 2, text: `Where a listed code would appear` },
+      { type: 'paragraph', text: `If a code is ever verified, it appears on the [promo-code tracker](/promo-codes/) with a status label. The labels, as used on the site, are:` },
+      {
+        type: 'table',
+        headers: [`Label`, `Plain meaning`],
+        rows: [
+          [`Scheduled`, `Expected, not yet released`],
+          [`Checked`, `Independently reviewed on the date shown`],
+          [`Active`, `Reviewed and currently shown as working`],
+          [`Limited`, `Works only under stated conditions`],
+          [`Reported`, `Submitted by readers, not confirmed`],
+          [`Unconfirmed`, `Source or validity not established`],
+          [`Expired / Withdrawn`, `No longer valid`],
+        ],
+      },
+      { type: 'paragraph', text: `A "Reported" code has not been checked. It should not be treated as active.` },
+
+      { type: 'heading', level: 2, text: `Rummy platforms that do have records` },
+      { type: 'list', items: [
+        `[Win Rummy Promo Code Status](/blog/win-rummy-promo-code-status)`,
+        `[Money Rummy Promo Code Status](/blog/money-rummy-promo-code-status)`,
+      ] },
+      { type: 'paragraph', text: `If you were looking for the "51 bonus" phrase instead, see [Yono Rummy 51 Bonus Explained](/blog/yono-rummy-51-bonus-explained).` },
+
+      { type: 'heading', level: 2, text: `A five-step check for any code you find` },
+      { type: 'list', ordered: true, items: [
+        `Source: who published it, and where is the original?`,
+        `Date: when was it posted and when does it end?`,
+        `Platform: does it name the exact app?`,
+        `Field: is it a promo code, referral code or voucher? (See [What Is a Promo Code?](/blog/what-is-a-promo-code).)`,
+        `Terms: are eligibility and limits stated?`,
+      ] },
+      { type: 'paragraph', text: `If any step cannot be answered, treat the code as unconfirmed. The [Uono Promo Code Guide](/blog/uono-promo-code-guide) explains validity, eligibility and verification in full.` },
+
+      { type: 'heading', level: 2, text: `Why a code may fail even when real` },
+      { type: 'paragraph', text: `It may be expired, already used, limited to selected accounts, meant for another field or restricted to an app version. [Why a Promo Code May Not Work](/guides/why-a-promo-code-may-not-work/) goes through these in order.` },
+
+      { type: 'heading', level: 2, text: `Safety around "today's code" posts` },
+      { type: 'list', items: [
+        `Messages that offer a code in exchange for an OTP or a screenshot of your account.`,
+        `Channels that ask for payment to release codes.`,
+        `Apps shared outside recognised stores that promise larger offers.`,
+        `Pressure wording such as "last chance".`,
+      ] },
+      { type: 'paragraph', text: `Never share an OTP, password, PIN or banking details for any code. UonoVoucher never asks for them.` },
+
+      { type: 'heading', level: 2, text: `What this page will do` },
+      { type: 'paragraph', text: `This page is updated, not replaced, when a code or code-free campaign is verified. Corrections are logged under the site's [corrections policy](/corrections-policy/). UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `What to do if you were sent a code` },
+      { type: 'paragraph', text: `If a friend or a channel sends you a Yono Rummy code, do not enter it straight away. Ask where it came from, check the date, and look at the tracker. If it came with a request for private details, an OTP or a payment, stop there. A code that needs those things is not a code you should use.` },
+
+      { type: 'heading', level: 2, text: `How the tracker would change this page` },
+      { type: 'paragraph', text: `If a code or code-free campaign is verified, this page will be updated with the source, the date, the eligibility note and the release period. Until then, the correct answer to "what is the code today?" is that none is on record, and that is the answer this page will keep giving.` },
+
+      { type: 'heading', level: 2, text: `Quick answers to common worries` },
+      {
+        type: 'table',
+        headers: [`If you wonder`, `Short answer`],
+        rows: [
+          [`"Is a code hidden somewhere?"`, `Not on this page. None is on record.`],
+          [`"Can I use a code from a video?"`, `Only if you can trace its source, date and terms.`],
+          [`"Will the tracker show it first?"`, `It will show a verified record when one exists, with a label and date.`],
+          [`"Do I need a code to register?"`, `Not necessarily. Many offers apply automatically or need no code.`],
+        ],
+      },
+      { type: 'paragraph', text: `Whatever the answer on a given day, the method stays the same: find the source, read the date, match the platform, use the right field and read the terms.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What is the Yono Rummy promo code today?`, answer: `No verified code is on record, and there is no catalogue entry under that name.` },
+      { question: `Will a code be released?`, answer: `It may be, but it is not guaranteed. Some offers apply without a typed code.` },
+      { question: `Why do codes shown on social media fail?`, answer: `They may be unsourced, expired, limited or meant for another field.` },
+      { question: `Does UonoVoucher issue promo codes?`, answer: `No. It records and reviews codes but does not create, activate or guarantee them.` },
+    ],
+  },
+  {
+    id: 'blog-yono-promo-code-all-games-status',
+    slug: 'yono-promo-code-all-games-status',
+    title: `Yono Promo Code: Status Across All Games and How to Check`,
+    metaTitle: `Yono Promo Code: Status for All Games & How to Check`,
+    metaDescription: `Check the status of Yono promo codes across games. Learn why no single code works everywhere and how to verify one safely. Informational, 18+ only.`,
+    excerpt: `There is no single Yono promo code for every game. See how the tracker labels each record and how to check a code before you trust it.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-10-08',
+    image: '/s-blog/yono-promo-code-all-games-status.webp',
+    content: [
+      { type: 'paragraph', text: `A Yono promo code is a code a platform in the Yono-style network may issue to activate a campaign. No single code works across every game, and codes differ by platform, account and date. UonoVoucher's tracker shows each game's status label, so check it before trusting any shared code.` },
+
+      { type: 'heading', level: 2, text: `One phrase, many platforms` },
+      { type: 'paragraph', text: `"Yono promo code" is a broad search. It covers many separate apps, and each app runs its own campaigns. A code for one game is not a master code for the others. That is why a single list of "all Yono codes" is usually unreliable.` },
+
+      { type: 'heading', level: 2, text: `Why there is no universal code` },
+      {
+        type: 'table',
+        headers: [`Reason`, `What it means for you`],
+        rows: [
+          [`Separate platforms`, `Each app has its own code system`],
+          [`Separate campaigns`, `Codes belong to a campaign, not a network`],
+          [`Account rules`, `New, existing or selected accounts may differ`],
+          [`Time windows`, `Codes may be tied to a morning, afternoon or evening release`],
+          [`Changes`, `A code can be withdrawn without notice`],
+        ],
+      },
+      { type: 'paragraph', text: `For a definition of the term itself, see [What Is a Promo Code?](/blog/what-is-a-promo-code).` },
+
+      { type: 'heading', level: 2, text: `How the tracker handles this` },
+      { type: 'paragraph', text: `The [promo-code tracker](/promo-codes/) keeps one record per game. Each record carries a status label and a checking date, and it names the release period where known. The records span several states, from Checked to Expired and None. Reading the label first tells you how much weight a record deserves.` },
+      { type: 'paragraph', text: `The labels are explained in [How We Assign Status Labels](/guides/how-we-assign-status-labels/). In short, Checked means independently reviewed on the date shown, Reported means readers submitted it without confirmation, and Expired means it should no longer be used.` },
+
+      { type: 'heading', level: 2, text: `Reading a tracker record` },
+      {
+        type: 'table',
+        headers: [`Field`, `Why it matters`],
+        rows: [
+          [`Status label`, `Shows the confidence level`],
+          [`Checked date`, `Shows how current the review is`],
+          [`Release period`, `Morning, afternoon or evening`],
+          [`Eligibility note`, `Who the code is meant for`],
+          [`Source note`, `How it was recorded`],
+        ],
+      },
+      { type: 'paragraph', text: `A record with an old checking date deserves caution even if it says Checked. Codes age quickly.` },
+
+      { type: 'heading', level: 2, text: `Games with no code on record` },
+      { type: 'paragraph', text: `Several platforms have no verified code yet. The pattern is documented in [Win Rummy Promo Code Status](/blog/win-rummy-promo-code-status) and [Money Rummy Promo Code Status](/blog/money-rummy-promo-code-status). For the rummy name specifically, read [Yono Rummy Promo Code Today](/blog/yono-rummy-promo-code-today-status). For the catalogue itself, see the [Uono Games Guide](/blog/uono-games-guide).` },
+
+      { type: 'heading', level: 2, text: `Common mistakes with network-wide codes` },
+      { type: 'list', ordered: true, items: [
+        `Using a code on the wrong app. The code names one platform.`,
+        `Using the wrong field. Promo, referral and voucher fields differ.`,
+        `Trusting an undated list. If it has no date, it cannot be checked.`,
+        `Ignoring eligibility. Many codes suit new accounts only.`,
+        `Re-using a code. Many are single use.`,
+      ] },
+      { type: 'paragraph', text: `The [Uono Promo Code Guide](/blog/uono-promo-code-guide) covers eligibility and validity in detail.` },
+
+      { type: 'heading', level: 2, text: `Questions to ask of any "all Yono codes" list` },
+      { type: 'list', items: [
+        `Who compiled it, and when?`,
+        `Does each code name its platform?`,
+        `Are any codes marked expired?`,
+        `Are there conditions?`,
+        `Does it ask for anything private?`,
+      ] },
+      { type: 'paragraph', text: `A list that cannot answer these is not a record. It is a guess.` },
+
+      { type: 'heading', level: 2, text: `Staying safe` },
+      { type: 'list', items: [
+        `Enter codes only inside the platform's own app.`,
+        `Never share an OTP, password, PIN or banking details.`,
+        `Avoid paying for codes.`,
+        `Avoid modified APKs that promise bigger offers.`,
+        `Be wary of guaranteed-reward claims.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `A sensible routine for checking a code` },
+      { type: 'paragraph', text: `If you have a code in hand and want to know whether to trust it, a short routine works well. First, identify the exact platform it names. Second, open that platform's record on the tracker. Third, compare the label and date with what you were told. Fourth, read the eligibility note. Fifth, decide whether the source behind your code is as reliable as the tracker's own source note. This takes a few minutes and avoids most dead ends.` },
+
+      { type: 'heading', level: 2, text: `What the labels do and do not tell you` },
+      {
+        type: 'table',
+        headers: [`Label`, `What you can rely on`, `What you cannot rely on`],
+        rows: [
+          [`Checked`, `A review happened on the date shown`, `That it works today`],
+          [`Reported`, `Someone submitted it`, `That anyone verified it`],
+          [`Unconfirmed`, `It was noted`, `Its source or validity`],
+          [`Expired`, `It should not be used`, `That a replacement exists`],
+          [`None`, `No code is on record`, `That no offer exists`],
+        ],
+      },
+      { type: 'paragraph', text: `Reading a label together with its date is the quickest way to judge a record. A label without a date is incomplete, and a date without a label tells you very little.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `Is there one Yono promo code for all games?`, answer: `No. Each platform runs its own campaigns and codes.` },
+      { question: `Where can I see the current status?`, answer: `On the promo-code tracker, which shows the label and checking date for each game.` },
+      { question: `What does a Checked label mean?`, answer: `The code was independently reviewed on the date shown. It is not a guarantee that it still works.` },
+      { question: `Why does a listed code fail?`, answer: `It may have expired, been used, or be limited to certain accounts or a different field.` },
+    ],
+  },
+  {
+    id: 'blog-referral-code-ka-matlab',
+    slug: 'referral-code-ka-matlab',
+    title: `रेफरल कोड का मतलब क्या होता है? (Referral Code Ka Matlab)`,
+    metaTitle: `Referral Code Ka Matlab: रेफरल कोड क्या होता है?`,
+    metaDescription: `Referral code ka matlab kya hai? जानिए रेफरल कोड का मतलब, कैसे काम करता है और सुरक्षित कैसे रहें। Hindi + English guide, 18+ जानकारी।`,
+    excerpt: `रेफरल कोड का मतलब, यह कैसे काम करता है और प्रोमो कोड से कैसे अलग है। A Hindi and English guide.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-09',
+    image: '/s-blog/referral-code-ka-matlab.webp',
+    content: [
+      { type: 'paragraph', text: `रेफरल कोड का मतलब है एक छोटा कोड जो नए अकाउंट को उस व्यक्ति से जोड़ता है जिसने उसे इनवाइट किया। इसे साइन-अप के समय डाला जाता है। यह प्रोमो कोड से अलग है, और कोई भी कोड इनाम की गारंटी नहीं देता।` },
+      { type: 'paragraph', text: `In English: a referral code links a new account to the person who invited them. It is entered at sign-up, is different from a promo code, and guarantees no reward.` },
+
+      { type: 'heading', level: 2, text: `सरल भाषा में मतलब` },
+      { type: 'paragraph', text: `जब कोई व्यक्ति अपने दोस्त को किसी ऐप से जुड़ने का न्योता देता है, तो ऐप उसे एक कोड देता है। नया यूज़र साइन-अप के समय वह कोड डालता है। इससे ऐप को पता चलता है कि न्योता किसने भेजा। कोड अपने आप में पैसा या इनाम नहीं है। यह सिर्फ दो अकाउंट को जोड़ने वाला पहचान-चिह्न है।` },
+      { type: 'paragraph', text: `In English: a referral code is an identifier. It is not money or a prize. It only connects two accounts.` },
+
+      { type: 'heading', level: 2, text: `एक नज़र में` },
+      {
+        type: 'table',
+        headers: [`बात`, `सरल मतलब`],
+        rows: [
+          [`उद्देश्य`, `नए अकाउंट को न्योता भेजने वाले से जोड़ना`],
+          [`कहाँ डाला जाता है`, `साइन-अप या रेफरल वाला खाना`],
+          [`कौन देता है`, `ऐप या प्लेटफ़ॉर्म`],
+          [`इनाम की गारंटी`, `नहीं, यह प्लेटफ़ॉर्म की शर्तों पर निर्भर है`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `रेफरल कोड कैसे काम करता है` },
+      { type: 'list', ordered: true, items: [
+        `प्लेटफ़ॉर्म कोड बनाता है।`,
+        `कोड मैसेज या लिंक से भेजा जाता है।`,
+        `नया यूज़र साइन-अप के समय उसे डालता है।`,
+        `प्लेटफ़ॉर्म जाँचता है कि कोड सही है या नहीं।`,
+        `शर्तें पूरी होने पर ही कोई लाभ तय होता है।`,
+      ] },
+      { type: 'paragraph', text: `The English version of this process is in [What Is a Referral Code?](/blog/what-is-a-referral-code).` },
+
+      { type: 'heading', level: 2, text: `रेफरल कोड और प्रोमो कोड में अंतर` },
+      {
+        type: 'table',
+        headers: [``, `रेफरल कोड`, `प्रोमो कोड`],
+        rows: [
+          [`किससे जुड़ा`, `किसी व्यक्ति या न्योते से`, `किसी ऑफ़र या कैंपेन से`],
+          [`कहाँ डालते हैं`, `रेफरल बॉक्स`, `प्रोमो बॉक्स`],
+          [`आम तौर पर कब`, `साइन-अप पर`, `साइन-अप या बाद में`],
+        ],
+      },
+      { type: 'paragraph', text: `प्रोमो कोड के बारे में विस्तार से जानने के लिए पढ़ें [What Is a Promo Code?](/blog/what-is-a-promo-code)। वाउचर का मतलब जानने के लिए पढ़ें [What Is a Voucher?](/blog/what-is-a-voucher)।` },
+
+      { type: 'heading', level: 2, text: `प्रोमो कोड और वाउचर: संक्षेप में` },
+      { type: 'list', items: [
+        `प्रोमो कोड (Promo code): किसी ऑफ़र को चालू करने वाला कोड।`,
+        `वाउचर (Voucher): किसी लाभ पर हक़ दिखाने वाला दस्तावेज़ या डिजिटल कोड।`,
+        `रेफरल कोड: न्योता देने वाले से जोड़ने वाला कोड।`,
+      ] },
+
+      { type: 'heading', level: 2, text: `कोड काम क्यों नहीं करता` },
+      { type: 'list', items: [
+        `गलत खाने में डाला गया।`,
+        `अकाउंट नया नहीं है।`,
+        `कोड की अवधि खत्म हो गई।`,
+        `इस्तेमाल की सीमा पूरी हो गई।`,
+        `स्पेलिंग या अक्षर की गलती हुई।`,
+      ] },
+
+      { type: 'heading', level: 2, text: `सुरक्षित कैसे रहें` },
+      { type: 'list', items: [
+        `कोड सिर्फ ऐप या वेबसाइट के अपने स्क्रीन में डालें।`,
+        `OTP, पासवर्ड, PIN या बैंक की जानकारी किसी से साझा न करें।`,
+        `कोड के बदले पैसे माँगने वालों से दूर रहें।`,
+        `"पक्की कमाई" या "गारंटीड बोनस" जैसे दावों पर भरोसा न करें।`,
+        `किसी प्लेटफ़ॉर्म पर रजिस्टर करने से पहले [How to Verify a Gaming Platform](/blog/how-to-verify-a-gaming-platform) देखें।`,
+      ] },
+
+      { type: 'heading', level: 2, text: `UonoVoucher क्या करता है` },
+      { type: 'paragraph', text: `UonoVoucher एक स्वतंत्र जानकारी वेबसाइट है। यह कोड बनाता या बाँटता नहीं है, गेम नहीं चलाता, और पैसे नहीं रखता या ट्रांसफ़र नहीं करता।` },
+
+      { type: 'heading', level: 2, text: `एक उदाहरण` },
+      { type: 'paragraph', text: `मान लीजिए आशा किसी ऐप में "दोस्त को बुलाओ" वाले पेज पर अपना कोड देखती है। वह वह कोड रवि को भेजती है। जब रवि नया अकाउंट बनाता है, तो वह साइन-अप के समय रेफरल वाले खाने में वह कोड डालता है। अब ऐप में दर्ज हो जाता है कि रवि आशा के न्योते से जुड़ा। इसके बाद क्या होगा, यह ऐप की अपनी शर्तों पर निर्भर है। कोड अपने आप में कोई इनाम नहीं बनाता।` },
+
+      { type: 'heading', level: 2, text: `कोड डालने से पहले पूछने वाले सवाल` },
+      { type: 'list', items: [
+        `यह कोड किसने भेजा है, और क्या मैं उसे जानता हूँ?`,
+        `क्या यह उसी ऐप का कोड है जिस पर मैं रजिस्टर कर रहा हूँ?`,
+        `क्या मेरा अकाउंट नया है, और क्या शर्तें यही माँगती हैं?`,
+        `क्या इसकी कोई आख़िरी तारीख है?`,
+        `क्या कोई मुझसे OTP, पासवर्ड या पैसे माँग रहा है? अगर हाँ, तो रुक जाएँ।`,
+      ] },
+      { type: 'paragraph', text: `अगर किसी भी सवाल का जवाब साफ़ नहीं है, तो कोड के बिना ही रजिस्टर करना सबसे सुरक्षित रास्ता है। रेफरल कोड वैकल्पिक होता है, और उसे डाले बिना भी आम तौर पर साइन-अप पूरा हो जाता है।` },
+
+      { type: 'heading', level: 2, text: `आम ग़लतफ़हमियाँ` },
+      {
+        type: 'table',
+        headers: [`ग़लतफ़हमी`, `सच्चाई`],
+        rows: [
+          [`"रेफरल कोड का मतलब पक्का इनाम"`, `इनाम प्लेटफ़ॉर्म की शर्तों पर निर्भर है`],
+          [`"हर कोड सबके लिए काम करता है"`, `पात्रता अकाउंट के हिसाब से अलग हो सकती है`],
+          [`"पुराना कोड फिर चालू हो जाएगा"`, `खत्म हो चुका कोड आम तौर पर खत्म ही रहता है`],
+          [`"कोड के लिए पैसे देना सामान्य है"`, `कोड के बदले पैसे माँगना चेतावनी का संकेत है`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `अक्सर पूछे जाने वाले सवाल, सरल जवाब` },
+      {
+        type: 'table',
+        headers: [`सवाल`, `सरल जवाब`],
+        rows: [
+          [`क्या रेफरल कोड मुफ़्त पैसे देता है?`, `नहीं। यह सिर्फ़ न्योता भेजने वाले से जोड़ता है।`],
+          [`क्या मैं अपना कोड खुद इस्तेमाल कर सकता हूँ?`, `आम तौर पर नहीं। नियम प्लेटफ़ॉर्म की शर्तों में होते हैं।`],
+          [`क्या कोड को बाद में जोड़ा जा सकता है?`, `कई प्लेटफ़ॉर्म पर नहीं। शर्तें पढ़ें।`],
+          [`क्या कोड केस-सेंसिटिव होता है?`, `कभी-कभी। जैसा लिखा है, वैसा ही डालें।`],
+        ],
+      },
+      { type: 'paragraph', text: `याद रखें: किसी भी कोड के लिए आपको अपनी निजी जानकारी देने की ज़रूरत नहीं है। अगर कोई ऐसा माँगे, तो वह रेफरल नहीं, धोखाधड़ी का संकेत हो सकता है।` },
+      { type: 'paragraph', text: `18+ केवल। गेमिंग प्लेटफ़ॉर्म में आर्थिक जोखिम हो सकता है। ज़िम्मेदारी से खेलें और अपनी सीमा तय करें। / 18+ only. Play responsibly.` },
+    ],
+    faqs: [
+      { question: `Referral code ka matlab kya hai?`, answer: `यह एक कोड है जो नए अकाउंट को न्योता भेजने वाले से जोड़ता है।` },
+      { question: `क्या रेफरल कोड और प्रोमो कोड एक ही हैं?`, answer: `नहीं, इनके खाने और काम अलग हो सकते हैं।` },
+      { question: `क्या रेफरल कोड डालना ज़रूरी है?`, answer: `नहीं, यह वैकल्पिक है।` },
+      { question: `क्या रेफरल कोड से इनाम पक्का मिलता है?`, answer: `नहीं, इनाम की गारंटी कोई कोड नहीं देता।` },
+    ],
+  },
+  {
+    id: 'blog-what-is-a-redeem-code',
+    slug: 'what-is-a-redeem-code',
+    title: `What Is a Redeem Code? Meaning, Steps and Safety Tips`,
+    metaTitle: `What Is a Redeem Code? Meaning, Steps & Safety Tips`,
+    metaDescription: `What is a redeem code? Learn the meaning, how redeeming works, why a code may fail and how to stay safe. Informational guide, 18+ only.`,
+    excerpt: `A redeem code is entered to claim a specific benefit. Learn the meaning, how redeeming works, why a code may fail and how to stay safe.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-10',
+    image: '/s-blog/what-is-a-redeem-code.webp',
+    content: [
+      { type: 'paragraph', text: `A redeem code is a code you enter to claim, or "redeem", a specific benefit, such as a voucher, credit or in-app item. Each code usually works once, has an expiry and applies only to the platform that issued it. Never pay for, or share private details to get, a redeem code.` },
+
+      { type: 'heading', level: 2, text: `The meaning in plain words` },
+      { type: 'paragraph', text: `To redeem is to exchange something you hold for what it entitles you to. A redeem code is the key for that exchange. You enter it in the issuer's redeem screen, and the platform checks it. If it is valid, the benefit is applied.` },
+
+      { type: 'heading', level: 2, text: `Redeem code at a glance` },
+      {
+        type: 'table',
+        headers: [`Feature`, `Typical detail`],
+        rows: [
+          [`What it unlocks`, `A voucher, credit, item or access`],
+          [`Where it is entered`, `A redeem or "enter code" screen`],
+          [`Usage`, `Often once per code or account`],
+          [`Expiry`, `Often shown with the code`],
+          [`Issuer`, `The platform that created it`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Redeem code vs promo code vs voucher` },
+      { type: 'paragraph', text: `The words overlap, and that causes mistakes.` },
+      {
+        type: 'table',
+        headers: [``, `Redeem code`, `Promo code`, `Voucher`],
+        rows: [
+          [`Core idea`, `Claims a specific benefit`, `Activates a campaign`, `An entitlement you hold`],
+          [`Typical field`, `Redeem screen`, `Promo box`, `Account or checkout`],
+        ],
+      },
+      { type: 'paragraph', text: `A redeem code can be how a [voucher](/blog/what-is-a-voucher) is claimed. A [promo code](/blog/what-is-a-promo-code) usually activates an offer rather than claiming a stored benefit. A [referral code](/blog/what-is-a-referral-code) does neither. It links accounts.` },
+
+      { type: 'heading', level: 2, text: `How redeeming works` },
+      { type: 'list', ordered: true, items: [
+        `The issuer creates a code and assigns a benefit.`,
+        `The code reaches you by message, card or account notice.`,
+        `You open the issuer's redeem screen.`,
+        `You enter the code exactly as written.`,
+        `The platform checks validity, expiry and usage.`,
+        `The benefit is applied or an error appears.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Why a redeem code may fail` },
+      {
+        type: 'table',
+        headers: [`Error`, `Likely cause`],
+        rows: [
+          [`Invalid`, `Typed wrongly, or wrong platform`],
+          [`Expired`, `The date passed`],
+          [`Already used`, `Single-use code redeemed`],
+          [`Not eligible`, `Account or region rules`],
+          [`Not found`, `The code was withdrawn`],
+        ],
+      },
+      { type: 'paragraph', text: `[Why a Promo Code May Not Work](/guides/why-a-promo-code-may-not-work/) explains the same causes in more depth. Many apply to redeem codes too.` },
+
+      { type: 'heading', level: 2, text: `Typing tips that prevent errors` },
+      { type: 'list', items: [
+        `Copy and paste instead of typing when you can.`,
+        `Watch for O and 0, I and l.`,
+        `Remove spaces at the start or end.`,
+        `Check capital letters.`,
+        `Use the issuer's own screen only.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Where redeem codes come from` },
+      { type: 'paragraph', text: `Genuine codes come from the issuer, from a purchase receipt or from an account notice. Codes found in forum posts, unsourced screenshots or "free redeem code today" lists have no traceable origin. Many such pages exist to collect clicks or personal data.` },
+
+      { type: 'heading', level: 2, text: `Red flags` },
+      { type: 'list', items: [
+        `Offers of "unlimited" or "free" codes.`,
+        `A demand for a fee, OTP, password or PIN.`,
+        `A link that imitates a known brand's site.`,
+        `Pressure to redeem within minutes.`,
+        `A code with no platform name.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Safe-redeeming checklist` },
+      { type: 'list', ordered: true, items: [
+        `Is the platform named?`,
+        `Do I know where the code came from?`,
+        `Is there an expiry date?`,
+        `Am I on the issuer's own screen?`,
+        `Am I sharing anything private? If yes, stop.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `A worked example in words` },
+      { type: 'paragraph', text: `Imagine you receive a code with a message saying it can be redeemed for a stored benefit on a particular platform. You open that platform's own app, sign in and go to the redeem screen. You paste the code and confirm. The platform checks that the code exists, has not been used and has not expired. If the checks pass, the benefit appears in your account. If you paste the same code again, it will usually be rejected as already used.` },
+
+      { type: 'heading', level: 2, text: `When not to redeem` },
+      { type: 'list', items: [
+        `When you cannot tell who issued the code.`,
+        `When the message pushes you to act within minutes.`,
+        `When you are asked to install a file from outside a recognised store first.`,
+        `When the page looks like the issuer's site but the address is slightly different.`,
+        `When you are asked to pay a fee before the code can be redeemed.`,
+      ] },
+      { type: 'paragraph', text: `A redeem code you cannot trace is better left unused. Redeeming is quick to do and impossible to undo, so a short pause to check the source is worth it.` },
+
+      { type: 'heading', level: 2, text: `Related terms in plain words` },
+      {
+        type: 'table',
+        headers: [`Term`, `Plain meaning`],
+        rows: [
+          [`Redeem`, `Exchange a code or voucher for what it entitles you to`],
+          [`Redemption screen`, `The place in an app or site where codes are entered`],
+          [`Single use`, `Works once, then is marked used`],
+          [`Expiry`, `The date after which the code stops working`],
+          [`Issuer`, `The company or platform that created the code`],
+        ],
+      },
+      { type: 'paragraph', text: `Knowing these terms makes error messages easier to read. "Already redeemed" means single use has been triggered, "expired" refers to the date, and "invalid" usually points to a typing mistake or the wrong issuer.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What is the meaning of redeem code?`, answer: `A code you enter to claim a particular benefit from the platform that issued it.` },
+      { question: `Can a redeem code be used twice?`, answer: `Usually not. Most are single use.` },
+      { question: `Why does my redeem code say invalid?`, answer: `It may be mistyped, expired, already used or meant for another platform.` },
+      { question: `Are "free redeem code today" lists safe?`, answer: `Treat them with caution. They often have no source and may collect personal data.` },
+    ],
+  },
+  {
+    id: 'blog-coupon-code-vs-promo-code-vs-voucher',
+    slug: 'coupon-code-vs-promo-code-vs-voucher',
+    title: `Coupon Code vs Promo Code vs Voucher: Meaning and Differences`,
+    metaTitle: `Coupon Code vs Promo Code vs Voucher: Meaning & Differences`,
+    metaDescription: `Coupon code meaning explained: how coupon codes, promo codes, vouchers and referral codes differ, and where each is entered. 18+ information only.`,
+    excerpt: `Coupon, promo, voucher, referral and redeem codes overlap in everyday use. Here is what each means and where each one is entered.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-11',
+    image: '/s-blog/coupon-code-vs-promo-code-vs-voucher.webp',
+    content: [
+      { type: 'paragraph', text: `A coupon code gives a discount at checkout, a promo code activates a campaign, a voucher is an entitlement you redeem, and a referral code links a new account to an inviter. The terms overlap in everyday use, but the field you enter them in matters.` },
+
+      { type: 'heading', level: 2, text: `Why the terms get confused` },
+      { type: 'paragraph', text: `Platforms use these words loosely. One app calls a code a "coupon", another calls the same thing a "promo". That is why the safest habit is to read the label of the box you are typing into.` },
+
+      { type: 'heading', level: 2, text: `Quick comparison` },
+      {
+        type: 'table',
+        headers: [`Term`, `Core meaning`, `Typical use`],
+        rows: [
+          [`Coupon code`, `Discount code at checkout`, `Shopping, services`],
+          [`Promo code`, `Activates a promotion`, `Sign-up, campaigns`],
+          [`Voucher`, `Entitlement you hold`, `Gift, service, credit`],
+          [`Referral code`, `Links accounts`, `Sign-up invitation`],
+          [`Redeem code`, `Claims a stored benefit`, `Redeem screen`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Coupon code meaning` },
+      { type: 'paragraph', text: `A coupon code is most often tied to price. You enter it at checkout, and the platform reduces what you owe under stated conditions. When people search "enter coupon code meaning", they usually see a coupon box at checkout and want to know what to put in it.` },
+
+      { type: 'heading', level: 2, text: `Promo code meaning` },
+      { type: 'paragraph', text: `A promo code activates a promotion. It may apply a discount, but it can also unlock a campaign feature. See [What Is a Promo Code?](/blog/what-is-a-promo-code).` },
+
+      { type: 'heading', level: 2, text: `Voucher meaning` },
+      { type: 'paragraph', text: `A voucher is something you hold, such as a gift voucher or a service voucher. It has its own expiry and terms. See [What Is a Voucher?](/blog/what-is-a-voucher) and the [Uono Voucher Guide](/blog/uono-voucher-guide).` },
+
+      { type: 'heading', level: 2, text: `Referral code meaning` },
+      { type: 'paragraph', text: `A referral code connects a new account to the person who invited them. It is about people, not price. See [What Is a Referral Code?](/blog/what-is-a-referral-code).` },
+
+      { type: 'heading', level: 2, text: `Redeem code meaning` },
+      { type: 'paragraph', text: `A redeem code is the key for claiming a stored benefit. See [What Is a Redeem Code?](/blog/what-is-a-redeem-code).` },
+
+      { type: 'heading', level: 2, text: `Which field does each go in?` },
+      {
+        type: 'table',
+        headers: [`Code`, `Usual place`],
+        rows: [
+          [`Coupon code`, `Checkout box`],
+          [`Promo code`, `Promo or offer box`],
+          [`Voucher`, `Redeem screen or account`],
+          [`Referral code`, `Sign-up or referral field`],
+          [`Redeem code`, `Redeem screen`],
+        ],
+      },
+      { type: 'paragraph', text: `If a code is rejected, the field is one of the first things to check.` },
+
+      { type: 'heading', level: 2, text: `Overlap and exceptions` },
+      { type: 'list', items: [
+        `Some platforms use "coupon" and "promo" for the same box.`,
+        `A voucher may be claimed with a redeem code.`,
+        `A promo may come through a referral link, with no typed code at all.`,
+        `Terms vary between platforms, so the platform's own wording wins.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `A simple decision guide` },
+      { type: 'list', ordered: true, items: [
+        `Are you paying for something and looking for a price reduction? Look for a coupon box.`,
+        `Is it a sign-up or campaign offer? Look for a promo box.`,
+        `Do you already hold a gift or benefit? Look for redeem or voucher.`,
+        `Were you invited by someone? Look for a referral field.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Shared safety rules` },
+      { type: 'list', items: [
+        `Use codes only in the platform's own app or site.`,
+        `Never share an OTP, password, PIN or banking details.`,
+        `Do not pay for codes.`,
+        `Check the expiry and the conditions.`,
+        `Be wary of any guaranteed-reward claim.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `Three short scenarios` },
+      {
+        type: 'table',
+        headers: [`Situation`, `Most likely term`, `Where to look`],
+        rows: [
+          [`You are about to pay and see a "Have a coupon?" link`, `Coupon code`, `The checkout page`],
+          [`A sign-up page shows an "Offer code" box`, `Promo code`, `The registration screen`],
+          [`You were handed a gift card or slip with a code on it`, `Voucher or redeem code`, `The account or redeem screen`],
+          [`A friend sends you their personal invite code`, `Referral code`, `The referral or invite field`],
+        ],
+      },
+      { type: 'paragraph', text: `If a platform uses a different word, follow its wording and read the label next to the box. The words in this article describe common usage, not a universal rulebook.` },
+
+      { type: 'heading', level: 2, text: `A note on regional language searches` },
+      { type: 'paragraph', text: `Many readers search for these terms in Hindi, Tamil, Telugu or Malayalam. The ideas are the same in every language, and several of the terms are used in English even in local-language apps. Hindi readers can start with [Referral Code Ka Matlab](/blog/referral-code-ka-matlab).` },
+
+      { type: 'heading', level: 2, text: `Mistakes to avoid when the terms blur` },
+      { type: 'list', items: [
+        `Typing a referral code into a coupon box and assuming the code is faulty.`,
+        `Searching for a "coupon" when the platform calls the same thing an "offer code".`,
+        `Assuming a voucher can be used anywhere because it carries a familiar name.`,
+        `Treating a promo code as a voucher that you can keep indefinitely.`,
+      ] },
+      { type: 'paragraph', text: `Each of these mistakes comes from the same cause: reading the word instead of the box. The label next to the field, and the terms attached to the code, tell you what the platform actually means.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What is the meaning of coupon code?`, answer: `A code entered, usually at checkout, to apply a discount under stated conditions.` },
+      { question: `Is a coupon code the same as a promo code?`, answer: `Often similar in use, but a promo code can also activate non-price campaigns.` },
+      { question: `Is a voucher the same as a coupon?`, answer: `Not exactly. A voucher is something you hold and redeem. A coupon code is typed to apply a discount.` },
+      { question: `Which one links me to a friend?`, answer: `A referral code.` },
+    ],
+  },
+  {
+    id: 'blog-what-is-a-bonus-code',
+    slug: 'what-is-a-bonus-code',
+    title: `What Is a Bonus Code? Meaning, Terms and Safety Tips`,
+    metaTitle: `What Is a Bonus Code? Meaning, Terms & Safety Tips`,
+    metaDescription: `What is a bonus code? Learn what it means, how it differs from a promo code, why many bonuses need no code and how to stay safe. 18+ only.`,
+    excerpt: `A bonus code is one way to claim a bonus offer, and many bonuses need no code at all. Learn the meaning, terms to read and how to stay safe.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-12',
+    image: '/s-blog/what-is-a-bonus-code.webp',
+    content: [
+      { type: 'paragraph', text: `A bonus code is a code entered to claim a bonus offer, such as a welcome reward, under a platform's terms. It is not the bonus itself and not a guarantee of one. Many bonuses apply automatically without a code, and every bonus has conditions you should read first.` },
+
+      { type: 'heading', level: 2, text: `The meaning in plain words` },
+      { type: 'paragraph', text: `A bonus is an extra benefit a platform offers under conditions, such as a welcome reward for a new account. A bonus code is one way to claim it. The code and the bonus are different things. The code points to the offer, and the terms define what the offer actually is.` },
+
+      { type: 'heading', level: 2, text: `Bonus code at a glance` },
+      {
+        type: 'table',
+        headers: [`Feature`, `Typical detail`],
+        rows: [
+          [`Purpose`, `Claim a bonus offer`],
+          [`Often tied to`, `Sign-up, a campaign or an event`],
+          [`Conditions`, `Eligibility, limits, expiry`],
+          [`Guaranteed?`, `No`],
+          [`Always needed?`, `No, many bonuses are automatic`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Bonus code vs promo code` },
+      { type: 'paragraph', text: `The two overlap. A promo code activates a promotion, and a bonus code activates a bonus. In practice, platforms sometimes use the words for the same field. Read the label on the box. For a fuller comparison, see [Coupon Code vs Promo Code vs Voucher](/blog/coupon-code-vs-promo-code-vs-voucher) and [What Is a Promo Code?](/blog/what-is-a-promo-code).` },
+
+      { type: 'heading', level: 2, text: `Three ways a bonus can be claimed` },
+      {
+        type: 'table',
+        headers: [`Method`, `How it works`],
+        rows: [
+          [`Automatic`, `Applied at registration with no code`],
+          [`Code`, `Entered in a bonus or promo field`],
+          [`Link`, `Applied through an invite or campaign link`],
+        ],
+      },
+      { type: 'paragraph', text: `A missing code does not mean a bonus is missing. See [Dhangame Launch Date and Welcome Bonus](/blog/dhangame-launch-date-welcome-bonus) for how an announced welcome reward is described.` },
+
+      { type: 'heading', level: 2, text: `Terms to read before claiming` },
+      { type: 'list', items: [
+        `Eligibility: new accounts only, selected accounts or everyone.`,
+        `Conditions of use: many bonuses come with rules on how they may be used.`,
+        `Expiry: bonuses and codes often lapse.`,
+        `Limits: one per person, device or account.`,
+        `Region: availability may depend on the State or Union Territory.`,
+      ] },
+      { type: 'paragraph', text: `Not every platform allows paid gaming in every State, so check local rules before using one.` },
+
+      { type: 'heading', level: 2, text: `Why a bonus code may fail` },
+      { type: 'paragraph', text: `A bonus code can fail because of a typo, an expired offer, a wrong field, an account that is not eligible or a limit already reached. The causes match those in [Why a Promo Code May Not Work](/guides/why-a-promo-code-may-not-work/).` },
+
+      { type: 'heading', level: 2, text: `Claims to treat with caution` },
+      { type: 'list', items: [
+        `"Guaranteed bonus".`,
+        `"Free money" or "instant cash".`,
+        `"Secret" or "hidden" codes.`,
+        `A countdown timer pushing a decision.`,
+        `A request to pay or share private details to "unlock" the code.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher does not promise earnings, guaranteed bonuses or winnings. See [Yono Rummy 51 Bonus Explained](/blog/yono-rummy-51-bonus-explained) for an example of how an unverified bonus claim is handled.` },
+
+      { type: 'heading', level: 2, text: `How to approach a bonus offer` },
+      { type: 'list', ordered: true, items: [
+        `Find the source of the offer.`,
+        `Read the full terms.`,
+        `Check the date and expiry.`,
+        `Decide whether the conditions suit you.`,
+        `Treat a bonus as optional, never as a reason to spend more.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher records codes with status labels. It does not issue bonus codes, operate games or process payments.` },
+
+      { type: 'heading', level: 2, text: `How a bonus differs from a prize or a payout` },
+      { type: 'paragraph', text: `A bonus is a benefit offered under conditions. It is not a prize and it is not a promise of any outcome. Its value, if any, is set by the platform, and it may be limited in how it can be used. Treating a bonus as free money leads to poor decisions, because most bonuses come with rules that affect what you can do with them.` },
+
+      { type: 'heading', level: 2, text: `Questions to ask before relying on a bonus` },
+      { type: 'list', items: [
+        `Is the bonus described in plain words, with its conditions?`,
+        `Does it have an end date?`,
+        `Would I still want to use the platform without the bonus?`,
+        `Am I comfortable with the limits attached to it?`,
+        `Is anyone pressuring me to claim it quickly?`,
+      ] },
+      { type: 'paragraph', text: `If the answer to the third question is no, the bonus is not a good reason to register. The platform should stand on its own merits, and you should be comfortable with your own limits before you start.` },
+
+      { type: 'heading', level: 2, text: `Responsible-use reminders` },
+      { type: 'list', items: [
+        `Set a spending limit before you start, and keep to it.`,
+        `Do not chase a bonus by spending more than you planned.`,
+        `Take breaks, and stop when it stops being enjoyable.`,
+        `If play is causing stress or money problems, step away and seek support.`,
+      ] },
+      { type: 'paragraph', text: `A bonus can never make a decision for you. It is an optional extra, and it should not outweigh your own limits or your wellbeing.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `What is a bonus code?`, answer: `A code used to claim a bonus offer under a platform's terms.` },
+      { question: `Is a bonus code the same as the bonus?`, answer: `No. The code is a key and the terms define the bonus.` },
+      { question: `Do all bonuses need a code?`, answer: `No. Many apply automatically or through a link.` },
+      { question: `Can a bonus code guarantee a reward?`, answer: `No. Outcomes depend on the terms and on your eligibility.` },
+    ],
+  },
+  {
+    id: 'blog-how-to-enter-a-referral-code',
+    slug: 'how-to-enter-a-referral-code',
+    title: `How to Enter a Referral Code: Steps, Errors and Fixes`,
+    metaTitle: `How to Enter a Referral Code: Steps, Errors & Fixes`,
+    metaDescription: `How to use a referral code step by step, where to enter it, why it may fail and what to check. Safe-use tips for new users. 18+ information only.`,
+    excerpt: `Where to enter a referral code, the steps to follow, common errors and what to check if it fails.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-13',
+    image: '/s-blog/how-to-enter-a-referral-code.webp',
+    content: [
+      { type: 'paragraph', text: `To enter a referral code, open the sign-up or referral screen, type the code exactly in the referral field, and submit it during registration. Most platforms accept it only once and only for new accounts. If it fails, check the field, spelling, expiry and eligibility.` },
+
+      { type: 'heading', level: 2, text: `What "enter referral code" means` },
+      { type: 'paragraph', text: `When a sign-up screen shows "Enter referral code", it is asking whether someone invited you. The box is optional on most platforms. If you have a code, you type it. If not, you can usually skip it. For the definition, see [What Is a Referral Code?](/blog/what-is-a-referral-code). Hindi readers can start with [Referral Code Ka Matlab](/blog/referral-code-ka-matlab).` },
+
+      { type: 'heading', level: 2, text: `Step by step` },
+      { type: 'list', ordered: true, items: [
+        `Confirm the platform first. Use [How to Verify a Gaming Platform](/blog/how-to-verify-a-gaming-platform) before registering anywhere.`,
+        `Open the sign-up screen. The referral box usually appears during registration.`,
+        `Find the right field. Look for "Referral", "Invite" or "Enter referral code", not the promo box.`,
+        `Enter the code exactly. Copy and paste if you can.`,
+        `Check the display. Some platforms confirm the code on the screen.`,
+        `Submit and finish sign-up. Any benefit is decided by the platform's terms.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Referral link or typed code?` },
+      { type: 'paragraph', text: `Some invites arrive as a link with the code built in. Opening it may fill the referral field for you. If you install an app after opening a link, check that the field is filled before you continue.` },
+
+      { type: 'heading', level: 2, text: `Common errors and fixes` },
+      {
+        type: 'table',
+        headers: [`Error`, `Likely cause`, `What to try`],
+        rows: [
+          [`Invalid code`, `Typo or wrong platform`, `Re-enter or copy again`],
+          [`Code expired`, `Programme ended`, `Ask the sender for a current one`],
+          [`Already registered`, `Account is not new`, `Not usually fixable`],
+          [`Wrong field`, `Typed in the promo box`, `Use the referral box`],
+          [`Limit reached`, `Code used too many times`, `Ask the sender`],
+          [`Field missing`, `Registered without the code`, `Check whether the platform allows adding it later`],
+        ],
+      },
+      { type: 'paragraph', text: `Most platforms accept a referral only at account creation. If you skip it, it often cannot be added afterward.` },
+
+      { type: 'heading', level: 2, text: `Referral code or promo code?` },
+      { type: 'paragraph', text: `They use different fields and do different things. For a comparison, see [Coupon Code vs Promo Code vs Voucher](/blog/coupon-code-vs-promo-code-vs-voucher).` },
+
+      { type: 'heading', level: 2, text: `Who should you take a code from?` },
+      { type: 'paragraph', text: `Preferably someone you know. A code from an unknown source is a risk, because you cannot tell where it leads. Be cautious when someone pushes a code and a particular app together.` },
+
+      { type: 'heading', level: 2, text: `What a referral does not need` },
+      { type: 'paragraph', text: `A referral never needs:` },
+      { type: 'list', items: [
+        `your OTP`,
+        `your password`,
+        `your PIN`,
+        `your banking login`,
+        `remote access to your phone`,
+        `payment in advance`,
+      ] },
+      { type: 'paragraph', text: `If someone asks for any of these, stop.` },
+
+      { type: 'heading', level: 2, text: `Before you finish sign-up` },
+      { type: 'list', items: [
+        `Is the platform one you have checked?`,
+        `Is the code from a known person?`,
+        `Did you read the terms?`,
+        `Are you comfortable with the permissions the app requests?`,
+        `Are you of legal age (18+)?`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `A worked example in words` },
+      { type: 'paragraph', text: `Say a friend sends you an invite message with a short code. You install the app from a source you have checked and open it. On the registration screen you see a box labelled "Referral code (optional)". You paste the code, tap to confirm and see a small tick or message. You then complete registration with your own details. Later, if the platform's terms provide a benefit for referred users, it is applied according to those terms.` },
+
+      { type: 'heading', level: 2, text: `If you registered without the code` },
+      { type: 'paragraph', text: `Some platforms let you add a referral code in the account or profile section for a short time after sign-up, and many do not. Check the platform's help section, and do not create a second account just to try again. Duplicate accounts can breach the terms and can cause problems with the account you already have.` },
+
+      { type: 'heading', level: 2, text: `A quick troubleshooting order` },
+      { type: 'list', ordered: true, items: [
+        `Check you are using the referral box and not the promo box.`,
+        `Copy the code again from the original message.`,
+        `Look for stray spaces before or after the code.`,
+        `Check the expiry or limit with the person who sent it.`,
+        `Read the terms for eligibility rules.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Checklist for sharing your own code` },
+      { type: 'list', items: [
+        `Share only the code or link, nothing else.`,
+        `Tell friends to check the platform and its terms first.`,
+        `Do not promise a reward, because you do not control it.`,
+        `Do not ask friends for their OTP, password or PIN.`,
+      ] },
+      { type: 'paragraph', text: `If you share a code, you are vouching for nothing except that it is yours. Being honest about that keeps the invitation fair and avoids disappointment later.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `Where do I enter a referral code?`, answer: `In the referral or invite field, usually on the sign-up screen.` },
+      { question: `Can I add a referral code after registering?`, answer: `On many platforms, no. Check the platform's terms.` },
+      { question: `Why does my referral code say invalid?`, answer: `It may be mistyped, expired, used up, in the wrong field or for another platform.` },
+      { question: `Is entering a referral code compulsory?`, answer: `No. It is optional on most platforms.` },
+    ],
+  },
+  {
+    id: 'blog-how-to-redeem-a-voucher-code',
+    slug: 'how-to-redeem-a-voucher-code',
+    title: `How to Redeem a Voucher Code: Steps, Errors and Safety`,
+    metaTitle: `How to Redeem a Voucher Code: Steps, Errors & Safety`,
+    metaDescription: `How to redeem a voucher code step by step, plus why it may fail and how to stay safe. A general guide, not tied to any brand. 18+ information only.`,
+    excerpt: `A general, brand-neutral guide to redeeming a voucher code: steps, common errors and safety rules.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-14',
+    image: '/s-blog/how-to-redeem-a-voucher-code.webp',
+    content: [
+      { type: 'paragraph', text: `To redeem a voucher code, open the issuer's own app or website, find the redeem or voucher field, enter the code exactly and confirm. Check the expiry and conditions first. A voucher normally works once, and you should never share an OTP or password to redeem one.` },
+
+      { type: 'heading', level: 2, text: `What redeeming means` },
+      { type: 'paragraph', text: `Redeeming a voucher means exchanging it for what it entitles you to. The process differs by issuer, but the pattern is similar almost everywhere. This guide is a general walk-through. It is not tied to any single brand, and the issuer's own instructions always come first. For the basics, read [What Is a Voucher?](/blog/what-is-a-voucher) and [What Is a Redeem Code?](/blog/what-is-a-redeem-code).` },
+
+      { type: 'heading', level: 2, text: `Before you start` },
+      {
+        type: 'table',
+        headers: [`Check`, `Why`],
+        rows: [
+          [`Expiry date`, `Expired vouchers usually cannot be used`],
+          [`Issuer`, `The code works only where it was issued`],
+          [`Conditions`, `Minimums, eligible items, one use`],
+          [`Account`, `Some vouchers are tied to a particular account`],
+          [`Source`, `Know where you got the code`],
+        ],
+      },
+      { type: 'paragraph', text: `The guide [How to Check Whether a Uono Voucher Has Expired](/guides/how-to-check-whether-a-uono-voucher-has-expired/) shows how to read dates and status wording.` },
+
+      { type: 'heading', level: 2, text: `Step by step` },
+      { type: 'list', ordered: true, items: [
+        `Open the issuer's own app or website. Do not use a link from an unknown message.`,
+        `Sign in to your account. Many vouchers attach to an account.`,
+        `Find the redeem field. It may be called "Redeem", "Add voucher", "Enter code" or "Gift card/voucher".`,
+        `Enter the code exactly. Copy and paste where possible.`,
+        `Confirm. Wait for the success or error message.`,
+        `Check the result. Look at your account's balance or benefit list to see the voucher applied.`,
+        `Keep a record. Note the date and the message shown.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Where people go wrong` },
+      {
+        type: 'table',
+        headers: [`Mistake`, `Fix`],
+        rows: [
+          [`Using a look-alike site`, `Type the address yourself`],
+          [`Entering it in the promo box`, `Use the redeem or voucher field`],
+          [`Ignoring the expiry`, `Check it before trying`],
+          [`Redeeming on the wrong account`, `Confirm which account is signed in`],
+          [`Re-using a single-use code`, `Check whether it is already redeemed`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Why a voucher code may fail` },
+      {
+        type: 'table',
+        headers: [`Message`, `Likely meaning`],
+        rows: [
+          [`Invalid`, `Typo, or wrong issuer`],
+          [`Expired`, `Past its date`],
+          [`Already redeemed`, `Single-use code used`],
+          [`Not eligible`, `Account or item rules`],
+          [`Region not supported`, `Location restriction`],
+        ],
+      },
+      { type: 'paragraph', text: `For related causes, see the guide [Why a Promo Code May Not Work](/guides/why-a-promo-code-may-not-work/). To learn about a different field, see [How to Enter a Referral Code](/blog/how-to-enter-a-referral-code).` },
+
+      { type: 'heading', level: 2, text: `What to do if redeeming fails` },
+      { type: 'list', ordered: true, items: [
+        `Re-check the spelling and spaces.`,
+        `Check you are on the right account and site.`,
+        `Re-read the expiry and conditions.`,
+        `Contact the issuer's own support through its official channel.`,
+        `Do not pay anyone to "fix" the code.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Safety rules` },
+      { type: 'list', items: [
+        `Redeem only on the issuer's own screens.`,
+        `Never share an OTP, password or PIN.`,
+        `Be wary of anyone selling "unused" vouchers.`,
+        `Avoid screenshots of vouchers you do not control.`,
+        `Treat "free voucher" offers with caution. Many are lures that collect personal data.`,
+      ] },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue or redeem vouchers, operate games, hold money or process payments.` },
+
+      { type: 'heading', level: 2, text: `A worked example in words` },
+      { type: 'paragraph', text: `Suppose you receive a digital voucher by email with a code and an expiry date. You open the issuer's app yourself, without tapping the link in the email, and sign in. You go to the account section, find "Redeem voucher" and paste the code. The screen confirms the value or benefit and shows an updated balance or list. You then take a screenshot of the confirmation for your own records and note the date.` },
+
+      { type: 'heading', level: 2, text: `Tips for physical and digital vouchers` },
+      {
+        type: 'table',
+        headers: [`Type`, `Tip`],
+        rows: [
+          [`Printed voucher`, `Keep it safe and unscratched until you are ready; note the expiry date`],
+          [`Emailed voucher`, `Open the issuer's site yourself rather than following the email link`],
+          [`In-app voucher`, `Check the voucher list in your account before looking for a code`],
+          [`Shared voucher`, `Confirm with the sender that it has not already been redeemed`],
+        ],
+      },
+      { type: 'paragraph', text: `Whichever form you have, the pattern is the same: confirm the issuer, check the date, redeem on the issuer's own screen and keep a record of the result.` },
+
+      { type: 'heading', level: 2, text: `Keeping a simple record` },
+      { type: 'list', items: [
+        `Voucher source and issuer.`,
+        `Expiry date and any conditions.`,
+        `The date and time you redeemed it.`,
+        `The confirmation message or screenshot.`,
+      ] },
+      { type: 'paragraph', text: `A short record helps if something goes wrong. The issuer's support team can check a code far faster when you can give them the date, the message you saw and the account you used.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `How do I redeem a voucher code?`, answer: `Open the issuer's own app or site, enter the code in the redeem field and confirm.` },
+      { question: `Can a voucher be redeemed twice?`, answer: `Usually not. Most are single use.` },
+      { question: `Why does my voucher code not work?`, answer: `It may be mistyped, expired, already used or not valid for your account or region.` },
+      { question: `Who can help if redeeming fails?`, answer: `The issuer's official support channel, not a third party.` },
+    ],
+  },
+  {
+    id: 'blog-yono-777-promo-code-status',
+    slug: 'yono-777-promo-code-status',
+    title: `Yono 777 Promo Code Status: What the Record Shows`,
+    metaTitle: `Yono 777 Promo Code Status: What the Record Shows`,
+    metaDescription: `Yono 777 promo code status: what UonoVoucher's record shows, what a Checked label means and how to verify before use. 18+ information only.`,
+    excerpt: `UonoVoucher has a Yono 777 promo-code record. See what it shows, what a Checked label does and does not mean, and how to verify before use.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-10-15',
+    image: '/s-blog/yono-777-promo-code-status.webp',
+    content: [
+      { type: 'paragraph', text: `UonoVoucher has a Yono 777 promo-code record that carried a Checked label at its last review in June 2026. Checked is not a guarantee, and the code may since have expired or changed. Open the tracker record and read its date and conditions before relying on it.` },
+
+      { type: 'heading', level: 2, text: `Status at a glance` },
+      {
+        type: 'table',
+        headers: [`Field`, `Current information`],
+        rows: [
+          [`Record on the tracker`, `Yes`],
+          [`Label at last review`, `Checked`],
+          [`Review period`, `June 2026`],
+          [`Release period`, `Evening`],
+          [`Eligibility note`, `Existing users during the promotional window`],
+          [`Source note`, `Cross-checked against community reports`],
+        ],
+      },
+      { type: 'paragraph', text: `This summary comes from UonoVoucher's own records. It does not mean the code works today. The review date is several months old, and codes can lapse without notice.` },
+
+      { type: 'heading', level: 2, text: `What "Checked" means` },
+      { type: 'paragraph', text: `In UonoVoucher's labelling, Checked means a record was independently reviewed on the date shown. It does not mean:` },
+      { type: 'list', items: [
+        `the code is still active`,
+        `it will work for every account`,
+        `a reward is guaranteed`,
+        `the platform endorses it`,
+      ] },
+      { type: 'paragraph', text: `The full definitions are in [How We Assign Status Labels](/guides/how-we-assign-status-labels/).` },
+
+      { type: 'heading', level: 2, text: `About Yono 777` },
+      { type: 'paragraph', text: `Yono 777 is listed in the catalogue as an arcade-style title with short, reaction-based rounds. Its [game page](/uono-games/yono-777/) describes how it plays, how the record was reviewed and what is unconfirmed. The page notes that the download button opens an external listing, and UonoVoucher does not host any installer.` },
+      { type: 'paragraph', text: `Disclosure: some links on UonoVoucher may be affiliate or referral links, and UonoVoucher may receive a fee at no extra cost to you. See the [disclaimer](/disclaimer/). UonoVoucher is independent and is not affiliated with the platform.` },
+
+      { type: 'heading', level: 2, text: `Why the record is not enough on its own` },
+      { type: 'paragraph', text: `A record is a snapshot. Four things can change it:` },
+      { type: 'list', ordered: true, items: [
+        `Time. Windows close and codes expire.`,
+        `Eligibility. The note says the code is for existing users during a promotional window. A new account may not qualify.`,
+        `Field. A promo code entered in a referral box will fail.`,
+        `App version. An older build may not support the campaign.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `How to verify before using it` },
+      { type: 'list', ordered: true, items: [
+        `Open the [promo-code tracker](/promo-codes/) and find the Yono 777 record.`,
+        `Read the status label and the review date.`,
+        `Read the eligibility note.`,
+        `Check whether the promotional window has passed.`,
+        `Use the code only in the platform's own app, in the correct field.`,
+        `If it fails, do not pay anyone or share private details to fix it.`,
+      ] },
+      { type: 'paragraph', text: `For the general method, see [Yono Promo Code: Status for All Games](/blog/yono-promo-code-all-games-status). For the rummy side, see [Yono Rummy Promo Code Today](/blog/yono-rummy-promo-code-today-status).` },
+
+      { type: 'heading', level: 2, text: `Warning signs around "Yono 777 code" posts` },
+      { type: 'list', items: [
+        `A different code presented as "new" with no source.`,
+        `A request for an OTP or a screenshot of your account.`,
+        `A modified APK promising bigger offers.`,
+        `Pressure wording and fake countdowns.`,
+        `A demand for payment to release a code.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `What this page will do` },
+      { type: 'paragraph', text: `It is updated, not replaced, when the record changes. Corrections follow the site's [corrections policy](/corrections-policy/). UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `How to read the status in context` },
+      { type: 'paragraph', text: `The Yono 777 record is a good example of why a label needs a date beside it. A Checked label shows that a review took place and what it found at that time. It does not describe the present. A record that was Checked months ago and has not been reviewed since should be read as historical information, not as a current status.` },
+      {
+        type: 'table',
+        headers: [`If the record shows`, `How to read it`],
+        rows: [
+          [`Checked, with a recent date`, `Reviewed recently; still verify the conditions yourself`],
+          [`Checked, with an old date`, `Historical; treat as unconfirmed until reviewed again`],
+          [`Expired or Withdrawn`, `Do not use`],
+          [`Reported or Unconfirmed`, `Not independently checked`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `What to do if the code does not work` },
+      { type: 'paragraph', text: `If the code is rejected, check that you are entering it in the correct field, that you are within the promotional window and that your account fits the eligibility note. If it still fails, accept that it may have ended. Do not look for an unofficial replacement, and do not pay or share private details to get one.` },
+
+      { type: 'heading', level: 2, text: `Quick answers` },
+      {
+        type: 'table',
+        headers: [`If you wonder`, `Short answer`],
+        rows: [
+          [`"Is the code still valid?"`, `Unknown. The tracker shows the last review date.`],
+          [`"Will it work for a new account?"`, `The note says existing users, so possibly not.`],
+          [`"Is Yono 777 official?"`, `UonoVoucher does not claim that. It is independent.`],
+          [`"Can I use a different code?"`, `Only if it has a traceable source and date.`],
+        ],
+      },
+      { type: 'paragraph', text: `The safest approach is to treat the record as a lead for checking, not as an instruction. Read the date, read the conditions and decide for yourself.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `Is there a Yono 777 promo code on UonoVoucher?`, answer: `Yes, there is a record, which carried a Checked label at its last review in June 2026. Check the tracker for the current status.` },
+      { question: `Does Checked mean it still works?`, answer: `No. It means the record was reviewed on that date. It may have expired or changed.` },
+      { question: `Who is the code for?`, answer: `The record's note says existing users during the promotional window.` },
+      { question: `Why might it not work for me?`, answer: `The window may have ended, your account may not qualify, or the code may be in the wrong field.` },
+    ],
+  },
+  {
+    id: 'blog-how-to-check-yono-promo-code-today',
+    slug: 'how-to-check-yono-promo-code-today',
+    title: `How to Check a Yono Promo Code Today: A 6-Step Guide`,
+    metaTitle: `How to Check a Yono Promo Code Today: 6-Step Guide`,
+    metaDescription: `Learn how to check a Yono promo code today in six steps: source, date, platform, field, terms and tracker status. Informational, 18+ only.`,
+    excerpt: `A repeatable six-step method for checking any Yono promo code: source, date, platform, field, terms and tracker status.`,
+    category: 'Safety and Verification',
+    publishedAt: '2026-10-16',
+    image: '/s-blog/how-to-check-yono-promo-code-today.webp',
+    content: [
+      { type: 'paragraph', text: `To check a Yono promo code today, find its source and date, confirm the platform name, use the correct field and read the conditions. Then compare it with the UonoVoucher tracker's status label and checking date. If you cannot trace it, treat the code as unconfirmed.` },
+
+      { type: 'heading', level: 2, text: `Why "today" is the wrong test` },
+      { type: 'paragraph', text: `People search "today" because they hope a code is fresh. But a post labelled "today" says nothing about whether the code was checked. A date on a code and the evidence behind that date are what count. This guide gives you a repeatable method.` },
+
+      { type: 'heading', level: 2, text: `The six steps` },
+      {
+        type: 'table',
+        headers: [`Step`, `Question`, `Pass looks like`],
+        rows: [
+          [`1. Source`, `Who published it?`, `A traceable origin`],
+          [`2. Date`, `When was it posted or checked?`, `A visible date`],
+          [`3. Platform`, `Which app is it for?`, `The exact name is stated`],
+          [`4. Field`, `Which box does it go in?`, `Promo, referral or voucher is stated`],
+          [`5. Terms`, `Who is eligible?`, `Conditions are visible`],
+          [`6. Tracker`, `What does UonoVoucher show?`, `A status label and date`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Step 1: find the source` },
+      { type: 'paragraph', text: `A code with no origin is a guess. A code pasted in a chat, posted under a video or sent by a stranger has no source you can check. Look for the original statement from the platform or a record that says how the code was found.` },
+
+      { type: 'heading', level: 2, text: `Step 2: read the date` },
+      { type: 'paragraph', text: `Look for both a posting date and any expiry. Old codes are the most common cause of "invalid" messages. If a page shows no date at all, treat that as a warning.` },
+
+      { type: 'heading', level: 2, text: `Step 3: confirm the platform` },
+      { type: 'paragraph', text: `"Yono" is shared by many names, and a code for one app is not a code for another. Match the platform's name exactly. [Yono Promo Code: Status for All Games](/blog/yono-promo-code-all-games-status) explains why there is no universal code.` },
+
+      { type: 'heading', level: 2, text: `Step 4: use the right field` },
+      { type: 'paragraph', text: `A promo code, a referral code and a voucher are different. The explanation is in [What Is a Promo Code?](/blog/what-is-a-promo-code). Typing a code in the wrong box is a common cause of failure.` },
+
+      { type: 'heading', level: 2, text: `Step 5: read the terms` },
+      { type: 'paragraph', text: `Look at eligibility (new, existing or selected accounts), limits and expiry. Some codes apply only to a specific game or feature.` },
+
+      { type: 'heading', level: 2, text: `Step 6: compare with the tracker` },
+      { type: 'paragraph', text: `Open the [promo-code tracker](/promo-codes/) and find the game. Compare the code you have with the record:` },
+      { type: 'list', items: [
+        `Does the status say Checked, Reported, Unconfirmed, Expired or None?`,
+        `How recent is the checking date?`,
+        `Does the eligibility note match you?`,
+      ] },
+      { type: 'paragraph', text: `If the tracker shows no record, treat your code as unconfirmed. If it shows Expired or Withdrawn, do not use it. For an example of a record with a real label, see [Yono 777 Promo Code Status](/blog/yono-777-promo-code-status). For a platform with no code, see [Yono Rummy Promo Code Today](/blog/yono-rummy-promo-code-today-status).` },
+
+      { type: 'heading', level: 2, text: `Quick verdict table` },
+      {
+        type: 'table',
+        headers: [`What you find`, `Treat it as`],
+        rows: [
+          [`Source, date and terms all present, and tracker agrees`, `Reasonably documented, but not guaranteed`],
+          [`Source and date present, no tracker record`, `Reported or unconfirmed`],
+          [`No source or no date`, `Unconfirmed`],
+          [`Marked expired anywhere`, `Do not use`],
+        ],
+      },
+      { type: 'paragraph', text: `Even the top row is not a promise. Codes can still fail because of account eligibility or timing.` },
+
+      { type: 'heading', level: 2, text: `Warning signs` },
+      { type: 'list', items: [
+        `Requests for an OTP, password or PIN.`,
+        `Payment demanded in return for a code.`,
+        `A modified APK offered with "extra" codes.`,
+        `Claims of guaranteed rewards.`,
+        `Pressure to act at once.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `If a code fails` },
+      { type: 'paragraph', text: `Re-check the spelling and field, then the date and eligibility. If the issue remains, contact the platform's own support. Do not ask a stranger to "fix" it.` },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments.` },
+
+      { type: 'heading', level: 2, text: `A worked example in words` },
+      { type: 'paragraph', text: `Suppose you see a post claiming a "new Yono code for today". You ask where it came from and find only a screenshot with no date. That fails steps 1 and 2. You check the platform name and find it is slightly different from the app you use, which fails step 3. You then open the tracker and find no matching record, which fails step 6. The right conclusion is that the code is unconfirmed, and the right action is not to use it.` },
+
+      { type: 'heading', level: 2, text: `When you can stop early` },
+      { type: 'paragraph', text: `You do not always need all six steps. If the source is missing, stop. If the platform name is wrong, stop. If the record shows Expired, stop. The method is meant to save you time as well as protect you. A single clear failure is enough to set a code aside.` },
+
+      { type: 'heading', level: 2, text: `Keep your own notes` },
+      { type: 'list', items: [
+        `Write down where you found each code and the date you saw it.`,
+        `Note which field you used and what message appeared.`,
+        `Record the tracker label and date you compared it with.`,
+      ] },
+      { type: 'paragraph', text: `A few lines of notes make it easy to spot patterns, such as a source that is repeatedly wrong, and to explain the problem if you need to contact a platform's support.` },
+
+      { type: 'heading', level: 2, text: `Common situations and what to do` },
+      {
+        type: 'table',
+        headers: [`Situation`, `What to do`],
+        rows: [
+          [`Code from a chat group`, `Ask for the original source; if none, treat as unconfirmed`],
+          [`Code from a video description`, `Check the video date and the platform name`],
+          [`Code from a friend`, `Ask where they got it and when`],
+          [`Code that failed once`, `Re-check field and spelling before trying again`],
+        ],
+      },
+      { type: 'paragraph', text: `The same logic applies whichever channel the code arrives through. The channel does not make a code reliable. The source, the date and the terms do.` },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly, set limits and stop if it stops being fun.` },
+    ],
+    faqs: [
+      { question: `How do I know if a Yono promo code is working today?`, answer: `You cannot be certain. Check its source, date, platform, field and terms, and compare it with the tracker.` },
+      { question: `What if the tracker has no record?`, answer: `Treat the code as unconfirmed.` },
+      { question: `Does a Checked label mean it works?`, answer: `No. It means it was reviewed on the date shown.` },
+      { question: `Should I pay for a code?`, answer: `No. Never pay for a code or share private details to obtain one.` },
+    ],
+  },
+  {
+    id: 'blog-referral-promo-code-meaning-tamil-telugu-malayalam',
+    slug: 'referral-promo-code-meaning-tamil-telugu-malayalam',
+    title: `Referral Code Meaning in Tamil, Telugu and Malayalam`,
+    metaTitle: `Referral Code Meaning in Tamil, Telugu & Malayalam`,
+    metaDescription: `Referral code meaning in Tamil, Telugu and Malayalam, with promo code meaning and safe-use tips. Short regional-language guide. 18+ information only.`,
+    excerpt: `What a referral code and a promo code mean, explained in Tamil, Telugu and Malayalam, with English safety tips.`,
+    category: 'Code Basics',
+    publishedAt: '2026-10-17',
+    image: '/s-blog/referral-promo-code-meaning-tamil-telugu-malayalam.webp',
+    content: [
+      { type: 'paragraph', text: `A referral code (Tamil: ரெஃபரல் கோட், Telugu: రెఫరల్ కోడ్, Malayalam: റഫറൽ കോഡ്) is a short code linking a new account to the person who invited them, entered at sign-up. It differs from a promo code, and no code guarantees a reward.` },
+
+      { type: 'heading', level: 2, text: `The meaning in one place` },
+      { type: 'paragraph', text: `The English idea is the same in every language: a referral code connects a new account to the person who invited them. The three languages mostly use the English term in local script.` },
+      {
+        type: 'table',
+        headers: [`Language`, `Term`, `Short meaning`],
+        rows: [
+          [`Tamil`, `ரெஃபரல் கோட்`, `புதிய கணக்கை அழைத்தவருடன் இணைக்கும் குறியீடு`],
+          [`Telugu`, `రెఫరల్ కోడ్`, `కొత్త ఖాతాను ఆహ్వానించినవారితో కలిపే కోడ్`],
+          [`Malayalam`, `റഫറൽ കോഡ്`, `പുതിയ അക്കൗണ്ടിനെ ക്ഷണിച്ച വ്യക്തിയുമായി ബന്ധിപ്പിക്കുന്ന കോഡ്`],
+        ],
+      },
+      { type: 'paragraph', text: `In English: a code that links a new account with the person who invited it.` },
+
+      { type: 'heading', level: 2, text: `Tamil (தமிழ்)` },
+      { type: 'paragraph', text: `ரெஃபரல் கோட் என்பது புதிய கணக்கை உருவாக்கும்போது உள்ளிடப்படும் ஒரு சிறிய குறியீடு. அது அழைத்தவரையும் புதிய பயனரையும் இணைக்கிறது. இது தானாகவே பரிசு அல்லது பணம் அல்ல.` },
+
+      { type: 'heading', level: 2, text: `Telugu (తెలుగు)` },
+      { type: 'paragraph', text: `రెఫరల్ కోడ్ అనేది కొత్త ఖాతా తెరిచేటప్పుడు నమోదు చేసే చిన్న కోడ్. ఇది ఆహ్వానించిన వ్యక్తిని, కొత్త వినియోగదారుని కలుపుతుంది. ఇది స్వయంగా బహుమతి లేదా డబ్బు కాదు.` },
+
+      { type: 'heading', level: 2, text: `Malayalam (മലയാളം)` },
+      { type: 'paragraph', text: `റഫറൽ കോഡ് എന്നത് പുതിയ അക്കൗണ്ട് തുടങ്ങുമ്പോൾ നൽകുന്ന ഒരു ചെറിയ കോഡാണ്. ഇത് ക്ഷണിച്ച വ്യക്തിയെയും പുതിയ ഉപയോക്താവിനെയും ബന്ധിപ്പിക്കുന്നു. ഇത് സ്വയം സമ്മാനമോ പണമോ അല്ല.` },
+
+      { type: 'heading', level: 2, text: `How it works, in any language` },
+      { type: 'list', ordered: true, items: [
+        `A platform gives a user a code.`,
+        `The user shares it with someone.`,
+        `The new user enters it at sign-up.`,
+        `The platform checks it.`,
+        `Any benefit is decided by the platform's terms.`,
+      ] },
+      { type: 'paragraph', text: `The full English explanation is in [What Is a Referral Code?](/blog/what-is-a-referral-code), and the Hindi version is [Referral Code Ka Matlab](/blog/referral-code-ka-matlab).` },
+
+      { type: 'heading', level: 2, text: `Promo code meaning, briefly` },
+      {
+        type: 'table',
+        headers: [`Language`, `Term`, `Short meaning`],
+        rows: [
+          [`Tamil`, `ப்ரோமோ கோட்`, `ஒரு சலுகையை இயக்கும் குறியீடு`],
+          [`Telugu`, `ప్రోమో కోడ్`, `ఒక ఆఫర్‌ను ప్రారంభించే కోడ్`],
+          [`Malayalam`, `പ്രോമോ കോഡ്`, `ഒരു ഓഫർ പ്രവർത്തിപ്പിക്കുന്ന കോഡ്`],
+        ],
+      },
+      { type: 'paragraph', text: `In English: a code that activates an offer or campaign. See [What Is a Promo Code?](/blog/what-is-a-promo-code).` },
+
+      { type: 'heading', level: 2, text: `Referral code vs promo code` },
+      {
+        type: 'table',
+        headers: [``, `Referral code`, `Promo code`],
+        rows: [
+          [`Connects`, `A person`, `An offer`],
+          [`Where entered`, `Referral field`, `Promo field`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Where to enter it` },
+      { type: 'paragraph', text: `Enter the code in the referral field during sign-up. [How to Enter a Referral Code](/blog/how-to-enter-a-referral-code) gives the steps and the common errors.` },
+
+      { type: 'heading', level: 2, text: `Staying safe (in English, for all readers)` },
+      { type: 'list', items: [
+        `Enter codes only in the platform's own app or website.`,
+        `Never share an OTP, password, PIN or banking details.`,
+        `Do not pay for a code.`,
+        `Treat any guaranteed-reward claim as a warning sign.`,
+        `Check a platform before you register.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `What UonoVoucher is` },
+      { type: 'paragraph', text: `UonoVoucher is an independent information directory. It does not issue codes, operate games, hold money or process payments, and it does not call any platform official unless a page says so.` },
+
+      { type: 'heading', level: 2, text: `தமிழில்: பாதுகாப்பாக இருக்க` },
+      { type: 'list', items: [
+        `குறியீட்டை செயலியின் சொந்த திரையில் மட்டும் உள்ளிடுங்கள்.`,
+        `OTP, கடவுச்சொல், PIN அல்லது வங்கி விவரங்களை யாரிடமும் பகிர வேண்டாம்.`,
+        `குறியீட்டுக்காக பணம் கேட்பவர்களை நம்ப வேண்டாம்.`,
+        `"உறுதியான பரிசு" என்ற வாக்குறுதிகளை சந்தேகத்துடன் பாருங்கள்.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `తెలుగులో: సురక్షితంగా ఉండటానికి` },
+      { type: 'list', items: [
+        `కోడ్‌ను యాప్ యొక్క సొంత స్క్రీన్‌లో మాత్రమే నమోదు చేయండి.`,
+        `OTP, పాస్‌వర్డ్, PIN లేదా బ్యాంక్ వివరాలను ఎవరితోనూ పంచుకోవద్దు.`,
+        `కోడ్ కోసం డబ్బు అడిగేవారిని నమ్మవద్దు.`,
+        `"ఖచ్చితమైన బహుమతి" అనే వాగ్దానాలను అనుమానంతో చూడండి.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `മലയാളത്തിൽ: സുരക്ഷിതരായിരിക്കാൻ` },
+      { type: 'list', items: [
+        `കോഡ് ആപ്പിന്റെ സ്വന്തം സ്ക്രീനിൽ മാത്രം നൽകുക.`,
+        `OTP, പാസ്‌വേഡ്, PIN അല്ലെങ്കിൽ ബാങ്ക് വിവരങ്ങൾ ആരുമായും പങ്കിടരുത്.`,
+        `കോഡിനായി പണം ചോദിക്കുന്നവരെ വിശ്വസിക്കരുത്.`,
+        `"ഉറപ്പായ സമ്മാനം" എന്ന വാഗ്ദാനങ്ങളെ സംശയത്തോടെ കാണുക.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Common questions, in English` },
+      { type: 'list', items: [
+        `Do I need a separate code for each language? No. A code is the same whatever language the app uses.`,
+        `Is the term translated inside apps? Often not. Many apps keep "referral code" in English even in local-language screens.`,
+        `Can I use a promo code in the referral box? Usually not. Check the label on the box.`,
+        `Is a referral code compulsory? No. It is optional on most platforms.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Why local-language searches matter` },
+      { type: 'paragraph', text: `Many people first meet these terms in a message from a friend or on a sign-up screen, and want a plain explanation in their own language. The words are often borrowed from English, so the clearest explanation pairs the local script with a short definition and a reminder of how the code is used. This page does that for Tamil, Telugu and Malayalam.` },
+
+      { type: 'heading', level: 2, text: `Related pages` },
+      { type: 'list', items: [
+        `[How to Enter a Referral Code](/blog/how-to-enter-a-referral-code) for the steps in English.`,
+        `[Referral Code Ka Matlab](/blog/referral-code-ka-matlab) for the Hindi explanation.`,
+        `[What Is a Promo Code?](/blog/what-is-a-promo-code) for the promo-code definition.`,
+      ] },
+      { type: 'paragraph', text: `18+ only. Gaming platforms can involve financial risk. Play responsibly. / 18+ மட்டும். / 18+ మాత్రమే. / 18+ മാത്രം.` },
+    ],
+    faqs: [
+      { question: `What does referral code mean in Tamil?`, answer: `It is a code that links a new account to the person who invited them, usually written ரெஃபரல் கோட்.` },
+      { question: `What does referral code mean in Telugu?`, answer: `The same idea, usually written రెఫరల్ కోడ్.` },
+      { question: `What does referral code mean in Malayalam?`, answer: `The same idea, usually written റഫറൽ കോഡ്.` },
+      { question: `Does a referral code guarantee a reward?`, answer: `No. Any benefit depends on the platform's terms.` },
+    ],
+  },
 ];
+
+// Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
+export const blogPosts: BlogPost[] = allBlogPosts.filter((p) => isPublished(p.publishedAt));
