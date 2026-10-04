@@ -5,7 +5,9 @@ import { Breadcrumbs } from '../components/Breadcrumbs';
 import { GameHero } from '../components/GameHero';
 import { QuickInfoGrid, type InfoField } from '../components/QuickInfoGrid';
 import { GameSidebar, type PageSection } from '../components/GameSidebar';
+import { useMemo } from 'react';
 import { PromoCodeGrid } from '../components/PromoCodeCard';
+import { applyLive, useLiveOverlay } from '../data/livePromo';
 import { FaqAccordion } from '../components/FaqAccordion';
 import { RelatedGames } from '../components/RelatedGames';
 import { CATEGORY_LABELS } from '../data/games';
@@ -18,10 +20,13 @@ import './GameDetail.css';
 export function GameDetail() {
   const { slug = '' } = useParams();
   const game = getGameBySlug(slug);
+  const live = useLiveOverlay();
+  const promoCodes = useMemo(
+    () => (game ? applyLive(getPromoCodesForGame(game.id), live).filter((p) => p.gameId === game.id) : []),
+    [game, live],
+  );
 
   if (!game) return <Navigate to="/uono-games/" replace />;
-
-  const promoCodes = getPromoCodesForGame(game.id);
   const mostRecentChecked = promoCodes.reduce((latest, p) => {
     if (!p.checkedAt) return latest;
     return !latest || p.checkedAt > latest ? p.checkedAt : latest;

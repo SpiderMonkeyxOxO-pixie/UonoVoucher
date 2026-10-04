@@ -7,7 +7,7 @@
     "dev": "vite",
     "prebuild": "node scripts/generate-sitemap.js",
     "build": "tsc -b && vite build",
-    "postbuild": "node scripts/prerender.js",
+    "postbuild": "node scripts/promo-admin/restore.cjs && node scripts/prerender.js",
     "lint": "oxlint",
     "preview": "vite preview"
   },

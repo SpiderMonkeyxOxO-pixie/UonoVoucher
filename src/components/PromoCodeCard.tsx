@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import type { PromoCode, TimeSlot } from '../types';
+import type { TimeSlot } from '../types';
+import type { EffectivePromo } from '../data/livePromo';
 import { getGameById } from '../data/lookups';
 import { CATEGORY_LABELS } from '../data/games';
 import { CopyButton } from './CopyButton';
@@ -22,14 +23,23 @@ const SLOT_NAME: Record<TimeSlot, string> = {
   evening: 'Evening',
 };
 
-export function PromoCodeCard({ entry }: { entry: PromoCode }) {
+export function PromoCodeCard({ entry }: { entry: EffectivePromo }) {
   const game = getGameById(entry.gameId);
   const codeSlot = entry.timeSlot ?? 'morning';
+  const liveSlots = entry.slots;
+  const isLive = Boolean(liveSlots);
   const [activeSlot, setActiveSlot] = useState<TimeSlot>(codeSlot);
+
+  // Live codes arrive after first paint; jump to the first released slot when they do.
+  useEffect(() => {
+    setActiveSlot(codeSlot);
+  }, [codeSlot, isLive]);
 
   if (!game) return null;
 
-  const showingCode = activeSlot === codeSlot;
+  // Live entries carry up to three per-slot codes; built-in entries have one code in one slot.
+  const slotCode = liveSlots ? liveSlots[activeSlot] : activeSlot === codeSlot ? entry.code : undefined;
+  const showingCode = Boolean(slotCode);
   const disabled = isDisabledStatus(entry.status);
   const statusMeta = getStatusMeta(entry.status);
 
@@ -51,7 +61,7 @@ export function PromoCodeCard({ entry }: { entry: PromoCode }) {
             type="button"
             role="tab"
             aria-selected={activeSlot === slot.id}
-            className={`promo-tab ${activeSlot === slot.id ? 'active' : ''} ${slot.id === codeSlot ? 'has-code' : ''}`}
+            className={`promo-tab ${activeSlot === slot.id ? 'active' : ''} ${(liveSlots ? Boolean(liveSlots[slot.id]) : slot.id === codeSlot) ? 'has-code' : ''}`}
             onClick={() => setActiveSlot(slot.id)}
           >
             {slot.label}
@@ -68,8 +78,8 @@ export function PromoCodeCard({ entry }: { entry: PromoCode }) {
             </span>
           ) : (
             <div className="promo-code-row">
-              <code>{entry.code}</code>
-              <CopyButton code={entry.code} />
+              <code>{slotCode}</code>
+              <CopyButton code={slotCode!} />
             </div>
           )
         ) : (
@@ -95,7 +105,7 @@ export function PromoCodeCard({ entry }: { entry: PromoCode }) {
   );
 }
 
-export function PromoCodeGrid({ codes }: { codes: PromoCode[] }) {
+export function PromoCodeGrid({ codes }: { codes: EffectivePromo[] }) {
   if (codes.length === 0) {
     return (
       <div className="empty-state" role="status">

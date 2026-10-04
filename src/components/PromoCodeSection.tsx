@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom';
+import { useMemo } from 'react';
 import { promoCodes } from '../data/promoCodes';
+import { applyLive, useLiveOverlay } from '../data/livePromo';
 import { PromoCodeGrid } from './PromoCodeCard';
 
 export function PromoCodeSection() {
-  const preview = promoCodes.slice(0, 6);
+  const live = useLiveOverlay();
+  // Games with live codes sort first, so today's codes lead the homepage.
+  const preview = useMemo(() => applyLive(promoCodes, live).slice(0, 6), [live]);
 
   return (
     <section className="section" style={{ background: 'var(--paper)' }}>

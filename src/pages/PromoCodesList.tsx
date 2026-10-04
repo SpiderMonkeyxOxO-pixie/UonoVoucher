@@ -5,7 +5,8 @@ import { StructuredData } from '../components/StructuredData';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { PromoCodeGrid } from '../components/PromoCodeCard';
 import { FaqAccordion } from '../components/FaqAccordion';
-import { promoCodes } from '../data/promoCodes';
+import { promoCodes as builtInPromoCodes } from '../data/promoCodes';
+import { applyLive, useLiveOverlay } from '../data/livePromo';
 import { games } from '../data/games';
 import { categories } from '../data/categories';
 import { getGameById } from '../data/lookups';
@@ -60,6 +61,8 @@ const FAQ_ITEMS = [
 
 export function PromoCodesList() {
   const [searchParams, setSearchParams] = useSearchParams();
+  const live = useLiveOverlay();
+  const promoCodes = useMemo(() => applyLive(builtInPromoCodes, live), [live]);
   const categoryParam = searchParams.get('category') as GameCategory | null;
   const category = categoryParam && categories.some((c) => c.id === categoryParam) ? categoryParam : 'all';
 
@@ -82,7 +85,7 @@ export function PromoCodesList() {
       return !latest || p.checkedAt > latest ? p.checkedAt : latest;
     }, '');
     return { gamesTracked: games.length, codesAvailable, awaitingRelease, lastReviewed };
-  }, []);
+  }, [promoCodes]);
 
   const filtered = useMemo(() => {
     let list = promoCodes.filter((code) => {
@@ -112,7 +115,7 @@ export function PromoCodesList() {
     });
 
     return list;
-  }, [status, period, category, query, sort]);
+  }, [promoCodes, status, period, category, query, sort]);
 
   const hasActiveFilters = status !== 'all' || period !== 'all' || category !== 'all' || query !== '';
 
