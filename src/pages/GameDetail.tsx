@@ -27,6 +27,9 @@ export function GameDetail() {
   );
 
   if (!game) return <Navigate to="/uono-games/" replace />;
+
+  // When today's live codes exist, the built-in "no code published yet" paragraphs would contradict the card.
+  const hasLiveCodes = promoCodes.some((p) => p.slots);
   const mostRecentChecked = promoCodes.reduce((latest, p) => {
     if (!p.checkedAt) return latest;
     return !latest || p.checkedAt > latest ? p.checkedAt : latest;
@@ -94,9 +97,14 @@ export function GameDetail() {
                   Tap a release period to see whether a code has been recorded for it yet.
                 </p>
                 <div className="prose" style={{ marginBottom: 16 }}>
-                  {game.promoExplanation.map((p, i) => (
-                    <p key={i}>{p}</p>
-                  ))}
+                  {hasLiveCodes ? (
+                    <p>
+                      Today&apos;s codes for {game.name} are listed below. They are reported, not guaranteed: codes can
+                      expire or be withdrawn at any time, so check the code in the app before relying on it.
+                    </p>
+                  ) : (
+                    game.promoExplanation.map((p, i) => <p key={i}>{p}</p>)
+                  )}
                 </div>
                 <PromoCodeGrid codes={promoCodes} />
               </div>

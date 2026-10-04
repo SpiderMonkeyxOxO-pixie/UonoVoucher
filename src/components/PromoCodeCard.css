@@ -114,9 +114,10 @@
 
 .promo-code-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px 10px;
 }
 
 .promo-code-row code {
@@ -128,7 +129,10 @@
   border: 1px dashed var(--line);
   border-radius: 8px;
   padding: 4px 10px;
-  overflow-wrap: anywhere;
+  /* break-word (not anywhere): the Copy button wraps below a long code instead of the
+     code being squeezed and split mid-word, e.g. "loverummy8.c / om". */
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .promo-awaiting {
