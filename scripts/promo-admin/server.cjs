@@ -26,8 +26,6 @@ const SECURE_COOKIE = process.env.INSECURE_COOKIES !== "1";
 const SESSION_MS = 8 * 60 * 60 * 1000;
 const COOKIE = "uv_admin";
 const MAX_CODE_LENGTH = 40;
-const LOOKS_LIKE_URL =
-  /^https?:\/\/|^www\.|\.(com|net|org|vip|top|cc|club|bet|fun|website|info|one|co)\b/i;
 
 function authConfigured() {
   return Boolean(
@@ -196,8 +194,6 @@ function codeProblem(value, unchanged) {
   if (!value) return null;
   if (value.length > MAX_CODE_LENGTH) return `longer than ${MAX_CODE_LENGTH} characters`;
   if (/[\u0000-\u001f\u007f]/.test(value)) return "contains a control character";
-  // Existing entries are grandfathered; anything newly typed must be a real code.
-  if (!unchanged && LOOKS_LIKE_URL.test(value)) return "looks like a link/domain, not a promo code";
   return null;
 }
 
