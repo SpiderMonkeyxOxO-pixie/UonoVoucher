@@ -1560,6 +1560,64 @@ export const games: Game[] = [
     "downloadUrl": "https://7jaihospinagent.com/?code=4168H4BCEUT&t=1781958114"
   },
   {
+    "id": "game-jaiho-play",
+    "slug": "jaiho-play",
+    "name": "Jaiho Play",
+    "category": "skill",
+    "image": "/games/jaiho-play.webp",
+    "summary": "Jaiho Play launched 15 Oct 2026 with rummy and Teen Patti, listed under Skill alongside this catalogue's other card-format titles.",
+    "description": [
+      "Jaiho Play opened on 15 October 2026 from 8:00 AM IST as version 1.0.0, with rummy and Teen Patti tables seen in the app at launch.",
+      "This entry follows the same review process as the rest of UonoVoucher's catalogue; 15 Oct 2026 was its first pass, so coverage is limited compared with longer-tracked titles."
+    ],
+    "formatNotes": [
+      "Jaiho Play's launch build showed two table-game formats — rummy and Teen Patti — rather than the reel-based or fish-table formats used elsewhere in this catalogue.",
+      "Table variants, boot amounts and rules screens have not yet been documented here; check them inside the app before you play."
+    ],
+    "accessNotes": [
+      "At launch there is no official website or store listing, only the operator's referral link — see our [Jaiho Play promo code](/blog/jaiho-play-promo-code-today) post for how we're tracking it on day one."
+    ],
+    "promoExplanation": [
+      "Jaiho Play's own listing states that promo codes are released daily, so no single code stays valid. There is no fixed public code on file; check our promo codes page for the current status."
+    ],
+    "reviewNotes": [
+      "This entry for Jaiho Play was first published on 15 Oct 2026, the day it launched. At that review it carried no promo code on file, a welcome bonus shown in a ₹50–₹500 range with conditions not recorded, and an operator (Yonotech Pvt. Ltd.) that has not been independently verified."
+    ],
+    "safetyNotes": [
+      "As with the rest of our catalogue, Jaiho Play's record here is independently reviewed and subject to change. The install itself is controlled by an external source, not UonoVoucher, so checking permissions first is recommended. Anything unconfirmed is marked that way rather than stated as fact."
+    ],
+    "faqs": [
+      {
+        "question": "Is Jaiho Play currently available?",
+        "answer": "Yes — Jaiho Play launched 15 October 2026 and the Download button on this page links to the operator's referral link."
+      },
+      {
+        "question": "Where does Jaiho Play's Download button lead?",
+        "answer": "It opens Jaiho Play's sponsored referral link, controlled by that game's own operator, not by us. There is no official website or store listing yet."
+      },
+      {
+        "question": "Is there a Jaiho Play promo code?",
+        "answer": "No fixed public code is on file. Codes are reported to be released daily — see our Jaiho Play promo code post for how to check today's status."
+      },
+      {
+        "question": "What does \"Unconfirmed\" mean?",
+        "answer": "It means we couldn't verify the record either way at our last review — not that it's confirmed working or confirmed broken."
+      },
+      {
+        "question": "How can I report outdated information on Jaiho Play?",
+        "answer": "Use our Contact page to flag anything that looks wrong on Jaiho Play's page — see our Corrections Policy for what happens next."
+      }
+    ],
+    "metaTitle": "Jaiho Play — Promo Codes, Vouchers & Status",
+    "metaDescription": "Independent, reviewed information on Jaiho Play, a rummy and Teen Patti title that launched 15 Oct 2026, tracked by UonoVoucher.",
+    "publishedAt": "2026-10-15",
+    "reviewedAt": "2026-10-15",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://jaihogo.com/?code=E4VW58CDZFY&t=1792035058",
+    "sortOrder": 0
+  },
+  {
     "id": "game-jaiho-win",
     "slug": "jaiho-win",
     "name": "Jaiho Win",
