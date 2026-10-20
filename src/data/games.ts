@@ -3389,6 +3389,63 @@ export const games: Game[] = [
     "codeStatus": "checked",
     "featured": false,
     "downloadUrl": "https://uonovipplay.vip/?code=9U8GYEWZ9LN&t=1781969008"
+  },
+  {
+    "id": "game-vip-rummy",
+    "slug": "vip-rummy",
+    "name": "VIP Rummy",
+    "category": "skill",
+    "image": "/games/vip-rummy.webp",
+    "summary": "VIP Rummy launched 20 Oct 2026, a crowned-rummy-branded title listed under Skill alongside this catalogue's other card-format titles.",
+    "description": [
+      "VIP Rummy opened on 20 October 2026 from 8:00 AM IST, pairing a crowned-rummy brand identity with a green-diamond background.",
+      "This entry follows the same review process as the rest of UonoVoucher's catalogue; 20 Oct 2026 was its first pass, so coverage is limited compared with longer-tracked titles."
+    ],
+    "formatNotes": [
+      "VIP Rummy's category and table formats have not yet been documented in detail here; check them inside the app before you play."
+    ],
+    "accessNotes": [
+      "At launch there is no official website or store listing confirmed, only the operator's referral link — see our [VIP Rummy promo code](/blog/vip-rummy-promo-code-today-status) post for how we're tracking it on day one."
+    ],
+    "promoExplanation": [
+      "There is no fixed public code on file for VIP Rummy. Check our promo codes page for the current status."
+    ],
+    "reviewNotes": [
+      "This entry for VIP Rummy was first published on 20 Oct 2026, the day it launched. At that review it carried no promo code on file, no welcome bonus confirmed, and an operator that has not been independently verified."
+    ],
+    "safetyNotes": [
+      "As with the rest of our catalogue, VIP Rummy's record here is independently reviewed and subject to change. The install itself is controlled by an external source, not UonoVoucher, so checking permissions first is recommended. Anything unconfirmed is marked that way rather than stated as fact."
+    ],
+    "faqs": [
+      {
+        "question": "Is VIP Rummy currently available?",
+        "answer": "Yes — VIP Rummy launched 20 October 2026 and the Download button on this page links to the operator's referral link."
+      },
+      {
+        "question": "Where does VIP Rummy's Download button lead?",
+        "answer": "It opens VIP Rummy's sponsored referral link, controlled by that game's own operator, not by us. There is no official website or store listing confirmed yet."
+      },
+      {
+        "question": "Is there a VIP Rummy promo code?",
+        "answer": "No fixed public code is on file. See our VIP Rummy promo code post for how to check today's status."
+      },
+      {
+        "question": "What does \"Unconfirmed\" mean?",
+        "answer": "It means we couldn't verify the record either way at our last review — not that it's confirmed working or confirmed broken."
+      },
+      {
+        "question": "How can I report outdated information on VIP Rummy?",
+        "answer": "Use our Contact page to flag anything that looks wrong on VIP Rummy's page — see our Corrections Policy for what happens next."
+      }
+    ],
+    "metaTitle": "VIP Rummy — Promo Codes, Vouchers & Status",
+    "metaDescription": "Independent, reviewed information on VIP Rummy, a rummy title that launched 20 Oct 2026, tracked by UonoVoucher.",
+    "publishedAt": "2026-10-20",
+    "reviewedAt": "2026-10-20",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://viprummy6.com/?code=XSDWNSC153Q&t=1792476153",
+    "sortOrder": -1
   }
 ];
 

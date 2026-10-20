@@ -430,6 +430,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://uonovoucher.com/uono-games/vip-rummy</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://uonovoucher.com/promo-codes/promo-jeet-spin</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>daily</changefreq>
@@ -930,6 +936,18 @@
   <url>
     <loc>https://uonovoucher.com/blog/ind-club-promo-code-today-status</loc>
     <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://uonovoucher.com/blog/club-inr-promo-code-today-status</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://uonovoucher.com/blog/vip-rummy-promo-code-today-status</loc>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

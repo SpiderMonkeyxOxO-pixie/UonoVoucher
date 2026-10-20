@@ -4787,7 +4787,7 @@ const allBlogPosts: BlogPost[] = [
     publishedAt: '2026-10-20',
     image: '/s-blog/vip-rummy-promo-code-today-status.webp',
     content: [
-      { type: 'paragraph', text: `VIP Rummy launches today, 20 October 2026 at 8:00 AM IST, and no promo code has been confirmed as of publish time — this page will be updated the moment one is verified, the same way we track every other game's promo code status on this site.` },
+      { type: 'paragraph', text: `VIP Rummy launched today, 20 October 2026 at 8:00 AM IST (its [game page](/uono-games/vip-rummy) has the download link), and no promo code has been confirmed as of publish time — this page will be updated the moment one is verified, the same way we track every other game's promo code status on this site.` },
 
       { type: 'heading', level: 2, text: `What a promo code can and can't do` },
       { type: 'paragraph', text: `A promo code typically unlocks a bonus credit, deposit match, or similar reward when entered at signup or in a dedicated redemption screen — but only if it's genuinely issued by the app itself. A code with no verified source does nothing except risk wasted time or exposure to a phishing attempt disguised as a "redeem" page.` },
