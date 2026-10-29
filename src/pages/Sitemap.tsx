@@ -47,15 +47,15 @@ export function Sitemap() {
       <LinkColumn title="Core pages" items={CORE_LINKS} />
       <LinkColumn
         title={`Uono games (${games.length})`}
-        items={games.map((g) => ({ to: `/uono-games/${g.slug}`, label: g.name }))}
+        items={games.map((g) => ({ to: `/uono-games/${g.slug}/`, label: g.name }))}
       />
       <LinkColumn
         title={`Guides (${guides.length})`}
-        items={guides.map((g) => ({ to: `/guides/${g.slug}`, label: g.title }))}
+        items={guides.map((g) => ({ to: `/guides/${g.slug}/`, label: g.title }))}
       />
       <LinkColumn
         title={`Blog posts (${blogPosts.length})`}
-        items={blogPosts.map((b) => ({ to: `/blog/${b.slug}`, label: b.title }))}
+        items={blogPosts.map((b) => ({ to: `/blog/${b.slug}/`, label: b.title }))}
       />
     </StaticPage>
   );

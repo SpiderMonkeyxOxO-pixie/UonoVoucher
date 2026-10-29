@@ -18,14 +18,14 @@ export function GuideDetail() {
       <Seo
         title={guide.metaTitle ?? guide.title}
         description={guide.metaDescription ?? guide.summary}
-        path={`/guides/${guide.slug}`}
+        path={`/guides/${guide.slug}/`}
       />
       <StructuredData
         id={`guide-${guide.slug}`}
         breadcrumb={[
           { name: 'Home', path: '/' },
           { name: 'Guides', path: '/guides/' },
-          { name: guide.title, path: `/guides/${guide.slug}` },
+          { name: guide.title, path: `/guides/${guide.slug}/` },
         ]}
         faq={guide.faqs}
       />

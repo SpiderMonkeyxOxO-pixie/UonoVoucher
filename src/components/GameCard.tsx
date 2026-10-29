@@ -14,14 +14,14 @@ export function GameCard({ game }: { game: Game }) {
         <div className="game-card-top">
           <div>
             <h3>
-              <Link to={`/uono-games/${game.slug}`}>{game.name}</Link>
+              <Link to={`/uono-games/${game.slug}/`}>{game.name}</Link>
             </h3>
             <span className="game-card-category">{CATEGORY_LABELS[game.category]}</span>
           </div>
         </div>
         <p className="game-card-summary">{game.summary}</p>
         <div className="game-card-foot">
-          <Link to={`/uono-games/${game.slug}`} className="btn btn-secondary btn-sm">
+          <Link to={`/uono-games/${game.slug}/`} className="btn btn-secondary btn-sm">
             View details
           </Link>
           <DownloadButton url={game.downloadUrl} gameName={game.name} small />

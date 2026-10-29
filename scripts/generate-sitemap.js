@@ -89,10 +89,10 @@ const urls = [
   // every build with today's date, which would fabricate a "changed today" signal
   // to crawlers on every single deploy regardless of whether the page actually changed.
   ...staticEntries.map((e) => ({ loc: e.path, priority: e.priority, changefreq: e.changefreq })),
-  ...games.map((g) => ({ loc: `/uono-games/${g.slug}`, lastmod: g.lastmod || today, priority: '0.6', changefreq: 'weekly' })),
-  ...promoCodes.map((p) => ({ loc: `/promo-codes/${p.id}`, lastmod: p.lastmod || today, priority: '0.5', changefreq: 'daily' })),
-  ...guides.map((g) => ({ loc: `/guides/${g.slug}`, lastmod: g.lastmod || today, priority: '0.7', changefreq: 'monthly' })),
-  ...blogPosts.map((b) => ({ loc: `/blog/${b.slug}`, lastmod: b.lastmod || today, priority: '0.7', changefreq: 'monthly' })),
+  ...games.map((g) => ({ loc: `/uono-games/${g.slug}/`, lastmod: g.lastmod || today, priority: '0.6', changefreq: 'weekly' })),
+  ...promoCodes.map((p) => ({ loc: `/promo-codes/${p.id}/`, lastmod: p.lastmod || today, priority: '0.5', changefreq: 'daily' })),
+  ...guides.map((g) => ({ loc: `/guides/${g.slug}/`, lastmod: g.lastmod || today, priority: '0.7', changefreq: 'monthly' })),
+  ...blogPosts.map((b) => ({ loc: `/blog/${b.slug}/`, lastmod: b.lastmod || today, priority: '0.7', changefreq: 'monthly' })),
 ];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

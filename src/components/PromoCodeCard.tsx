@@ -48,7 +48,7 @@ export function PromoCodeCard({ entry }: { entry: EffectivePromo }) {
       <div className="promo-card-head">
         <img src={game.image} alt="" width={34} height={34} />
         <div className="promo-card-head-text">
-          <Link to={`/uono-games/${game.slug}`}>{game.name}</Link>
+          <Link to={`/uono-games/${game.slug}/`}>{game.name}</Link>
           <span className="promo-card-category">{CATEGORY_LABELS[game.category]}</span>
         </div>
         <StatusBadge status={entry.status} />
@@ -96,7 +96,7 @@ export function PromoCodeCard({ entry }: { entry: EffectivePromo }) {
       {entry.checkedAt && <span className="promo-checked">Checked {formatDate(entry.checkedAt)}</span>}
 
       <div className="promo-card-foot">
-        <Link to={`/uono-games/${game.slug}`} className="btn btn-secondary btn-sm">
+        <Link to={`/uono-games/${game.slug}/`} className="btn btn-secondary btn-sm">
           View Game
         </Link>
         <DownloadButton url={game.downloadUrl} gameName={game.name} small />

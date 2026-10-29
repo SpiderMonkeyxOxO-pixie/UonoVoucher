@@ -12,7 +12,7 @@ export function RelatedGames({ current }: { current: Game }) {
   return (
     <div className="related-games-grid">
       {related.map((g) => (
-        <Link key={g.id} to={`/uono-games/${g.slug}`} className="related-game-card">
+        <Link key={g.id} to={`/uono-games/${g.slug}/`} className="related-game-card">
           <img src={g.image} alt="" width={44} height={44} />
           <strong>{g.name}</strong>
           <span className="game-card-category">{CATEGORY_LABELS[g.category]}</span>

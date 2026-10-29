@@ -15,13 +15,13 @@ export function BlogDetail() {
 
   return (
     <>
-      <Seo title={post.metaTitle ?? post.title} description={post.metaDescription ?? post.excerpt} path={`/blog/${post.slug}`} />
+      <Seo title={post.metaTitle ?? post.title} description={post.metaDescription ?? post.excerpt} path={`/blog/${post.slug}/`} />
       <StructuredData
         id={`blog-${post.slug}`}
         breadcrumb={[
           { name: 'Home', path: '/' },
           { name: 'Blog', path: '/blog/' },
-          { name: post.title, path: `/blog/${post.slug}` },
+          { name: post.title, path: `/blog/${post.slug}/` },
         ]}
         faq={post.faqs}
       />

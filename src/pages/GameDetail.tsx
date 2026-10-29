@@ -54,13 +54,13 @@ export function GameDetail() {
 
   return (
     <>
-      <Seo title={game.metaTitle} description={game.metaDescription} path={`/uono-games/${game.slug}`} />
+      <Seo title={game.metaTitle} description={game.metaDescription} path={`/uono-games/${game.slug}/`} />
       <StructuredData
         id={`game-${game.slug}`}
         breadcrumb={[
           { name: 'Home', path: '/' },
           { name: 'Uono Games', path: '/uono-games/' },
-          { name: game.name, path: `/uono-games/${game.slug}` },
+          { name: game.name, path: `/uono-games/${game.slug}/` },
         ]}
         faq={game.faqs}
       />

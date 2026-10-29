@@ -28,7 +28,7 @@ export function GuidesList() {
             {guides.map((guide) => (
               <article key={guide.id} className="card guide-card">
                 {guide.image ? (
-                  <Link to={`/guides/${guide.slug}`} className="guide-card-image">
+                  <Link to={`/guides/${guide.slug}/`} className="guide-card-image">
                     <img src={guide.image} alt="" loading="lazy" />
                   </Link>
                 ) : (
@@ -37,13 +37,13 @@ export function GuidesList() {
                   </span>
                 )}
                 <h3>
-                  <Link to={`/guides/${guide.slug}`}>{guide.title}</Link>
+                  <Link to={`/guides/${guide.slug}/`}>{guide.title}</Link>
                 </h3>
                 <p>{guide.summary}</p>
                 <p style={{ fontSize: '0.78rem', color: 'var(--muted)' }}>
                   Updated {formatDate(guide.updatedAt ?? guide.publishedAt)}
                 </p>
-                <Link to={`/guides/${guide.slug}`} className="btn btn-secondary btn-sm">
+                <Link to={`/guides/${guide.slug}/`} className="btn btn-secondary btn-sm">
                   Read guide
                 </Link>
               </article>

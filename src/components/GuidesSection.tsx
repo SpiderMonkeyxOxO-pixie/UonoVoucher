@@ -28,7 +28,7 @@ export function GuidesSection() {
               </span>
               <h3>{guide.title}</h3>
               <p>{guide.summary}</p>
-              <Link to={`/guides/${guide.slug}`} className="btn btn-secondary btn-sm">
+              <Link to={`/guides/${guide.slug}/`} className="btn btn-secondary btn-sm">
                 Read guide
               </Link>
             </article>

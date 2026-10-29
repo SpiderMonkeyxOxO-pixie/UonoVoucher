@@ -29,13 +29,13 @@ export function BlogList() {
             {sorted.map((post) => (
               <article key={post.id} className="card blog-card">
                 {post.image && (
-                  <Link to={`/blog/${post.slug}`} className="blog-card-image">
+                  <Link to={`/blog/${post.slug}/`} className="blog-card-image">
                     <img src={post.image} alt="" loading="lazy" />
                   </Link>
                 )}
                 <span className="blog-card-category">{post.category}</span>
                 <h3>
-                  <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                  <Link to={`/blog/${post.slug}/`}>{post.title}</Link>
                 </h3>
                 <p className="excerpt">{post.excerpt}</p>
                 <p className="blog-meta">

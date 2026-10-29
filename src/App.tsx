@@ -32,14 +32,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/uono-games/" element={<GamesList />} />
-          <Route path="/uono-games/:slug" element={<GameDetail />} />
+          <Route path="/uono-games/:slug/" element={<GameDetail />} />
           <Route path="/promo-codes/" element={<PromoCodesList />} />
-          <Route path="/promo-codes/:slug" element={<PromoCodeDetail />} />
+          <Route path="/promo-codes/:slug/" element={<PromoCodeDetail />} />
           <Route path="/vouchers/" element={<VouchersList />} />
           <Route path="/guides/" element={<GuidesList />} />
-          <Route path="/guides/:slug" element={<GuideDetail />} />
+          <Route path="/guides/:slug/" element={<GuideDetail />} />
           <Route path="/blog/" element={<BlogList />} />
-          <Route path="/blog/:slug" element={<BlogDetail />} />
+          <Route path="/blog/:slug/" element={<BlogDetail />} />
           <Route path="/about/" element={<About />} />
           <Route path="/contact/" element={<Contact />} />
           <Route path="/editorial-policy/" element={<EditorialPolicy />} />

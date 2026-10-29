@@ -21,7 +21,7 @@ export function PromoCodeDetail() {
       <Seo
         title={`${game?.name ?? 'Promo code'} — ${promo.code}`}
         description={`Status, review history and source note for the ${promo.code} promo code${game ? ` linked to ${game.name}` : ''}.`}
-        path={`/promo-codes/${promo.id}`}
+        path={`/promo-codes/${promo.id}/`}
       />
       <div className="page-hero">
         <div className="container">
@@ -36,7 +36,7 @@ export function PromoCodeDetail() {
           {game && (
             <p>
               Linked to{' '}
-              <Link to={`/uono-games/${game.slug}`} style={{ color: 'var(--violet)', fontWeight: 600 }}>
+              <Link to={`/uono-games/${game.slug}/`} style={{ color: 'var(--violet)', fontWeight: 600 }}>
                 {game.name}
               </Link>
             </p>
