@@ -141,6 +141,10 @@ export function PromoCodesList() {
           { name: 'Promo Codes', path: '/promo-codes/' },
         ]}
         faq={FAQ_ITEMS.map((f) => ({ question: f.question, answer: f.answer }))}
+        itemList={filtered.map((promo) => ({
+          name: `${getGameById(promo.gameId)?.name ?? 'Promo code'} — ${promo.code}`,
+          path: `/promo-codes/${promo.id}/`,
+        }))}
       />
       <div className="page-hero">
         <div className="container">

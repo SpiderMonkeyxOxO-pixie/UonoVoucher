@@ -4,7 +4,7 @@ export function PrivacyPolicy() {
   return (
     <StaticPage
       title="Privacy Policy"
-      description="How UonoVoucher handles information submitted through this site."
+      description="How UonoVoucher handles information submitted through this site, including contact form data, cookies, analytics and your privacy choices."
       path="/privacy-policy/"
       crumbLabel="Privacy Policy"
     >

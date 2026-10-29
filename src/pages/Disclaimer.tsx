@@ -4,7 +4,7 @@ export function Disclaimer() {
   return (
     <StaticPage
       title="Disclaimer"
-      description="UonoVoucher is an independent informational website and is not affiliated with, sponsored by, approved by or endorsed by Uono, Uono Play or their respective owners."
+      description="UonoVoucher is an independent informational website, not affiliated with, sponsored by or endorsed by Uono, Uono Play or their respective owners."
       path="/disclaimer/"
       crumbLabel="Disclaimer"
     >

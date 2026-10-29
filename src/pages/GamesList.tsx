@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Seo } from '../components/Seo';
+import { StructuredData } from '../components/StructuredData';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { GameCard } from '../components/GameCard';
 import { SearchBar } from '../components/SearchBar';
@@ -39,6 +40,14 @@ export function GamesList() {
         title="All Uono Games"
         description={`Browse all ${games.length} documented Uono Play games tracked by UonoVoucher, with category filters and search.`}
         path="/uono-games/"
+      />
+      <StructuredData
+        id="uono-games-page"
+        breadcrumb={[
+          { name: 'Home', path: '/' },
+          { name: 'Uono Games', path: '/uono-games/' },
+        ]}
+        itemList={filtered.map((game) => ({ name: game.name, path: `/uono-games/${game.slug}/` }))}
       />
       <div className="page-hero">
         <div className="container">

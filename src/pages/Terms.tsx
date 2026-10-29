@@ -4,7 +4,7 @@ export function Terms() {
   return (
     <StaticPage
       title="Terms"
-      description="Terms of use for browsing and using the UonoVoucher website."
+      description="Terms of use for browsing and using the UonoVoucher website, including acceptable use, content accuracy, and limitations of liability for visitors."
       path="/terms/"
       crumbLabel="Terms"
     >

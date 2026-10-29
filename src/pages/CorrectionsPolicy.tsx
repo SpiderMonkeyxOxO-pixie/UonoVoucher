@@ -5,7 +5,7 @@ export function CorrectionsPolicy() {
   return (
     <StaticPage
       title="Corrections Policy"
-      description="How UonoVoucher handles corrections to games, promo-code and voucher records."
+      description="How UonoVoucher handles corrections to games, promo-code and voucher records, including how to report an error and how quickly it gets reviewed."
       path="/corrections-policy/"
       crumbLabel="Corrections Policy"
     >

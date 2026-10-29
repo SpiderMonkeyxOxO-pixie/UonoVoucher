@@ -12,7 +12,7 @@ export function BlogList() {
     <>
       <Seo
         title="Uono & Uono Play Blog"
-        description="Uono and Uono Play updates, review-cycle notes and corrections from the UonoVoucher team."
+        description="Uono and Uono Play updates, review-cycle notes and corrections from the UonoVoucher team, covering new games, promo-code changes and policy updates."
         path="/blog/"
       />
       <div className="page-hero">

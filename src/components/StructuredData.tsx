@@ -6,9 +6,10 @@ interface StructuredDataProps {
   id: string;
   breadcrumb?: { name: string; path: string }[];
   faq?: { question: string; answer: string }[];
+  itemList?: { name: string; path: string }[];
 }
 
-export function StructuredData({ id, breadcrumb, faq }: StructuredDataProps) {
+export function StructuredData({ id, breadcrumb, faq, itemList }: StructuredDataProps) {
   useEffect(() => {
     const scripts: HTMLScriptElement[] = [];
 
@@ -47,10 +48,28 @@ export function StructuredData({ id, breadcrumb, faq }: StructuredDataProps) {
       scripts.push(el);
     }
 
+    if (itemList && itemList.length > 0) {
+      const el = document.createElement('script');
+      el.type = 'application/ld+json';
+      el.id = `${id}-itemlist`;
+      el.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: itemList.map((item, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: item.name,
+          url: `${SITE_URL}${item.path}`,
+        })),
+      });
+      document.head.appendChild(el);
+      scripts.push(el);
+    }
+
     return () => {
       scripts.forEach((el) => el.remove());
     };
-  }, [id, breadcrumb, faq]);
+  }, [id, breadcrumb, faq, itemList]);
 
   return null;
 }

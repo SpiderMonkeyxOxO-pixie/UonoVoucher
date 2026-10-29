@@ -5,7 +5,7 @@ export function EditorialPolicy() {
   return (
     <StaticPage
       title="Editorial Policy"
-      description="How UonoVoucher sources, writes and labels information about Uono games, promo codes and vouchers."
+      description="How UonoVoucher sources, writes and labels information about Uono games, promo codes and vouchers, including our review process and update cadence."
       path="/editorial-policy/"
       crumbLabel="Editorial Policy"
     >

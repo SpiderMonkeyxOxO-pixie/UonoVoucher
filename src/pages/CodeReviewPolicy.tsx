@@ -4,7 +4,7 @@ export function CodeReviewPolicy() {
   return (
     <StaticPage
       title="Code Review Policy"
-      description="How promo codes and vouchers are checked, labelled and retired on UonoVoucher."
+      description="How promo codes and vouchers are checked, labelled and retired on UonoVoucher, including our review cadence and the status labels we use."
       path="/code-review-policy/"
       crumbLabel="Code Review Policy"
     >

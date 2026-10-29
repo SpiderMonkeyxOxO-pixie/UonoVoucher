@@ -12,7 +12,7 @@ export function Contact() {
   return (
     <StaticPage
       title="Contact Us"
-      description="Get in touch with the UonoVoucher team to report a correction, ask a question, or flag an issue."
+      description="Get in touch with the UonoVoucher team to report a correction, ask a question, flag an outdated promo code, or raise any other issue with the site."
       path="/contact/"
       crumbLabel="Contact"
       intro="Use this form to report a correction, ask a question, or flag an issue with a record."

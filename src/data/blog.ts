@@ -96,23 +96,28 @@ const allBlogPosts: BlogPost[] = [
 
       { type: 'heading', level: 2, text: 'Legal Note' },
       { type: 'paragraph', text: 'Online money games are prohibited in India since 1 May 2026 under the Promotion and Regulation of Online Gaming Act, 2025. Free spin games that do not involve real money or stakes are not affected. Players should confirm Jeet Spin\'s classification and their state\'s specific regulations before playing.' },
-
-      { type: 'heading', level: 2, text: 'Frequently Asked Questions' },
-
-      { type: 'heading', level: 3, text: 'Is there a Jeet Spin promo code today?' },
-      { type: 'paragraph', text: 'No. UonoVoucher has not recorded a verified Jeet Spin promo code as of the latest check. This page and the promo-code tracker will be updated once a code is confirmed.' },
-
-      { type: 'heading', level: 3, text: 'When will a Jeet Spin code be available?' },
-      { type: 'paragraph', text: 'Codes for apps in this network are typically released inside the app at or shortly after launch. Jeet Spin launches on 30 September 2026.' },
-
-      { type: 'heading', level: 3, text: 'Can I use another spin app\'s promo code on Jeet Spin?' },
-      { type: 'paragraph', text: 'No. Each app in the network has its own separate promo-code system. A code from Spin Gold, Jaiho Spin or any other app will not work on Jeet Spin.' },
-
-      { type: 'heading', level: 3, text: 'Does Jeet Spin offer a welcome bonus without a code?' },
-      { type: 'paragraph', text: 'This has not been confirmed. Some apps in this network credit a welcome reward automatically after registration, while others require a code. The exact method will be known once the app is live.' },
-
-      { type: 'heading', level: 3, text: 'Where is the safest place to find Jeet Spin promo codes?' },
-      { type: 'paragraph', text: 'The safest sources are the platform\'s own website and in-app announcements. Third-party codes from social media or messaging groups should be treated with caution.' },
+    ],
+    faqs: [
+      {
+        question: 'Is there a Jeet Spin promo code today?',
+        answer: 'No. UonoVoucher has not recorded a verified Jeet Spin promo code as of the latest check. This page and the promo-code tracker will be updated once a code is confirmed.',
+      },
+      {
+        question: 'When will a Jeet Spin code be available?',
+        answer: 'Codes for apps in this network are typically released inside the app at or shortly after launch. Jeet Spin launches on 30 September 2026.',
+      },
+      {
+        question: 'Can I use another spin app\'s promo code on Jeet Spin?',
+        answer: 'No. Each app in the network has its own separate promo-code system. A code from Spin Gold, Jaiho Spin or any other app will not work on Jeet Spin.',
+      },
+      {
+        question: 'Does Jeet Spin offer a welcome bonus without a code?',
+        answer: 'This has not been confirmed. Some apps in this network credit a welcome reward automatically after registration, while others require a code. The exact method will be known once the app is live.',
+      },
+      {
+        question: 'Where is the safest place to find Jeet Spin promo codes?',
+        answer: 'The safest sources are the platform\'s own website and in-app announcements. Third-party codes from social media or messaging groups should be treated with caution.',
+      },
     ],
   },
   {
