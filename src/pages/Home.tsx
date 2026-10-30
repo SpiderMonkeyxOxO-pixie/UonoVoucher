@@ -5,7 +5,6 @@ import { GamesPreviewSection } from '../components/GamesPreviewSection';
 import { PromoCodeSection } from '../components/PromoCodeSection';
 import { GuidesSection } from '../components/GuidesSection';
 import { TransparencySection } from '../components/TransparencySection';
-import { UpcomingGameSection } from '../components/UpcomingGameSection';
 
 export function Home() {
   return (
@@ -16,12 +15,6 @@ export function Home() {
         path="/"
       />
       <Hero />
-      <UpcomingGameSection
-        name="Spin Rummy"
-        image="/games/spin-rummy.webp"
-        releaseDate="2026-10-30T08:00:00+05:30"
-        releaseTimeLabel="8:00 AM IST"
-      />
       <PromoCodeSection />
       <CategoryRibbon />
       <GamesPreviewSection />

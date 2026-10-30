@@ -385,6 +385,61 @@ const allBlogPosts: BlogPost[] = [
     ],
   },
   {
+    id: 'blog-spin-rummy-referral-code-status',
+    slug: 'spin-rummy-referral-code-status',
+    title: `Spin Rummy Referral Code: Current Status`,
+    metaTitle: `Spin Rummy Referral Code Status: Is There One Yet?`,
+    metaDescription: `Check the current Spin Rummy referral code status. No code is on record yet — here's how UonoVoucher verifies codes and what to check once one appears.`,
+    excerpt: `Spin Rummy launched 30 October 2026. No referral code is on record yet. Learn how UonoVoucher verifies reported codes and what "no code on record" actually means.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-10-30',
+    image: '/s-blog/spin-rummy-referral-code-status.webp',
+    content: [
+      { type: 'paragraph', text: `The current Spin Rummy referral code status is no verified code on record.` },
+      { type: 'paragraph', text: `Spin Rummy launched 30 October 2026 at 8:00 AM IST, joining the UonoVoucher catalogue as a rummy-category real-money app. Its game page, referral information and code record will be added or updated after the platform and its offers can be independently reviewed.` },
+      { type: 'paragraph', text: `This does not mean a Spin Rummy referral code will definitely be released at launch. It only means no public code has been recorded and verified by UonoVoucher as of the latest review.` },
+      { type: 'paragraph', text: `UonoVoucher does not create, distribute or activate Spin Rummy codes.` },
+
+      { type: 'heading', level: 2, text: 'Spin Rummy Referral Code Status at a Glance' },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Public referral code', 'No verified code on record'],
+          ['Review status', 'Awaiting platform release and offer review'],
+          ['Launch date', '30 October 2026, 8:00 AM IST'],
+          ['Welcome reward', 'Not yet confirmed'],
+          ['Code required for bonuses', 'Not confirmed'],
+          ['Last checked', '30 October 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `Readers can review the [complete referral/promo-code tracker](/promo-codes/) for all currently documented games.` },
+
+      { type: 'heading', level: 2, text: 'Is a Referral Code the Same as a Promo Code?' },
+      { type: 'paragraph', text: `Not necessarily.` },
+      { type: 'paragraph', text: `A referral code is typically a personal link or code shared between users, where both the referrer and the new user may benefit. A promo code is usually a platform-issued code anyone can use. Which model Spin Rummy follows isn't confirmed yet.` },
+
+      { type: 'heading', level: 2, text: 'Is There a Working Spin Rummy Referral Code?' },
+      { type: 'paragraph', text: `No working code has been independently confirmed by UonoVoucher at the time of publication.` },
+      { type: 'paragraph', text: `A code should not be trusted merely because it appears in:` },
+      { type: 'list', items: [
+        'A Telegram message.',
+        'A WhatsApp group.',
+        'A social-media comment.',
+        'An unrelated app directory.',
+      ] },
+      { type: 'paragraph', text: `Before a code is shown as checked or active, the record identifies its source, date, and any known eligibility conditions. UonoVoucher uses visible labels — Scheduled, Checked, Active, Limited, Reported, Unconfirmed, Expired, Withdrawn — and a reported code never receives a Checked or Active label from reader submissions alone.` },
+
+      { type: 'heading', level: 2, text: `What "No Code on Record" Means` },
+      { type: 'paragraph', text: `It means UonoVoucher hasn't found enough evidence to publish a specific code — not that one will never appear, and not that every privately shared code is fake. Some promotions activate automatically through registration or a referral link rather than a typed code.` },
+    ],
+    faqs: [
+      { question: 'Is there a Spin Rummy referral code yet?', answer: 'No, not yet confirmed.' },
+      { question: 'When will this be updated?', answer: 'Once Spin Rummy launches and a code can be independently verified — the app launched 30 October 2026, so review is in progress.' },
+      { question: 'Can I trust a code shared in a group chat?', answer: 'No — verify against the complete referral/promo-code tracker first.' },
+    ],
+  },
+  {
     id: 'blog-dhangame-launch',
     slug: 'dhangame-launch-date-welcome-bonus',
     title: `DhanGame Is Coming on July 23, 2026 With a Welcome Bonus of Up to ₹500`,
