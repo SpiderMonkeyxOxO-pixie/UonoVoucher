@@ -4867,6 +4867,53 @@ const allBlogPosts: BlogPost[] = [
       { question: `How often is this page checked?`, answer: `Regularly, matching this site's standard promo-code tracking cadence.` },
     ],
   },
+  {
+    id: 'blog-max-rummy-promo-code-status',
+    slug: 'max-rummy-promo-code-status',
+    title: `Max Rummy Promo Code: Current Status`,
+    metaTitle: `Max Rummy Promo Code Status: Is MAXRU7733 Still Working?`,
+    metaDescription: `Check the current Max Rummy promo code status. MAXRU7733 was checked on 30 June 2026 but hasn't been re-verified since — here's what that means.`,
+    excerpt: `The Max Rummy promo code MAXRU7733 was checked and confirmed on 30 June 2026. That check is now several months old — here's why it's due for re-verification.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-10-31',
+    image: '/s-blog/max-rummy-promo-code-status.webp',
+    content: [
+      { type: 'paragraph', text: `The current Max Rummy promo code status is a previously checked code on record, last verified several months ago.` },
+      { type: 'paragraph', text: `A code — MAXRU7733 — was checked and confirmed by UonoVoucher on 30 June 2026, for existing users during a promotional window at that time. Because that check is now several months old, treat this as a historical record rather than a live, currently-active code until it's re-verified. This page will be updated once that re-check happens.` },
+
+      { type: 'heading', level: 2, text: 'Max Rummy Promo Code Status at a Glance' },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'MAXRU7733'],
+          ['Review status', 'Checked on 30 June 2026; due for re-verification'],
+          ['Eligibility (at time of check)', 'Existing users during the promotional window'],
+          ['Current validity', 'Not re-confirmed — treat as unverified until rechecked'],
+          ['Code required for bonuses', 'Not confirmed'],
+          ['Last checked', 'June 30, 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `Readers can review the [complete promo-code tracker](/promo-codes/) for all currently documented games.` },
+
+      { type: 'heading', level: 2, text: 'Why This Code Needs Re-Verification' },
+      { type: 'paragraph', text: `UonoVoucher's own review cadence calls for re-checking records on a recurring basis, and a code last confirmed months ago shouldn't be treated the same as one checked this week. Promotional windows end, platforms rotate codes, and a code that worked in June isn't guaranteed to work now. This isn't a reason to distrust the original record — it's why the "last checked" date exists.` },
+
+      { type: 'heading', level: 2, text: 'Is There a Currently Working Max Rummy Promo Code?' },
+      { type: 'paragraph', text: `Not confirmed as of today. The MAXRU7733 record above reflects what was verified in June; UonoVoucher has not re-tested it recently. A code should not be assumed active just because it appears correct in an old record — or because it's shared again elsewhere without a current date attached.` },
+
+      { type: 'heading', level: 2, text: `What "Checked, But Not Recent" Means` },
+      { type: 'paragraph', text: `It means this specific code was independently verified once, at a specific point in time — not that it's guaranteed valid today, and not that no current code exists. Some platforms also run promotions that activate automatically through registration or a referral link rather than a typed code, independent of this record.` },
+
+      { type: 'heading', level: 2, text: 'Is a Promo Code the Same as a Referral Link?' },
+      { type: 'paragraph', text: `Not necessarily — a referral code is typically a personal link or code shared between users, while a promo code is usually a platform-issued code anyone can use. Max Rummy's distribution pattern on this network hasn't been independently confirmed to use one model exclusively.` },
+    ],
+    faqs: [
+      { question: 'Is MAXRU7733 still a working Max Rummy promo code?', answer: `Not confirmed. It was checked and verified on 30 June 2026, but hasn't been re-tested since — treat it as unverified until this page is updated with a current check.` },
+      { question: 'When will this be re-verified?', answer: `UonoVoucher re-checks codes on a recurring basis; this page will be updated once Max Rummy's code is re-tested.` },
+      { question: 'Can I trust this code because it was "Checked" before?', answer: `A past "Checked" status confirms it worked at that point in time, not that it still works today. Always verify against the current date on this page before relying on it.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
