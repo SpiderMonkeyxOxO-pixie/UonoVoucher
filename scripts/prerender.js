@@ -41,6 +41,27 @@ function waitForServer(url, timeoutMs) {
   });
 }
 
+// The page's gtag-loader and async-font-CSS scripts (see index.html) defer
+// their work to requestIdleCallback / an onload swap so they don't compete
+// with the LCP paint for a real visitor. But this prerender step waits for
+// the `load` event plus a buffer before capturing the DOM -- long enough
+// for both to already fire, baking their post-deferred state into the
+// static snapshot (an immediately-present gtag <script> tag, and the font
+// <link> flipped from media="print" to media="all") and defeating the
+// whole point for every subsequent real visitor. Reset both back to their
+// pre-fire, deferred state before writing the snapshot to disk.
+function sanitizeHtml(html) {
+  html = html.replace(
+    /<script async="?"?\s*src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=[^"]*"\s*><\/script>\s*/,
+    ''
+  );
+  html = html.replace(
+    /(<link href="https:\/\/fonts\.googleapis\.com\/css2\?[^"]*" rel="stylesheet") media="all"(\s*onload="this\.media='all'")/,
+    '$1 media="print"$2'
+  );
+  return html;
+}
+
 function killServer(server) {
   if (!server.pid) return;
   try {
@@ -92,7 +113,7 @@ async function main() {
         try {
           await page.goto(BASE + route, { waitUntil: 'load', timeout: 20000 });
           await page.waitForTimeout(250);
-          const html = await page.content();
+          const html = sanitizeHtml(await page.content());
           const outPath = outputPathFor(route);
           mkdirSync(dirname(outPath), { recursive: true });
           writeFileSync(outPath, html);

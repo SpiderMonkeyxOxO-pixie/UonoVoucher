@@ -1,0 +1,23 @@
+# UonoVoucher
+
+> UonoVoucher (uonovoucher.com) is an independent information website covering Uono and Uono Play: manually reviewed promo codes, vouchers, game listings, and practical guides. It is not a gambling operator, does not run or host any game, and is not affiliated with Uono, Uono Play, or any platform it describes.
+
+Every code and voucher entry is manually reviewed; status is labelled rather than guessed when it can't be confirmed. Final safety, legality, and account decisions always belong to the reader.
+
+## Directory
+
+- [Uono games](https://uonovoucher.com/uono-games/): the full tracked list of Uono and Uono Play titles, each with its own detail page
+- [Promo codes](https://uonovoucher.com/promo-codes/): current, manually reviewed code status per game
+- [Vouchers](https://uonovoucher.com/vouchers/): voucher listings and how they're typically redeemed
+- [Guides](https://uonovoucher.com/guides/): practical how-to content for Uono and Uono Play
+- [Blog](https://uonovoucher.com/blog/): updates, explainers, and platform coverage
+
+## About and policies
+
+- [About UonoVoucher](https://uonovoucher.com/about/)
+- [Editorial policy](https://uonovoucher.com/editorial-policy/): how listings are reviewed and verified
+- [Corrections policy](https://uonovoucher.com/corrections-policy/): how factual errors get fixed
+- [Disclaimer](https://uonovoucher.com/disclaimer/)
+- [Privacy policy](https://uonovoucher.com/privacy-policy/)
+- [Terms](https://uonovoucher.com/terms/)
+- [Contact](https://uonovoucher.com/contact/)
