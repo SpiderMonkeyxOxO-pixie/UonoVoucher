@@ -4949,6 +4949,41 @@ const allBlogPosts: BlogPost[] = [
       { question: `Should I be suspicious of a 567 Slots code that looks like a normal word instead of random characters?`, answer: `No, that alone isn't a red flag. Plain-text or domain-style codes are used legitimately across this network.` },
     ],
   },
+  {
+    id: 'blog-ind-rummy-promo-code-today-status',
+    slug: 'ind-rummy-promo-code-today-status',
+    title: `Ind Rummy Promo Code: Today's Status`,
+    metaTitle: `Ind Rummy Promo Code: Today's Status`,
+    metaDescription: `No promo code is currently on file for Ind Rummy. Check today's honestly-tracked status on UonoVoucher and learn the red flags before trusting any code.`,
+    excerpt: `There's no promo code currently on file for Ind Rummy. See today's honestly-checked status and the red flags to watch for before trusting any code elsewhere.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-02',
+    image: '/s-blog/ind-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no promo code currently on file for [Ind Rummy](/uono-games/ind-rummy). Ind Rummy is a skill-format rummy title built on standard rummy scoring, and like most apps in this network it releases codes on its own schedule rather than keeping one permanently active — when a code does appear, it typically ties to a specific promotion and expires once that promotion ends.` },
+      { type: 'paragraph', text: `This matters because a page showing you a code with no date attached lets you assume it's current when it might be weeks old. Nobody outside the platform can reliably predict when Ind Rummy issues a new code or how long it lasts, which is why "today's status" has to mean something checked today, not something copy-pasted from an old post.` },
+
+      { type: 'heading', level: 2, text: `How to check today's status` },
+      { type: 'paragraph', text: `We track Ind Rummy's code activity on our [promo-codes page](/promo-codes/) and on its own [game page](/uono-games/ind-rummy), checked across three windows daily — morning, afternoon, and evening — because that's roughly when operators tend to refresh active promotions. Ind Rummy's entry was last reviewed on 21 June 2026, with no code on file at that review. Each confirmed entry comes with what we actually saw: the type of bonus, roughly when it was live, and any conditions attached. If nothing new has been verified in a given window, we say so directly with a "Checking" or "Not yet confirmed" label instead of guessing. We've never published an invented code, and we're not going to start now just to avoid an empty-looking page.` },
+
+      { type: 'heading', level: 2, text: `Before you trust an Ind Rummy code from somewhere else` },
+      { type: 'list', items: [
+        `No date, no source = no trust. If a post doesn't say when the code was seen working or where it came from, treat it as unverifiable.`,
+        `Watch for "universal" claims. A code claimed to work "for everyone, every time" doesn't match how promo codes are actually structured — most are scoped to a specific offer or user segment.`,
+        `Never trade personal info for a code. Any message asking for your login, OTP, or payment PIN before "releasing" a code is a scam pattern, full stop.`,
+        `Urgency is a tactic, not a fact. Artificial deadlines are designed to make you skip the verification step — don't skip it.`,
+        `Format tells you nothing by itself. A code that reads like a plain word or phrase is just as legitimate a format as a random alphanumeric string. Neither should be judged on looks alone.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** Ind Rummy and comparable platforms are restricted to users 18 and above. A promo code is a small incentive, not a reason to deposit more than you planned or chase a loss.` },
+    ],
+    faqs: [
+      { question: `Is there an Ind Rummy code that works every single day?`, answer: `No. Codes are tied to specific, time-limited campaigns. Treat any claim of a permanently valid code with skepticism.` },
+      { question: `How does UonoVoucher verify Ind Rummy's code status?`, answer: `We check across morning, afternoon, and evening windows and only publish what we've actually confirmed, labeling unconfirmed periods honestly.` },
+      { question: `Does Ind Rummy currently have a promo code?`, answer: `No — there's no code currently on file as of this listing's most recent review on 21 June 2026. The status page is updated as soon as that changes.` },
+      { question: `A code I found online for Ind Rummy didn't work — was I scammed?`, answer: `Not necessarily a scam — it may simply have expired or never been valid in the first place. Either way, always verify through a tracked source before relying on it.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
