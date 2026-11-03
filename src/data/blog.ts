@@ -4984,6 +4984,85 @@ const allBlogPosts: BlogPost[] = [
       { question: `A code I found online for Ind Rummy didn't work — was I scammed?`, answer: `Not necessarily a scam — it may simply have expired or never been valid in the first place. Either way, always verify through a tracked source before relying on it.` },
     ],
   },
+  {
+    id: 'blog-rummy-promo-codes-every-game-status',
+    slug: 'rummy-promo-codes-every-game-status',
+    title: `Rummy Promo Codes: Every Game, Today's Status`,
+    metaTitle: `Rummy Promo Codes: Status for Every Game We Track`,
+    metaDescription: `One table, every rummy game on UonoVoucher, with its real current promo-code status label and last-reviewed date. No guesses, no copy-pasted codes.`,
+    excerpt: `There's no single "rummy promo code" that works everywhere. Here's the real, current status for all 23 rummy games we track, in one table.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-03',
+    image: '/s-blog/rummy-promo-codes-every-game-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no single "rummy promo code" that works across every rummy game. UonoVoucher tracks 23 separate rummy titles, each with its own operator, campaign and code history — the table below shows each one's real current status label and the date it was last reviewed, not a guessed or copy-pasted code.` },
+
+      { type: 'heading', level: 2, text: `Why one table, not one code` },
+      { type: 'paragraph', text: `"Rummy promo code" is a broad search covering 23 separately-operated apps on this tracker alone. A code for one does nothing on another, and a list that doesn't name the specific game isn't a usable record — it's a guess. For the general explanation of why no single code covers every Yono-style game, see [Yono Promo Code: Status Across All Games](/blog/yono-promo-code-all-games-status).` },
+
+      { type: 'heading', level: 2, text: `Every rummy game we track, today's status` },
+      {
+        type: 'table',
+        headers: [`Game`, `Status`, `Last reviewed`],
+        rows: [
+          [`[Money Rummy](/blog/money-rummy-promo-code-status)`, `None`, `9 Sep 2026`],
+          [`[Gold Rummy](/uono-games/gold-rummy)`, `None`, `19 Aug 2026`],
+          [`[Win Rummy](/blog/win-rummy-promo-code-status)`, `None`, `29 Jul 2026`],
+          [`[ABC Rummy](/uono-games/abc-rummy)`, `None`, `26 Jun 2026`],
+          [`[Boss Rummy](/blog/boss-rummy-promo-code-today-status)`, `Expired`, `7 Jun 2026`],
+          [`[Game Rummy](/uono-games/game-rummy)`, `Reported`, `4 Jul 2026`],
+          [`[Gogo Rummy](/uono-games/gogo-rummy)`, `Checked`, `20 Jun 2026`],
+          [`[Hi Rummy](/uono-games/hi-rummy)`, `Reported`, `19 Jun 2026`],
+          [`[Ind Rummy](/blog/ind-rummy-promo-code-today-status)`, `None`, `21 Jun 2026`],
+          [`[INR Rummy](/uono-games/inr-rummy)`, `Checked`, `15 Jun 2026`],
+          [`[Jaiho Rummy](/uono-games/jaiho-rummy)`, `Checked`, `5 Jul 2026`],
+          [`[Joy Rummy](/uono-games/joy-rummy)`, `Expired`, `2 Jul 2026`],
+          [`[Love Rummy](/uono-games/love-rummy)`, `Reported`, `4 Jul 2026`],
+          [`[Max Rummy](/blog/max-rummy-promo-code-status)`, `Checked`, `10 Jul 2026`],
+          [`[Ok Rummy](/uono-games/ok-rummy)`, `Checked`, `10 Jul 2026`],
+          [`[Rumble Rummy](/uono-games/rumble-rummy)`, `Unconfirmed`, `13 Jul 2026`],
+          [`[Rummy 91](/blog/rummy-91-promo-code-today-status)`, `Reported`, `14 Jun 2026`],
+          [`[Rummy Ludo](/uono-games/rummy-ludo)`, `Unconfirmed`, `18 Jun 2026`],
+          [`[Rummy 77](/uono-games/rummy77)`, `Reported`, `9 Jul 2026`],
+          [`[Rummy 888](/uono-games/rummy888)`, `Expired`, `27 Jun 2026`],
+          [`[Top Rummy](/uono-games/top-rummy)`, `Checked`, `15 Jun 2026`],
+          [`[Yono Rummy](/blog/yono-rummy-promo-code-today-status)`, `Expired`, `7 Jul 2026`],
+          [`[VIP Rummy](/blog/vip-rummy-promo-code-today-status)`, `None`, `20 Oct 2026`],
+        ],
+      },
+      { type: 'paragraph', text: `This table reflects the same records shown on the [promo-code tracker](/promo-codes/) — it isn't a separate, independently-compiled list. If a game's entry here looks out of date, the tracker is the live source to recheck.` },
+
+      { type: 'heading', level: 2, text: `What the status labels actually mean` },
+      {
+        type: 'table',
+        headers: [`Label`, `What you can rely on`, `What you cannot rely on`],
+        rows: [
+          [`Checked`, `A review happened on the date shown`, `That it works today`],
+          [`Reported`, `Someone submitted it`, `That anyone verified it`],
+          [`Unconfirmed`, `It was noted`, `Its source or validity`],
+          [`Expired`, `It should not be used`, `That a replacement exists`],
+          [`None`, `No code is on record`, `That no offer exists`],
+        ],
+      },
+      { type: 'paragraph', text: `A "None" label is the most common result in the table above — it means no code has been independently recorded for that game as of its review date, not that the game has no offers at all. Full label definitions live in [How We Assign Status Labels](/guides/how-we-assign-status-labels/).` },
+
+      { type: 'heading', level: 2, text: `Before you trust a rummy code from anywhere else` },
+      { type: 'list', items: [
+        `No named game, no trust. A code that doesn't say which of these 23 apps it's for isn't usable.`,
+        `No date, no trust. A status without a last-reviewed date can't be judged against the table above.`,
+        `Never trade personal info for a code. A request for your login, OTP or payment PIN before "releasing" a code is a scam pattern.`,
+        `A "None" entry today can change. Codes are added and expire on their own schedule — recheck the tracker rather than a saved screenshot.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** these games are restricted to users 18 and above. A promo code is a small incentive, not a reason to deposit more than planned or chase a loss.` },
+    ],
+    faqs: [
+      { question: `Is there one promo code that works on every rummy game?`, answer: `No. Each of the 23 rummy games tracked here is separately operated, with its own codes and campaigns. A code for one does not work on another.` },
+      { question: `Why do most rummy games show a "None" status?`, answer: `"None" means no code has been independently recorded for that game as of its last review — it doesn't mean the game has no offers at all. Status can change between reviews.` },
+      { question: `Which rummy game currently has the most recent review?`, answer: `VIP Rummy, last reviewed 20 October 2026, with a status of None as of that review.` },
+      { question: `Where can I check if this table is still current?`, answer: `The [promo-code tracker](/promo-codes/) holds the live, same-source record for every game listed here.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
