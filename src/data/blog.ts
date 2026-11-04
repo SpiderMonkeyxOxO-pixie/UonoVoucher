@@ -5063,6 +5063,90 @@ const allBlogPosts: BlogPost[] = [
       { question: `Where can I check if this table is still current?`, answer: `The [promo-code tracker](/promo-codes/) holds the live, same-source record for every game listed here.` },
     ],
   },
+  {
+    id: 'blog-mbm-bet-promo-code-voucher-status',
+    slug: 'mbm-bet-promo-code-voucher-status',
+    title: `MBM Bet Promo Code & Voucher Status: What's Actually Live`,
+    metaTitle: `MBM Bet Promo Code: Current Status & Welcome Bonus`,
+    metaDescription: `MBM Bet's promo code is currently marked Expired, last reviewed 17 Jun 2026. Welcome bonus, minimum withdrawal, and how UonoVoucher tracks this record.`,
+    excerpt: `MBM Bet's promo code is currently Expired. Here's the real, dated status, the listed welcome bonus and minimum withdrawal, and what to check before relying on any code you find elsewhere.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-04',
+    image: '/s-blog/mbm-bet-promo-code-voucher-status.webp',
+    content: [
+      { type: 'paragraph', text: `MBM Bet's promo code currently carries an **Expired** status, last reviewed on 17 June 2026. The listed welcome bonus is ₹195, with a ₹100 minimum withdrawal. No active replacement code is on record as of this review.` },
+
+      { type: 'heading', level: 2, text: `MBM Bet status at a glance` },
+      {
+        type: 'table',
+        headers: [`Field`, `Current record`],
+        rows: [
+          [`Promo-code status`, `Expired`],
+          [`Welcome / sign-up bonus`, `₹195`],
+          [`Minimum withdrawal`, `₹100`],
+          [`First published on this tracker`, `20 Jan 2026`],
+          [`Last reviewed`, `17 Jun 2026`],
+          [`Linked voucher record`, `None`],
+          [`Format`, `Social, table-style multiplayer rounds`],
+        ],
+      },
+      { type: 'paragraph', text: `This matches the same record shown on the [promo-code tracker](/promo-codes/) and on MBM Bet's own [game page](/uono-games/mbm-bet) — it isn't a separately compiled figure. If you see a different status quoted elsewhere, the tracker and game page are the live source to recheck.` },
+
+      { type: 'heading', level: 2, text: `What kind of app is MBM Bet` },
+      { type: 'paragraph', text: `MBM Bet is a social-format title built around simultaneous, table-style rounds rather than isolated single-player sessions. Practically, that means a round only moves forward once every seat at the table has acted, so session length can vary more here than it does in strictly single-player formats. The exact mechanics can shift slightly between app versions, so treat any description of gameplay — including this one — as a general guide rather than a locked-in spec.` },
+      { type: 'paragraph', text: `Because MBM Bet runs on shared rounds rather than solo play, its promo-code and bonus structure tends to follow the same pattern as other social-format titles on this tracker: a standing welcome bonus for new accounts, plus occasional time-limited codes layered on top that come and go independently of that baseline offer.` },
+
+      { type: 'heading', level: 2, text: `Downloading and installing MBM Bet` },
+      { type: 'paragraph', text: `The Download button on MBM Bet's game page takes you to the operator's own external listing in a new tab — UonoVoucher does not host the installer itself. Before installing anything from that listing, review the permissions it requests. This is the same guidance we give for every title in this catalogue: the install itself is controlled by an external source, not by UonoVoucher, so that step is worth doing regardless of how familiar the app looks.` },
+
+      { type: 'heading', level: 2, text: `Why "Expired" isn't the same as "no bonus"` },
+      { type: 'paragraph', text: `An Expired label means the specific code previously recorded for MBM Bet has stopped working — it does not mean the app's standing welcome offer has been withdrawn. The ₹195 welcome bonus and ₹100 minimum withdrawal are the app's listed baseline terms, separate from any time-limited promo code layered on top. Treat the two as different things: a bonus is a standing offer; a promo code is a short-lived add-on that may or may not exist at any given time.` },
+
+      { type: 'heading', level: 2, text: `How MBM Bet compares to other tracked games right now` },
+      {
+        type: 'table',
+        headers: [`Game`, `Status`, `Last reviewed`],
+        rows: [
+          [`MBM Bet`, `Expired`, `17 Jun 2026`],
+          [`[Max Rummy](/blog/max-rummy-promo-code-status)`, `Checked`, `10 Jul 2026`],
+          [`[VIP Rummy](/blog/vip-rummy-promo-code-today-status)`, `None`, `20 Oct 2026`],
+          [`[Yono Rummy](/blog/yono-rummy-promo-code-today-status)`, `Expired`, `7 Jul 2026`],
+        ],
+      },
+      { type: 'paragraph', text: `For the full set of rummy titles tracked alongside MBM Bet, see [Rummy Promo Codes: Every Game, Today's Status](/blog/rummy-promo-codes-every-game-status). MBM Bet sits outside that rummy table specifically because it's a social betting-format title, not a rummy variant — but it's reviewed on the same recurring schedule, and the same status labels apply across both.` },
+      { type: 'paragraph', text: `Of the four games above, MBM Bet and Yono Rummy both currently sit at Expired, while VIP Rummy's most recent review returned None and Max Rummy's returned Checked. None of these labels are static — each game is re-reviewed on its own schedule, and a status shown today can change by the next review date without warning.` },
+
+      { type: 'heading', level: 2, text: `What the status labels mean here` },
+      {
+        type: 'table',
+        headers: [`Label`, `What you can rely on`, `What you cannot rely on`],
+        rows: [
+          [`Checked`, `A review happened on the date shown`, `That it works today`],
+          [`Reported`, `Someone submitted it`, `That anyone verified it`],
+          [`Unconfirmed`, `It was noted`, `Its source or validity`],
+          [`Expired`, `It should not be used`, `That a replacement exists`],
+          [`None`, `No code is on record`, `That no offer exists`],
+        ],
+      },
+      { type: 'paragraph', text: `Full label definitions live in [How We Assign Status Labels](/guides/how-we-assign-status-labels/).` },
+
+      { type: 'heading', level: 2, text: `Before withdrawing or relying on a code for MBM Bet` },
+      { type: 'list', items: [
+        `₹100 is the recorded minimum withdrawal. Confirm this against the app's own current terms before requesting a payout, since operator terms can change independently of this tracker's review cycle.`,
+        `The Expired code is kept visible for the record, not reinstated. Its copy action stays disabled — it's shown so readers aren't left wondering whether a code exists at all.`,
+        `No date, no trust. Any MBM Bet code you find elsewhere without a stated review date can't be checked against the record above.`,
+        `Never trade personal info for a code. A request for your login, OTP, or payment PIN before "releasing" a code is a scam pattern, full stop.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** MBM Bet and comparable platforms are restricted to users 18 and above. A promo code or welcome bonus is a small incentive, not a reason to deposit more than you planned or chase a loss.` },
+    ],
+    faqs: [
+      { question: `Does MBM Bet currently have a working promo code?`, answer: `No. Its previously listed code is marked Expired as of the last review on 17 June 2026, and no replacement is currently on record.` },
+      { question: `What is MBM Bet's welcome bonus?`, answer: `₹195, with a ₹100 minimum withdrawal, per the app's listed terms.` },
+      { question: `Is MBM Bet's Expired code still shown anywhere?`, answer: `Yes — it's kept visible on the record for transparency, but the copy action is disabled since it no longer works.` },
+      { question: `Where can I check if this status has changed?`, answer: `MBM Bet's [game page](/uono-games/mbm-bet) and the [promo-code tracker](/promo-codes/) hold the live, same-source record shown in this post.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
