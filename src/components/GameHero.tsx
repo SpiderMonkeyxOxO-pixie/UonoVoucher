@@ -36,7 +36,7 @@ export function GameHero({ game }: GameHeroProps) {
                 </svg>
                 Reviewed {formatDate(game.reviewedAt)}
               </span>
-              {showPromoBadge && <StatusBadge status={game.codeStatus} />}
+              {showPromoBadge && <StatusBadge status={game.codeStatus} lastVerifiedAt={game.reviewedAt} />}
             </div>
           </div>
         </div>

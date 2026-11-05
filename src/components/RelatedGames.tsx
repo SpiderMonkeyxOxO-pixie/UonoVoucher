@@ -16,7 +16,7 @@ export function RelatedGames({ current }: { current: Game }) {
           <img src={g.image} alt="" width={44} height={44} />
           <strong>{g.name}</strong>
           <span className="game-card-category">{CATEGORY_LABELS[g.category]}</span>
-          {g.codeStatus !== 'none' && <StatusBadge status={g.codeStatus} />}
+          {g.codeStatus !== 'none' && <StatusBadge status={g.codeStatus} lastVerifiedAt={g.reviewedAt} />}
         </Link>
       ))}
     </div>

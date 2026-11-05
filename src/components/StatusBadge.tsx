@@ -8,7 +8,7 @@ const TONE_CLASS: Record<string, string> = {
   neutral: 'badge-neutral',
 };
 
-export function StatusBadge({ status }: { status: string }) {
-  const meta = getStatusMeta(status);
+export function StatusBadge({ status, lastVerifiedAt }: { status: string; lastVerifiedAt?: string }) {
+  const meta = getStatusMeta(status, lastVerifiedAt);
   return <span className={`badge ${TONE_CLASS[meta.tone]}`}>{meta.label}</span>;
 }

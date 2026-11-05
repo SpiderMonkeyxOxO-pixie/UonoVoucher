@@ -37,7 +37,7 @@ export function GameDetail() {
 
   const infoFields: InfoField[] = [
     { label: 'Category', value: CATEGORY_LABELS[game.category] },
-    { label: 'Promo-code status', value: getStatusMeta(game.codeStatus).label },
+    { label: 'Promo-code status', value: getStatusMeta(game.codeStatus, mostRecentChecked || game.reviewedAt).label },
     { label: 'Last checked', value: mostRecentChecked ? formatDate(mostRecentChecked) : '' },
     { label: 'Review status', value: `Reviewed ${formatDate(game.reviewedAt)}` },
   ];

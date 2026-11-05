@@ -61,7 +61,7 @@ export function GameSidebar({ game, promoCheckedAt, sections }: GameSidebarProps
         <div className="sidebar-status-list">
           <div className="sidebar-status-row">
             <span>Promo-code status</span>
-            <span>{getStatusMeta(game.codeStatus).label}</span>
+            <span>{getStatusMeta(game.codeStatus, game.reviewedAt).label}</span>
           </div>
           {promoCheckedAt && (
             <div className="sidebar-status-row">

@@ -41,7 +41,7 @@ export function PromoCodeCard({ entry }: { entry: EffectivePromo }) {
   const slotCode = liveSlots ? liveSlots[activeSlot] : activeSlot === codeSlot ? entry.code : undefined;
   const showingCode = Boolean(slotCode);
   const disabled = isDisabledStatus(entry.status);
-  const statusMeta = getStatusMeta(entry.status);
+  const statusMeta = getStatusMeta(entry.status, entry.checkedAt);
 
   return (
     <article className="promo-card">
@@ -51,7 +51,7 @@ export function PromoCodeCard({ entry }: { entry: EffectivePromo }) {
           <Link to={`/uono-games/${game.slug}/`}>{game.name}</Link>
           <span className="promo-card-category">{CATEGORY_LABELS[game.category]}</span>
         </div>
-        <StatusBadge status={entry.status} />
+        <StatusBadge status={entry.status} lastVerifiedAt={entry.checkedAt} />
       </div>
 
       <div className="promo-tabs" role="tablist" aria-label={`Daily release times for ${game.name}`}>
