@@ -2018,6 +2018,59 @@ export const games: Game[] = [
     "downloadUrl": "https://www.mbmbet21.com/?code=UPHZHE49PH6&t=1781958952"
   },
   {
+    "id": "game-cash-rummy",
+    "slug": "cash-rummy",
+    "name": "Cash Rummy",
+    "category": "skill",
+    "image": "/games/cash-rummy.webp",
+    "summary": "Cash Rummy launched 5 Nov 2026 as a 10-game platform (Rummy, Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, Roulette) — not a single-game rummy title.",
+    "description": [
+      "Cash Rummy launched 5 November 2026 at 8:00 AM IST as a 10-game platform bundling Rummy, Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda and Roulette, per the app's own listing. Several of these are chance-based rather than skill-based.",
+      "Its own listing states a ₹50–500 welcome bonus (a range, not a fixed figure) and a ₹100 minimum withdrawal, operated by Cash Rummy Tech Co. Ltd. per its own claim — neither independently verified by UonoVoucher."
+    ],
+    "formatNotes": [
+      "Cash Rummy's ten-game lineup places it closer to a directory-style multi-game app than a single-format rummy title. Mechanics for each individual game haven't been independently documented here yet."
+    ],
+    "accessNotes": [
+      "Downloading Cash Rummy takes you to the operator's own listing in a new tab. UonoVoucher does not host APK files — review the requested permissions before installing."
+    ],
+    "promoExplanation": [
+      "No promo code is currently on file for Cash Rummy. Per the operator's stated pattern, new codes are released up to three times a day (morning, afternoon, evening) rather than one permanent code."
+    ],
+    "reviewNotes": [
+      "This entry was first published on 5 Nov 2026, Cash Rummy's launch day, and most recently reviewed on 5 Nov 2026. At that review, no promo code was on record."
+    ],
+    "safetyNotes": [
+      "As with the rest of our catalogue, Cash Rummy's record here is independently reviewed and subject to change. The install itself is controlled by an external source, not UonoVoucher, so checking permissions first is recommended. Figures stated by the app's own listing are marked as such rather than presented as independently confirmed."
+    ],
+    "faqs": [
+      {
+        "question": "Is there a Cash Rummy code that works every day?",
+        "answer": "No. Codes are tied to specific release windows per the operator's stated three-times-daily pattern."
+      },
+      {
+        "question": "Does Cash Rummy currently have a promo code?",
+        "answer": "No — none confirmed as of this listing's most recent review."
+      },
+      {
+        "question": "What games does Cash Rummy include besides rummy?",
+        "answer": "Nine others: Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, Roulette."
+      },
+      {
+        "question": "What is Cash Rummy's welcome bonus?",
+        "answer": "The app's own listing states a ₹50–500 range, not a fixed figure — not independently reviewed."
+      }
+    ],
+    "metaTitle": "Cash Rummy — Promo Codes, Vouchers & Status",
+    "metaDescription": "Cash Rummy launched 5 Nov 2026. Promo-code status, welcome bonus and review dates — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-11-05",
+    "reviewedAt": "2026-11-05",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://www.cashrummy99.com/?code=RS9XV2AA&t=1793849345",
+    "sortOrder": 0
+  },
+  {
     "id": "game-neta-vip",
     "slug": "neta-vip",
     "name": "Neta VIP",

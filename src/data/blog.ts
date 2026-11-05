@@ -5147,6 +5147,76 @@ const allBlogPosts: BlogPost[] = [
       { question: `Where can I check if this status has changed?`, answer: `MBM Bet's [game page](/uono-games/mbm-bet) and the [promo-code tracker](/promo-codes/) hold the live, same-source record shown in this post.` },
     ],
   },
+  {
+    id: 'blog-cash-rummy-promo-code-today-status',
+    slug: 'cash-rummy-promo-code-today-status',
+    title: `Cash Rummy Promo Code: Today's Status`,
+    metaTitle: `Cash Rummy Promo Code: Today's Status`,
+    metaDescription: `Cash Rummy launched 5 Nov 2026. No fixed promo code exists — codes release up to 3x daily. Today's honestly-tracked status and the full bonus/game breakdown.`,
+    excerpt: `There's no promo code currently on file for Cash Rummy. Here's how we track its release windows, the listed welcome bonus and minimum withdrawal, and the full 10-game lineup.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-05',
+    image: '/s-blog/cash-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no promo code currently on file for Cash Rummy. It launched 5 November 2026 as a 10-game platform (not just rummy) and, like other apps in this network, releases codes up to 3x daily — morning, afternoon, evening — rather than keeping one permanently active.` },
+
+      { type: 'heading', level: 2, text: `How to check today's status` },
+      { type: 'paragraph', text: `We track Cash Rummy's code activity across the same three daily windows the operator describes. As of this review, status is "None" — no code independently recorded yet, not that no offer exists.` },
+
+      { type: 'heading', level: 2, text: `Welcome bonus and minimum withdrawal` },
+      { type: 'paragraph', text: `₹50–500 welcome bonus (range, unverified). ₹100 minimum withdrawal. Both the operator's own stated claims.` },
+
+      { type: 'heading', level: 2, text: `Downloading Cash Rummy` },
+      { type: 'paragraph', text: `Download Cash Rummy from its [official listing](https://www.cashrummy99.com/?code=RS9XV2AA&t=1793849345). UonoVoucher does not host APK files — review the requested permissions before installing.` },
+
+      { type: 'heading', level: 2, text: `Before you trust a Cash Rummy code from somewhere else` },
+      { type: 'list', items: [
+        `No date, no source, no trust.`,
+        `Watch for "universal" claims.`,
+        `Never trade personal info for a code.`,
+        `Treat urgency as a tactic, not a fact.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `A note on the game lineup` },
+      { type: 'paragraph', text: `Worth checking whether a promo code applies across the whole app or is scoped to one specific game — not clarified in the operator's own materials as of this review.` },
+
+      { type: 'heading', level: 2, text: `Game lineup` },
+      {
+        type: 'table',
+        headers: [`Game`, `Type`],
+        rows: [
+          [`Rummy`, `Skill`],
+          [`Poker`, `Skill`],
+          [`Ludo`, `Skill and chance`],
+          [`Crash`, `Chance`],
+          [`Andar Bahar`, `Chance`],
+          [`Wingo Lottery`, `Chance`],
+          [`7 Up Down`, `Chance`],
+          [`Dragon & Tiger`, `Chance`],
+          [`Jhandi Munda`, `Chance`],
+          [`Roulette`, `Chance`],
+        ],
+      },
+
+      { type: 'heading', level: 2, text: `Status at a glance` },
+      {
+        type: 'table',
+        headers: [`Field`, `Value`],
+        rows: [
+          [`Launch date`, `5 Nov 2026, 8:00 AM IST`],
+          [`Current code`, `None on file`],
+          [`Welcome bonus`, `₹50–500 (range, unverified)`],
+          [`Min withdrawal`, `₹100`],
+        ],
+      },
+    ],
+    faqs: [
+      { question: `Is there a Cash Rummy code that works every day?`, answer: `No. Codes are tied to specific release windows per the operator's stated three-times-daily pattern.` },
+      { question: `How does UonoVoucher verify Cash Rummy's code status?`, answer: `We check across morning, afternoon, and evening windows and only publish what's been confirmed.` },
+      { question: `Does Cash Rummy currently have a promo code?`, answer: `No — none confirmed as of this listing's most recent review.` },
+      { question: `What games does Cash Rummy include besides rummy?`, answer: `Nine others: Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, Roulette.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
