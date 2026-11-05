@@ -2068,7 +2068,7 @@ export const games: Game[] = [
     "codeStatus": "none",
     "featured": true,
     "downloadUrl": "https://www.cashrummy99.com/?code=RS9XV2AA&t=1793849345",
-    "sortOrder": 0
+    "sortOrder": -2
   },
   {
     "id": "game-neta-vip",
