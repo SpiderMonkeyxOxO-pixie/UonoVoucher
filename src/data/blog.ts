@@ -5217,6 +5217,49 @@ const allBlogPosts: BlogPost[] = [
       { question: `What games does Cash Rummy include besides rummy?`, answer: `Nine others: Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, Roulette.` },
     ],
   },
+  {
+    id: 'blog-gold-rummy-promo-code-today-status',
+    slug: 'gold-rummy-promo-code-today-status',
+    title: `Gold Rummy Promo Code: Today's Status`,
+    metaTitle: `Gold Rummy Promo Code: Today's Status`,
+    metaDescription: `Gold Rummy has no promo code on file and hasn't been reviewed since 19 Aug 2026. What's confirmed, what isn't, and what a refresh would need to cover.`,
+    excerpt: `There's no promo code currently on file for Gold Rummy, and its listing hasn't been reviewed since 19 August 2026. Here's what's actually known.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-06',
+    image: '/s-blog/gold-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no promo code currently on file for Gold Rummy, and its listing hasn't been reviewed since 19 August 2026 — both things worth knowing before you go looking for one.` },
+      { type: 'paragraph', text: `Gold Rummy joined UonoVoucher's catalogue back in August as a straightforward card-meld rummy title, and it's been marked as a featured listing ever since. What it hasn't gotten, until now, is its own dedicated status page.` },
+
+      { type: 'heading', level: 2, text: `What "no code on file" actually means here` },
+      { type: 'paragraph', text: `It means nobody's independently confirmed a working Gold Rummy code recently enough to publish one — not that Gold Rummy definitely doesn't run promotions. Apps in this category frequently run codes through in-app banners, referral links, or short-lived campaigns that never get posted anywhere public. If you see a "Gold Rummy code" floating around a Telegram group or a comment section, treat it the way you'd treat any unsourced code — skeptically, until something ties it to a date and a real source.` },
+
+      { type: 'heading', level: 2, text: `Why the review date matters` },
+      { type: 'paragraph', text: `19 August 2026 is the last time this listing was checked. A lot can change for an app over two-plus months: new promotions, updated terms, a different operator stance on rewards. Gold Rummy is marked featured, and a featured game going this long without a fresh look isn't the standard UonoVoucher holds itself to elsewhere. Consider this post the start of catching that up.` },
+
+      { type: 'heading', level: 2, text: `What is actually known about Gold Rummy` },
+      { type: 'paragraph', text: `It's listed under the Skill category here, on the basis of its promotional material presenting a traditional rummy card-meld format. That's a description of how it's marketed, not a verified claim about its internal scoring or matchmaking. Table formats, variant rules, and entry limits haven't been documented for Gold Rummy on this site yet — that's part of what a proper re-review would need to cover.` },
+
+      { type: 'heading', level: 2, text: `Downloading Gold Rummy` },
+      { type: 'paragraph', text: `The [Download button on Gold Rummy's own page](/uono-games/gold-rummy/) links out to the app's external listing. UonoVoucher doesn't host APK files for any title in this catalogue — review the permissions the installer requests before granting anything.` },
+
+      { type: 'heading', level: 2, text: `If a code does appear` },
+      { type: 'paragraph', text: `Should a verified Gold Rummy code surface before the next full review, it would get published the same way codes for any other title here do — tied to a date, a source, and a clear eligibility note, using the same status labels used across the [promo codes tracker](/promo-codes/).` },
+
+      { type: 'heading', level: 2, text: `Should you wait for a code, or just download it?` },
+      { type: 'paragraph', text: `Depends what you're after. If the draw is the game itself, there's no reason the absence of a public promo code should hold you back. If you're specifically chasing bonus value, it might be worth checking back once this listing gets its overdue refresh.` },
+
+      { type: 'heading', level: 2, text: `What happens next` },
+      { type: 'paragraph', text: `This page will be revisited on a recurring review cycle, not a one-off. Until then, the honest status is: featured, live, unreviewed in over two months, and no code on file.` },
+    ],
+    faqs: [
+      { question: `Does Gold Rummy have a promo code right now?`, answer: `No. None has been independently verified as of this listing's current review, which itself is overdue for a refresh.` },
+      { question: `Why hasn't Gold Rummy been reviewed since August?`, answer: `It fell behind in the review queue despite being a featured title — this post is the first step in catching that up.` },
+      { question: `Is Gold Rummy safe to download without a promo code?`, answer: `That's a separate question from code availability. Review the app's requested permissions and download source regardless of whether a code exists.` },
+      { question: `Where does the Gold Rummy Download button lead?`, answer: `To Gold Rummy's own external listing — UonoVoucher doesn't host the APK itself.` },
+      { question: `How can I report a Gold Rummy code I've seen elsewhere?`, answer: `Use the [Contact page](/contact/) to flag it with a source and date — see the [Corrections Policy](/corrections-policy/).` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
