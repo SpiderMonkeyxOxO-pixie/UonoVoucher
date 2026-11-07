@@ -5276,6 +5276,7 @@ const allBlogPosts: BlogPost[] = [
     excerpt: `रिडीम कोड का मतलब, यह कैसे काम करता है और प्रोमो कोड से कैसे अलग है। A Hindi and English guide.`,
     category: 'Code Basics',
     publishedAt: '2026-11-07',
+    image: '/s-blog/redeem-code-ka-matlab.webp',
     content: [
       { type: 'paragraph', text: `रिडीम कोड का मतलब है एक कोड जिसे डालकर कोई तय लाभ, जैसे वाउचर, क्रेडिट या इन-ऐप आइटम, "क्लेम" किया जाता है। हर कोड आम तौर पर एक बार ही काम करता है, उसकी एक्सपायरी होती है, और यह सिर्फ उसी प्लेटफ़ॉर्म पर चलता है जिसने उसे जारी किया। कभी भी रिडीम कोड के बदले पैसे न दें और न ही निजी जानकारी साझा करें।` },
       { type: 'paragraph', text: `In English: a redeem code is entered to claim a specific benefit. It is usually single-use, has an expiry and only works on the issuing platform. Never pay for, or share private details to get, a redeem code.` },
@@ -5373,6 +5374,7 @@ const allBlogPosts: BlogPost[] = [
     excerpt: `What a redeem code means, explained in Tamil and Telugu, with English safety tips.`,
     category: 'Code Basics',
     publishedAt: '2026-11-07',
+    image: '/s-blog/redeem-code-meaning-tamil-telugu.webp',
     content: [
       { type: 'paragraph', text: `A redeem code (Tamil: ரிடீம் கோட், Telugu: రిడీమ్ కోడ్) is a code entered to claim, or "redeem", a specific benefit — a voucher, credit or in-app item. It differs from a referral code, and no code guarantees a reward.` },
 
