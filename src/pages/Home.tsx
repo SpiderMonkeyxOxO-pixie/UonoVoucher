@@ -4,6 +4,7 @@ import { CategoryRibbon } from '../components/CategoryRibbon';
 import { GamesPreviewSection } from '../components/GamesPreviewSection';
 import { PromoCodeSection } from '../components/PromoCodeSection';
 import { GuidesSection } from '../components/GuidesSection';
+import { LatestBlogSection } from '../components/LatestBlogSection';
 import { TransparencySection } from '../components/TransparencySection';
 
 export function Home() {
@@ -18,6 +19,7 @@ export function Home() {
       <PromoCodeSection />
       <CategoryRibbon />
       <GamesPreviewSection />
+      <LatestBlogSection />
       <GuidesSection />
       <TransparencySection />
     </>
