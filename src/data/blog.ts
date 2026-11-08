@@ -949,6 +949,7 @@ const allBlogPosts: BlogPost[] = [
       { type: 'paragraph', text: 'This section should state:' },
       { type: 'list', items: ['Whether a related code is listed', 'Last checked date', 'Current status', 'Applicable platform', 'Eligibility note'] },
       { type: 'paragraph', text: 'For detailed information, link users to the [Uono promo code guide](/blog/uono-promo-code-guide/) and [current promo code directory](/promo-codes/).' },
+      { type: 'paragraph', text: 'For game-specific status checks, see the current record for [Max Rummy](/blog/max-rummy-promo-code-status), [Ind Club](/blog/ind-club-promo-code-today-status), [Jaiho 777](/blog/jaiho-777-promo-code-status), [Rummy 91](/blog/rummy-91-promo-code-today-status), [INR Rummy](/blog/inr-rummy-promo-code-today-status), [Top Rummy](/blog/top-rummy-promo-code-today-status), and [Yn 777](/blog/yn-777-promo-code-today-status).' },
 
       { type: 'heading', level: 2, text: 'How Uono Games Connect With Vouchers' },
       { type: 'paragraph', text: 'Some vouchers may also be limited to a particular game or category.' },
@@ -4379,6 +4380,20 @@ const allBlogPosts: BlogPost[] = [
       { type: 'paragraph', text: `There is no single, permanent [Rummy 91](/uono-games/rummy-91) promo code. If you searched for one hoping to copy-paste a code that always works, that code doesn't exist — and anyone handing you one as a "guaranteed" code is working off old information at best.` },
       { type: 'paragraph', text: `Here's how Rummy 91 promo codes actually work. Codes are released periodically by the platform or through specific campaigns, and they rotate. A code that was valid last week may not be valid today, and a code shared in a random Telegram group or comment section may never have been valid at all. Codes are typically tied to conditions — first deposit, a specific time window, a minimum amount, or a particular signup channel — and once those conditions change or the campaign ends, the code stops working regardless of how many places it's still being copied to.` },
 
+      { type: 'heading', level: 2, text: `The record currently on file` },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'RUMMY1539'],
+          ['Review status', 'Reported by readers on 31 May 2026 — not independently confirmed by our team'],
+          ['Eligibility (as reported)', 'Availability may vary by region and app version'],
+          ['Current validity', 'Not confirmed — treat as unverified until independently rechecked'],
+          ['Last reviewed', '9 June 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `That record carries a "reported" label, not "checked" — it was logged from reader submissions, not independently tested by UonoVoucher, and the review date is now several months old. Don't treat it as current just because a code exists on file.` },
+
       { type: 'heading', level: 2, text: `How to check today's status` },
       { type: 'paragraph', text: `We track promo code activity for Rummy 91 and related games on our own [promo-codes page](/promo-codes/), where we log what we've actually seen and verified, broken down by time of day. If we haven't confirmed anything new, we say so plainly — you'll see labels like "Checking" or "Not yet confirmed" instead of a code we made up to fill space. We would rather tell you nothing than tell you something wrong. That's the whole point of a tracker: it's only useful if it's honest when there's nothing to report.` },
       { type: 'paragraph', text: `Morning, afternoon, and evening are the three windows we check most platforms against, because that's roughly how often operators tend to refresh or rotate active codes. If a code is live, we note it along with roughly when we saw it working and what it was for (welcome bonus, referral, reload, etc.). If nothing is confirmed, we don't fill the gap with a guess.` },
@@ -5530,6 +5545,156 @@ const allBlogPosts: BlogPost[] = [
       { question: 'Is JAIHO4951 still a working Jaiho 777 promo code?', answer: `Not confirmed. It was checked and verified on 5 June 2026, but hasn't been re-tested since — treat it as unverified until this page is updated with a current check.` },
       { question: 'When will this be re-verified?', answer: `UonoVoucher re-checks codes on a recurring basis; this page will be updated once Jaiho 777's code is re-tested.` },
       { question: 'Can I trust this code because it was "Checked" before?', answer: `A past "Checked" status confirms it worked at that point in time, not that it still works today. Always verify against the current date on this page before relying on it.` },
+    ],
+  },
+  {
+    id: 'blog-inr-rummy-promo-code-today-status',
+    slug: 'inr-rummy-promo-code-today-status',
+    title: `INR Rummy Promo Code: Today's Status`,
+    metaTitle: `INR Rummy Promo Code: Today's Status`,
+    metaDescription: `Searching for an INR Rummy promo code? There's no one fixed code. Here's how to check today's real status and spot fake codes before you trust one.`,
+    excerpt: `There's no fixed INR Rummy promo code that works forever. See how UonoVoucher checks today's real status and what to verify before trusting any code.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-08',
+    image: '/s-blog/inr-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `Short answer: there's no fixed [INR Rummy](/uono-games/inr-rummy) promo code that works forever. If a code was active yesterday, that doesn't guarantee it's active today, and a code you see shared widely online is often stale by the time it reaches you.` },
+      { type: 'paragraph', text: `Promo codes for platforms like INR Rummy are released by the operator on their own schedule — sometimes daily, sometimes tied to a specific event, a new-user push, or a reload campaign. They are not published on a fixed calendar that anyone outside the platform can predict. That's exactly why a tracker exists: not to guess what's coming, but to log what's actually confirmed, when we confirm it.` },
+
+      { type: 'heading', level: 2, text: `The record currently on file` },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'INRRU6124'],
+          ['Review status', 'Checked and confirmed by our team'],
+          ['Eligibility (as reported)', 'New installs only, subject to in-app terms'],
+          ['Current validity', 'Not re-confirmed recently — treat as unverified until independently rechecked'],
+          ['Last reviewed', '10 June 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `This record carries a "checked" label — it was independently confirmed by our team at the time, not just logged from a reader submission. That's a stronger starting point than a "reported" record, but the review date is still several months old, so it shouldn't be treated as a live, currently-active code without a fresh check.` },
+
+      { type: 'heading', level: 2, text: `How to check today's status` },
+      { type: 'paragraph', text: `Our [promo-codes page](/promo-codes/) tracks INR Rummy alongside the other games we cover, with status checked across the day — morning, afternoon, and evening. When we've verified something live, we post it with context: what it's for, roughly when we saw it, and what conditions seemed to apply. When we haven't verified anything, the entry says "Checking" or "Not yet confirmed." We don't fill empty slots with invented codes just to make the page look complete — that would defeat the purpose of tracking in the first place.` },
+      { type: 'paragraph', text: `It's worth being clear about why we hold this line so firmly: a wrong code wastes your time at best, and at worst it's being used by someone else to bait you into a phishing attempt or a fake "verification" step. Our rule is simple and absolute — if we don't know, we say we don't know.` },
+
+      { type: 'heading', level: 2, text: `What to check before trusting any code you find elsewhere` },
+      { type: 'list', items: [
+        `Source and date. A code with no indication of where it came from or when it was posted is unverifiable by definition.`,
+        `Specificity. Genuine codes are usually tied to a clear purpose (welcome bonus, referral bonus, reload bonus). Vague "magic code, works for everything" claims are a warning sign.`,
+        `No personal-info exchange. A legitimate code never requires you to hand over your password, OTP, UPI PIN, or any sensitive account detail to "unlock" it.`,
+        `Urgency tactics. "Hurry, code expires in 10 minutes" is a pressure tactic designed to stop you from checking — slow down instead.`,
+        `A "checked" label is a stronger starting point than "reported," but neither guarantees the code still works today without a fresh recheck.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** INR Rummy, like other rummy and gaming platforms we track, is intended for users 18 and older. Treat promo codes as a marketing perk, not a reason to increase your stakes or spending.` },
+    ],
+    faqs: [
+      { question: `Does INR Rummy release a new promo code every single day?`, answer: `Not necessarily on a fixed schedule. Codes appear when the operator runs a campaign, which can vary. We check and report what's actually confirmed rather than assuming a daily release.` },
+      { question: `Where can I see today's confirmed INR Rummy code status?`, answer: `On our promo-codes page, updated across morning, afternoon, and evening checks, with honest "Checking" labels when nothing is confirmed yet.` },
+      { question: `Is INRRU6124 still working?`, answer: `It was checked and confirmed on 10 June 2026, but hasn't been re-tested since — treat it as unverified until this page is updated with a current check.` },
+      { question: `Is a "checked" code guaranteed to still work?`, answer: `No. "Checked" means it was independently confirmed at that point in time, not that it's guaranteed valid today. Always verify against the current date on this page.` },
+    ],
+  },
+  {
+    id: 'blog-top-rummy-promo-code-today-status',
+    slug: 'top-rummy-promo-code-today-status',
+    title: `Top Rummy Promo Code: Today's Status`,
+    metaTitle: `Top Rummy Promo Code: Today's Status`,
+    metaDescription: `Searching for a Top Rummy promo code? There's no one fixed code. Here's how to check today's real status and spot fake codes before you trust one.`,
+    excerpt: `There's no fixed Top Rummy promo code that works forever. See how UonoVoucher checks today's real status and what to verify before trusting any code.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-08',
+    image: '/s-blog/top-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `Short answer: there's no fixed [Top Rummy](/uono-games/top-rummy) promo code that works forever. If a code was active yesterday, that doesn't guarantee it's active today, and a code you see shared widely online is often stale by the time it reaches you.` },
+      { type: 'paragraph', text: `Promo codes for platforms like Top Rummy are released by the operator on their own schedule — sometimes daily, sometimes tied to a specific event, a new-user push, or a reload campaign. They are not published on a fixed calendar that anyone outside the platform can predict. That's exactly why a tracker exists: not to guess what's coming, but to log what's actually confirmed, when we confirm it.` },
+
+      { type: 'heading', level: 2, text: `The record currently on file` },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'TOPRU8100'],
+          ['Review status', 'Checked and confirmed by our team'],
+          ['Eligibility (as reported)', 'New installs only, subject to in-app terms'],
+          ['Current validity', 'Not re-confirmed recently — treat as unverified until independently rechecked'],
+          ['Last reviewed', '10 June 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `This record carries a "checked" label — it was independently confirmed by our team at the time, not just logged from a reader submission. That's a stronger starting point than a "reported" record, but the review date is still several months old, so it shouldn't be treated as a live, currently-active code without a fresh check.` },
+
+      { type: 'heading', level: 2, text: `How to check today's status` },
+      { type: 'paragraph', text: `Our [promo-codes page](/promo-codes/) tracks Top Rummy alongside the other games we cover, with status checked across the day — morning, afternoon, and evening. When we've verified something live, we post it with context: what it's for, roughly when we saw it, and what conditions seemed to apply. When we haven't verified anything, the entry says "Checking" or "Not yet confirmed." We don't fill empty slots with invented codes just to make the page look complete — that would defeat the purpose of tracking in the first place.` },
+      { type: 'paragraph', text: `It's worth being clear about why we hold this line so firmly: a wrong code wastes your time at best, and at worst it's being used by someone else to bait you into a phishing attempt or a fake "verification" step. Our rule is simple and absolute — if we don't know, we say we don't know.` },
+
+      { type: 'heading', level: 2, text: `What to check before trusting any code you find elsewhere` },
+      { type: 'list', items: [
+        `Source and date. A code with no indication of where it came from or when it was posted is unverifiable by definition.`,
+        `Specificity. Genuine codes are usually tied to a clear purpose (welcome bonus, referral bonus, reload bonus). Vague "magic code, works for everything" claims are a warning sign.`,
+        `No personal-info exchange. A legitimate code never requires you to hand over your password, OTP, UPI PIN, or any sensitive account detail to "unlock" it.`,
+        `Urgency tactics. "Hurry, code expires in 10 minutes" is a pressure tactic designed to stop you from checking — slow down instead.`,
+        `A "checked" label is a stronger starting point than "reported," but neither guarantees the code still works today without a fresh recheck.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** Top Rummy, like other rummy and gaming platforms we track, is intended for users 18 and older. Treat promo codes as a marketing perk, not a reason to increase your stakes or spending.` },
+    ],
+    faqs: [
+      { question: `Does Top Rummy release a new promo code every single day?`, answer: `Not necessarily on a fixed schedule. Codes appear when the operator runs a campaign, which can vary. We check and report what's actually confirmed rather than assuming a daily release.` },
+      { question: `Where can I see today's confirmed Top Rummy code status?`, answer: `On our promo-codes page, updated across morning, afternoon, and evening checks, with honest "Checking" labels when nothing is confirmed yet.` },
+      { question: `Is TOPRU8100 still working?`, answer: `It was checked and confirmed on 10 June 2026, but hasn't been re-tested since — treat it as unverified until this page is updated with a current check.` },
+      { question: `Is a "checked" code guaranteed to still work?`, answer: `No. "Checked" means it was independently confirmed at that point in time, not that it's guaranteed valid today. Always verify against the current date on this page.` },
+    ],
+  },
+  {
+    id: 'blog-yn-777-promo-code-today-status',
+    slug: 'yn-777-promo-code-today-status',
+    title: `Yn 777 Promo Code: Today's Status`,
+    metaTitle: `Yn 777 Promo Code: Today's Status`,
+    metaDescription: `Searching for a Yn 777 promo code? There's no one fixed code. Here's how to check today's real status and spot fake codes before you trust one.`,
+    excerpt: `There's no fixed Yn 777 promo code that works forever. See how UonoVoucher checks today's real status and what to verify before trusting any code.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-08',
+    image: '/s-blog/yn-777-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `Short answer: there's no fixed [Yn 777](/uono-games/yn-777) promo code that works forever. If a code was active yesterday, that doesn't guarantee it's active today, and a code you see shared widely online is often stale by the time it reaches you.` },
+      { type: 'paragraph', text: `Promo codes for platforms like Yn 777 are released by the operator on their own schedule — sometimes daily, sometimes tied to a specific event, a new-user push, or a reload campaign. They are not published on a fixed calendar that anyone outside the platform can predict. That's exactly why a tracker exists: not to guess what's coming, but to log what's actually confirmed, when we confirm it.` },
+
+      { type: 'heading', level: 2, text: `The record currently on file` },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'YN7771123'],
+          ['Review status', 'Reported by readers — not independently confirmed by our team'],
+          ['Eligibility (as reported)', 'Availability may vary by region and app version'],
+          ['Current validity', 'Not confirmed — treat as unverified until independently rechecked'],
+          ['Last reviewed', '14 June 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `That record carries a "reported" label, not "checked" — it was logged from reader submissions, not independently tested by UonoVoucher, and the review date is now several months old. Don't treat it as current just because a code exists on file.` },
+
+      { type: 'heading', level: 2, text: `How to check today's status` },
+      { type: 'paragraph', text: `Our [promo-codes page](/promo-codes/) tracks Yn 777 alongside the other games we cover, with status checked across the day — morning, afternoon, and evening. When we've verified something live, we post it with context: what it's for, roughly when we saw it, and what conditions seemed to apply. When we haven't verified anything, the entry says "Checking" or "Not yet confirmed." We don't fill empty slots with invented codes just to make the page look complete — that would defeat the purpose of tracking in the first place.` },
+      { type: 'paragraph', text: `It's worth being clear about why we hold this line so firmly: a wrong code wastes your time at best, and at worst it's being used by someone else to bait you into a phishing attempt or a fake "verification" step. Our rule is simple and absolute — if we don't know, we say we don't know.` },
+
+      { type: 'heading', level: 2, text: `What to check before trusting any code you find elsewhere` },
+      { type: 'list', items: [
+        `Source and date. A code with no indication of where it came from or when it was posted is unverifiable by definition.`,
+        `Specificity. Genuine codes are usually tied to a clear purpose (welcome bonus, referral bonus, reload bonus). Vague "magic code, works for everything" claims are a warning sign.`,
+        `No personal-info exchange. A legitimate code never requires you to hand over your password, OTP, UPI PIN, or any sensitive account detail to "unlock" it.`,
+        `Urgency tactics. "Hurry, code expires in 10 minutes" is a pressure tactic designed to stop you from checking — slow down instead.`,
+        `Format isn't proof either way. A random-looking code isn't inherently more trustworthy than a plain-text one — both formats are used legitimately across this network.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** Yn 777, like other rummy and gaming platforms we track, is intended for users 18 and older. Treat promo codes as a marketing perk, not a reason to increase your stakes or spending.` },
+    ],
+    faqs: [
+      { question: `Does Yn 777 release a new promo code every single day?`, answer: `Not necessarily on a fixed schedule. Codes appear when the operator runs a campaign, which can vary. We check and report what's actually confirmed rather than assuming a daily release.` },
+      { question: `Where can I see today's confirmed Yn 777 code status?`, answer: `On our promo-codes page, updated across morning, afternoon, and evening checks, with honest "Checking" labels when nothing is confirmed yet.` },
+      { question: `Is YN7771123 still working?`, answer: `It was reported by readers and logged on 14 June 2026, but has never been independently confirmed by our team — treat it as unverified.` },
+      { question: `I found a Yn 777 code on a forum — is it safe to use?`, answer: `Not necessarily. Codes with no source, date, or context, or any code tied to a request for personal/banking details, should not be trusted.` },
     ],
   },
 ];
