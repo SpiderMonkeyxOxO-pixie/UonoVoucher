@@ -5494,7 +5494,7 @@ const allBlogPosts: BlogPost[] = [
     excerpt: `The Jaiho 777 promo code JAIHO4951 was checked and confirmed on 5 June 2026. That check is now several months old — here's why it's due for re-verification.`,
     category: 'Promo-Code Updates',
     publishedAt: '2026-11-08',
-    image: '/games/jaiho-777.webp',
+    image: '/s-blog/jaiho-777-promo-code-status.webp',
     content: [
       { type: 'paragraph', text: `The current Jaiho 777 promo code status is a previously checked code on record, last verified several months ago.` },
       { type: 'paragraph', text: `A code — JAIHO4951 — was checked and confirmed by UonoVoucher on 5 June 2026, observed in in-app promotional messaging at the time of review. Because that check is now several months old, treat this as a historical record rather than a live, currently-active code until it's re-verified. This page will be updated once that re-check happens.` },
