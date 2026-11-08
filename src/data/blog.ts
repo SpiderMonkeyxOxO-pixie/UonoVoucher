@@ -5555,7 +5555,7 @@ const allBlogPosts: BlogPost[] = [
     metaDescription: `Searching for an INR Rummy promo code? There's no one fixed code. Here's how to check today's real status and spot fake codes before you trust one.`,
     excerpt: `There's no fixed INR Rummy promo code that works forever. See how UonoVoucher checks today's real status and what to verify before trusting any code.`,
     category: 'Promo-Code Updates',
-    publishedAt: '2026-11-08',
+    publishedAt: '2026-11-09',
     image: '/s-blog/inr-rummy-promo-code-today-status.webp',
     content: [
       { type: 'paragraph', text: `Short answer: there's no fixed [INR Rummy](/uono-games/inr-rummy) promo code that works forever. If a code was active yesterday, that doesn't guarantee it's active today, and a code you see shared widely online is often stale by the time it reaches you.` },
@@ -5605,7 +5605,7 @@ const allBlogPosts: BlogPost[] = [
     metaDescription: `Searching for a Top Rummy promo code? There's no one fixed code. Here's how to check today's real status and spot fake codes before you trust one.`,
     excerpt: `There's no fixed Top Rummy promo code that works forever. See how UonoVoucher checks today's real status and what to verify before trusting any code.`,
     category: 'Promo-Code Updates',
-    publishedAt: '2026-11-08',
+    publishedAt: '2026-11-10',
     image: '/s-blog/top-rummy-promo-code-today-status.webp',
     content: [
       { type: 'paragraph', text: `Short answer: there's no fixed [Top Rummy](/uono-games/top-rummy) promo code that works forever. If a code was active yesterday, that doesn't guarantee it's active today, and a code you see shared widely online is often stale by the time it reaches you.` },
@@ -5655,7 +5655,7 @@ const allBlogPosts: BlogPost[] = [
     metaDescription: `Searching for a Yn 777 promo code? There's no one fixed code. Here's how to check today's real status and spot fake codes before you trust one.`,
     excerpt: `There's no fixed Yn 777 promo code that works forever. See how UonoVoucher checks today's real status and what to verify before trusting any code.`,
     category: 'Promo-Code Updates',
-    publishedAt: '2026-11-08',
+    publishedAt: '2026-11-11',
     image: '/s-blog/yn-777-promo-code-today-status.webp',
     content: [
       { type: 'paragraph', text: `Short answer: there's no fixed [Yn 777](/uono-games/yn-777) promo code that works forever. If a code was active yesterday, that doesn't guarantee it's active today, and a code you see shared widely online is often stale by the time it reaches you.` },
