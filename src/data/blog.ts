@@ -5697,6 +5697,106 @@ const allBlogPosts: BlogPost[] = [
       { question: `I found a Yn 777 code on a forum — is it safe to use?`, answer: `Not necessarily. Codes with no source, date, or context, or any code tied to a request for personal/banking details, should not be trusted.` },
     ],
   },
+  {
+    id: 'blog-hi-rummy-promo-code-today-status',
+    slug: 'hi-rummy-promo-code-today-status',
+    title: `Hi Rummy Promo Code: Today's Status`,
+    metaTitle: `Hi Rummy Promo Code: Today's Status`,
+    metaDescription: `Looking for a working Hi Rummy promo code right now? Codes shift daily — see exactly what's on record, how old that record is, and how to confirm before you use it.`,
+    excerpt: `Promo codes for Hi Rummy change without warning. Here's the record UonoVoucher actually has on file, and the checks worth running before you trust it.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-10',
+    image: '/s-blog/hi-rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `There isn't a single [Hi Rummy](/uono-games/hi-rummy) promo code that stays valid indefinitely. Operators rotate these on their own timeline, so anything circulating online — even if it worked recently — can expire without any public notice.` },
+      { type: 'paragraph', text: `We keep a running record for Hi Rummy rather than publishing a code and walking away from it. Each entry gets a status label, a date, and a note on how confident we are in it, so you're not guessing whether what you're looking at is still good.` },
+
+      { type: 'heading', level: 2, text: `What's on file right now` },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'HIRUM2472'],
+          ['Review status', 'Submitted by readers — our team has not independently verified it'],
+          ['Eligibility (as reported)', 'New installs only, subject to in-app terms'],
+          ['Current validity', 'Unconfirmed — don’t assume it still works without rechecking'],
+          ['Last reviewed', '19 June 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `This one sits in "reported" territory, meaning it came from community submissions rather than a hands-on test by our team. Combined with a review date that's now months old, the safest assumption is that it needs rechecking before use, not that it's still live.` },
+
+      { type: 'heading', level: 2, text: `Where to find a fresher check` },
+      { type: 'paragraph', text: `Hi Rummy is tracked alongside everything else on our [promo-codes page](/promo-codes/), which gets rechecked across the day rather than once and forgotten. A confirmed code there comes with what it unlocks and roughly when it was seen; an unconfirmed one is labelled "Checking" or similar instead of being left blank or guessed at.` },
+      { type: 'paragraph', text: `We'd rather show an honest gap than a code we can't back up. A made-up entry might look more complete, but it's not useful to anyone trying to actually redeem something — and in the worst case, it pushes people toward scam listings that do the opposite of what a real code should.` },
+
+      { type: 'heading', level: 2, text: `Red flags before you trust a code from somewhere else` },
+      { type: 'list', items: [
+        `No origin or timestamp. If you can't tell where a code came from or when it was posted, there's no way to judge if it's current.`,
+        `Too generic to be real. Legitimate codes usually map to something specific — a sign-up bonus, a reload offer. "Works on everything" claims don't match how these programs actually run.`,
+        `Any request for account details. A real promo code is redeemed inside the app itself — never by handing over a password, OTP, or UPI PIN to a third party.`,
+        `Artificial time pressure. Countdown-style warnings ("expires in minutes!") exist to stop you from checking, not because the code is actually that time-sensitive.`,
+        `Code style means nothing on its own. Alphanumeric or plain-text, format alone doesn't tell you whether something is genuine.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** Hi Rummy, along with every other title covered here, is meant for adult users. A promo code is a minor perk, not a reason to stake more than you'd planned.` },
+    ],
+    faqs: [
+      { question: `Is a new Hi Rummy promo code released daily?`, answer: `There's no guaranteed daily cadence — releases follow the operator's own campaign schedule. We log what we can confirm rather than assume a fixed pattern.` },
+      { question: `Where's the most current Hi Rummy code status?`, answer: `Our promo-codes page, rechecked multiple times a day, with honest "Checking" labels whenever nothing new has been confirmed.` },
+      { question: `Does HIRUM2472 still work?`, answer: `It's on record as reported by readers on 19 June 2026, but it's never been independently tested by our team — treat it as unverified until rechecked.` },
+      { question: `Someone shared a Hi Rummy code in a group chat — should I use it?`, answer: `Only after checking it against a source you trust. Codes with no origin, or any that ask for personal or banking information, are red flags regardless of where they're shared.` },
+    ],
+  },
+  {
+    id: 'blog-slot-spin-promo-code-today-status',
+    slug: 'slot-spin-promo-code-today-status',
+    title: `Slot Spin Promo Code: Today's Status`,
+    metaTitle: `Slot Spin Promo Code: Today's Status`,
+    metaDescription: `Checking whether a Slot Spin promo code is actually active? See the most recent confirmed record on file and why even a "checked" code needs a fresh look.`,
+    excerpt: `Slot Spin's promo codes don't stay fixed. See the last confirmed record UonoVoucher has, and why "checked" still means "worth rechecking" after enough time passes.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-10',
+    image: '/s-blog/slot-spin-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `[Slot Spin](/uono-games/slot-spin) doesn't run on one permanent promo code. Whatever's active can change on the operator's schedule, so a code that worked last week isn't guaranteed to work today, no matter how widely it's been shared.` },
+      { type: 'paragraph', text: `What we maintain instead is a dated record: the code we last saw, whether our team actually tested it or just logged a report, and when that check happened. That's enough to judge how much weight to give it — a flat "yes/no" wouldn't be.` },
+
+      { type: 'heading', level: 2, text: `The most recent confirmed record` },
+      {
+        type: 'table',
+        headers: ['Status field', 'Current information'],
+        rows: [
+          ['Recorded code', 'SLOTS2329'],
+          ['Review status', 'Directly tested and confirmed by our team at the time of review'],
+          ['Eligibility (as reported)', 'Existing users during the promotional window'],
+          ['Current validity', 'Confirmed as of its review date — recheck before relying on it today'],
+          ['Last reviewed', '20 June 2026'],
+        ],
+      },
+      { type: 'paragraph', text: `This is one of the stronger entries we track — it was hands-on verified, not just reported secondhand. Even so, "confirmed" describes what was true on 20 June 2026, not a guarantee that holds months later. Promotional windows close, and a code this old deserves a fresh look before you act on it.` },
+
+      { type: 'heading', level: 2, text: `How we keep this current` },
+      { type: 'paragraph', text: `The [promo-codes page](/promo-codes/) covers Slot Spin along with the rest of our tracker, rechecked at multiple points through the day instead of set once. When our team has actually verified something live, that's what the "Checked" label means; when we haven't, we say so instead of leaving a confident-looking placeholder.` },
+      { type: 'paragraph', text: `That distinction matters more than it might seem. A page that always looks fully populated, whether or not anything's actually been confirmed, trains people to stop checking — and that's exactly when a stale or fake code does the most damage.` },
+
+      { type: 'heading', level: 2, text: `Before you act on any Slot Spin code you find elsewhere` },
+      { type: 'list', items: [
+        `Check for a source and a date. An undated code with no origin can't be judged as current or expired.`,
+        `Watch for vague, catch-all claims. Real codes are usually scoped to something specific — a welcome offer, a reload bonus — not a blanket "works for everyone, every time."`,
+        `Never trade personal details for a code. Redemption happens inside the app; nobody legitimate needs your password, OTP, or UPI PIN to "activate" anything.`,
+        `Be suspicious of manufactured urgency. Pressure to act immediately is a tactic to stop you from verifying, not a sign the offer is genuinely about to vanish.`,
+        `Formatting isn't a trust signal. Whether a code looks random or plain, that alone says nothing about whether it's real.`,
+      ] },
+
+      { type: 'paragraph', text: `**18+ note:** Slot Spin is intended for adult users, same as every other title we cover. Treat any promo code as a small extra, not a reason to change how much you'd normally spend.` },
+    ],
+    faqs: [
+      { question: `Does Slot Spin give out a new promo code every day?`, answer: `Not on a fixed schedule — releases depend on the operator's own campaigns. We report confirmed status rather than assume a daily pattern.` },
+      { question: `Where can I check Slot Spin's current code status?`, answer: `Our promo-codes page, which is rechecked several times daily and clearly labels anything still unconfirmed.` },
+      { question: `Is SLOTS2329 still active?`, answer: `It was directly confirmed by our team as of 20 June 2026 — a stronger signal than a reader report, but still worth rechecking given how much time has passed.` },
+      { question: `I saw a Slot Spin code on social media — is it trustworthy?`, answer: `Not automatically. Without a clear source and date, or if it asks for account details, treat it as unverified regardless of how it was shared.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
