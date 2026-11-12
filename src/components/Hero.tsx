@@ -41,7 +41,7 @@ export function Hero() {
         </div>
 
         <div className="hero-art" aria-hidden="true">
-          <img src="/hero.png" alt="" className="hero-art-image" fetchPriority="high" />
+          <img src="/hero.webp" alt="" className="hero-art-image" fetchPriority="high" />
         </div>
       </div>
     </section>
