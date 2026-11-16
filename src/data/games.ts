@@ -2071,6 +2071,59 @@ export const games: Game[] = [
     "sortOrder": -2
   },
   {
+    "id": "game-123rummy",
+    "slug": "123rummy",
+    "name": "123Rummy",
+    "category": "skill",
+    "image": "/games/123-rummy.webp",
+    "summary": "123Rummy launched 16 Nov 2026 on the Uono network; a real download link is now live, though no public promo code has been confirmed yet.",
+    "description": [
+      "123Rummy launched 16 November 2026 at 8:00 AM IST. It is tracked here as a rummy-format title in line with how UonoVoucher classifies similar titles on this network.",
+      "123Rummy is now live and available for download via its official listing. Further details — game lineup, bonus terms, operator information — will be added here once they can be independently reviewed; nothing beyond the launch date and download link is confirmed as of this review."
+    ],
+    "formatNotes": [
+      "As a rummy-format title, 123Rummy is expected to follow the general skill-based card-game structure common to this category. Its specific rule set and variants haven't been independently documented here yet."
+    ],
+    "accessNotes": [
+      "Downloading 123Rummy takes you to the operator's own listing in a new tab. UonoVoucher does not host APK files — review the requested permissions before installing."
+    ],
+    "promoExplanation": [
+      "No promo code is currently on file for 123Rummy. This section will be updated once a code is reported and independently reviewed."
+    ],
+    "reviewNotes": [
+      "This entry was first published on 16 Nov 2026, 123Rummy's launch day, and most recently reviewed on 16 Nov 2026. At that review, no promo code was on record."
+    ],
+    "safetyNotes": [
+      "As with the rest of our catalogue, 123Rummy's record here is independently reviewed and subject to change. The install itself is controlled by an external source, not UonoVoucher, so checking permissions first is recommended."
+    ],
+    "faqs": [
+      {
+        "question": "Is 123Rummy live yet?",
+        "answer": "Yes — 123Rummy launched 16 November 2026 at 8:00 AM IST and is available via its official download link."
+      },
+      {
+        "question": "Does 123Rummy currently have a promo code?",
+        "answer": "No — none confirmed as of this listing's most recent review."
+      },
+      {
+        "question": "Where can I download 123Rummy?",
+        "answer": "Via its official listing, linked from this page. UonoVoucher does not host APK files."
+      },
+      {
+        "question": "What is 123Rummy's welcome bonus?",
+        "answer": "Not confirmed. We haven't independently verified any bonus figure for 123Rummy as of this review."
+      }
+    ],
+    "metaTitle": "123Rummy — Promo Codes, Vouchers & Status",
+    "metaDescription": "123Rummy launched 16 Nov 2026. Promo-code status and review dates — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-11-16",
+    "reviewedAt": "2026-11-16",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://www.123rummy2.com/?code=HT9PS5WTMED&t=1794797556",
+    "sortOrder": -3
+  },
+  {
     "id": "game-neta-vip",
     "slug": "neta-vip",
     "name": "Neta VIP",
