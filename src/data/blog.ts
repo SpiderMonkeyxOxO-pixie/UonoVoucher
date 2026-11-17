@@ -5256,6 +5256,55 @@ const allBlogPosts: BlogPost[] = [
     ],
   },
   {
+    id: 'blog-123rummy-promo-code-today-status',
+    slug: '123rummy-promo-code-today-status',
+    title: `123Rummy Promo Code: Today's Status`,
+    metaTitle: `123Rummy Promo Code: Today's Status`,
+    metaDescription: `123Rummy launched 16 Nov 2026. No promo code is confirmed yet — here's how we track daily code windows, what's verified so far, and the official download link.`,
+    excerpt: `There's no promo code currently on file for 123Rummy. Here's how we track its release windows, what's confirmed about its launch so far, and the official download link.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-17',
+    image: '/s-blog/123rummy-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no promo code currently on file for 123Rummy. It launched 16 November 2026 at 8:00 AM IST on the same network as Cash Rummy, Jeet Spin and other recent launches. Apps on this network typically release codes across daily windows rather than keep one permanently active — though 123Rummy's own release schedule hasn't been independently confirmed yet, so for now the honest status is simply: none on record.` },
+
+      { type: 'heading', level: 2, text: `How to check today's status` },
+      { type: 'paragraph', text: `We track 123Rummy the same way we track other new launches on this network: checking for a code across the day's release windows — morning, afternoon, evening — and publishing only what's been independently confirmed. As of this review, status is "None" — that means no code has been recorded yet, not that no offer exists. Check back here for updates as this listing gets reviewed.` },
+
+      { type: 'heading', level: 2, text: `Welcome bonus and minimum withdrawal` },
+      { type: 'paragraph', text: `Not confirmed. 123Rummy is newly launched and we haven't independently verified a welcome bonus amount or a minimum withdrawal figure for it yet. We won't publish a number here until one can be confirmed — treat any specific figure you see elsewhere as unverified until then.` },
+
+      { type: 'heading', level: 2, text: `Downloading 123Rummy` },
+      { type: 'paragraph', text: `Download 123Rummy from its [official listing](https://www.123rummy2.com/?code=HT9PS5WTMED&t=1794797556). UonoVoucher does not host APK files — review the requested permissions before installing.` },
+
+      { type: 'heading', level: 2, text: `Before you trust a 123Rummy code from somewhere else` },
+      { type: 'list', items: [
+        `No date, no source, no trust.`,
+        `Watch for "universal" or "works for everyone" claims.`,
+        `Never trade personal info for a code.`,
+        `Treat urgency ("expires in 1 hour!") as a tactic, not a fact.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Status at a glance` },
+      {
+        type: 'table',
+        headers: [`Field`, `Value`],
+        rows: [
+          [`Launch date`, `16 Nov 2026, 8:00 AM IST`],
+          [`Current code`, `None on file`],
+          [`Welcome bonus`, `Not confirmed`],
+          [`Min withdrawal`, `Not confirmed`],
+        ],
+      },
+    ],
+    faqs: [
+      { question: `Is 123Rummy live yet?`, answer: `Yes — 123Rummy launched 16 November 2026 at 8:00 AM IST and is available via its official download link.` },
+      { question: `Does 123Rummy currently have a promo code?`, answer: `No — none confirmed as of this listing's most recent review.` },
+      { question: `What is 123Rummy's welcome bonus?`, answer: `Not confirmed. We haven't independently verified any bonus figure for 123Rummy as of this review.` },
+      { question: `How does UonoVoucher verify 123Rummy's code status?`, answer: `We check across the day's release windows and only publish a code once it's been independently confirmed.` },
+    ],
+  },
+  {
     id: 'blog-gold-rummy-promo-code-today-status',
     slug: 'gold-rummy-promo-code-today-status',
     title: `Gold Rummy Promo Code: Today's Status`,
