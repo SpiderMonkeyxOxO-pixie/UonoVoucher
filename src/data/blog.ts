@@ -2930,7 +2930,7 @@ const allBlogPosts: BlogPost[] = [
           [`Referral code`, `A link between accounts`],
         ],
       },
-      { type: 'paragraph', text: `See [What Is a Promo Code?](/blog/what-is-a-promo-code) and [What Is a Referral Code?](/blog/what-is-a-referral-code) for the definitions. Some bonuses apply automatically at registration. Others need a code or an invite link. Many come with conditions on use. See [Dhangame Launch Date and Welcome Bonus](/blog/dhangame-launch-date-welcome-bonus) for how an announced welcome reward is described when it has been recorded.` },
+      { type: 'paragraph', text: `See [What Is a Promo Code?](/blog/what-is-a-promo-code) and [What Is a Referral Code?](/blog/what-is-a-referral-code) for the definitions. Some bonuses apply automatically at registration. Others need a code or an invite link. Many come with conditions on use. See [DhanGame Promo Code: Today's Status](/blog/dhangame-promo-code-today-status) for how an announced welcome reward is described when it has been recorded.` },
 
       { type: 'heading', level: 2, text: `Questions to ask about any "51 bonus" claim` },
       { type: 'list', ordered: true, items: [
@@ -3620,7 +3620,7 @@ const allBlogPosts: BlogPost[] = [
           [`Link`, `Applied through an invite or campaign link`],
         ],
       },
-      { type: 'paragraph', text: `A missing code does not mean a bonus is missing. See [Dhangame Launch Date and Welcome Bonus](/blog/dhangame-launch-date-welcome-bonus) for how an announced welcome reward is described.` },
+      { type: 'paragraph', text: `A missing code does not mean a bonus is missing. See [DhanGame Promo Code: Today's Status](/blog/dhangame-promo-code-today-status) for how an announced welcome reward is described.` },
 
       { type: 'heading', level: 2, text: `Terms to read before claiming` },
       { type: 'list', items: [
