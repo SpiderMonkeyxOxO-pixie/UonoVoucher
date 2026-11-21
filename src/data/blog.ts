@@ -6235,6 +6235,88 @@ const allBlogPosts: BlogPost[] = [
       { question: `What is 777game's welcome bonus or minimum withdrawal amount?`, answer: `Not confirmed. Our records don't contain a verified figure for either, and we don't publish numbers we haven't checked.` },
     ],
   },
+  {
+    id: 'blog-jaiho91-promo-code-today-status',
+    slug: 'jaiho91-promo-code-today-status',
+    title: `Jaiho 91 Promo Code: Today's Status`,
+    metaTitle: `Jaiho 91 Promo Code: Today's Status`,
+    metaDescription: `Jaiho 91's promo code is labelled unconfirmed, and its listing hasn't been reviewed since 28 Jun 2026. See what's actually confirmed, the voucher status, and the official download link.`,
+    excerpt: `There's no independently confirmed promo code on file for Jaiho 91 — its status is recorded as unconfirmed, tied to a review that's now nearly five months stale. Here's what's actually known.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-21',
+    image: '/s-blog/jaiho91-promo-code-today-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no independently confirmed promo code currently working for Jaiho 91. The code on file carries a status of "unconfirmed" — not working, not broken, just not established either way — and that finding is itself tied to a review that's now nearly five months old. As of today, Jaiho 91's listing was last reviewed on 28 Jun 2026. The honest status here is: unconfirmed, and overdue for a fresh look.` },
+
+      { type: 'heading', level: 2, text: `Current status` },
+      { type: 'paragraph', text: `Jaiho 91's promo-code status is recorded as "unconfirmed." In our own words from the last review: "We could not verify the promo code on file for Jaiho 91 either way during our 30 Jun 2026 review, so it's labelled 'Unconfirmed' rather than working or not." That's a narrower claim than it might sound — we're not saying the code failed a test. We're saying we ran the check and the result wasn't conclusive enough to call it either way.` },
+
+      { type: 'heading', level: 2, text: `What the last review recorded` },
+      { type: 'paragraph', text: `This entry for Jaiho 91 was first published on 4 Sept 2025 and most recently reviewed on 28 Jun 2026. At that review, it carried a promo-code status of "unconfirmed" and a voucher status of "expired." Those are two separate records worth separating: the promo code's standing is unresolved, but the voucher is explicitly marked as expired, not unresolved. An expired voucher shouldn't be used regardless of what happens to the promo-code status later. Given that this review is nearly five months old as of today, both points need rechecking before anyone treats them as current.` },
+
+      { type: 'heading', level: 2, text: `What "Unconfirmed" actually means (and what it doesn't)` },
+      { type: 'paragraph', text: `"Unconfirmed" is its own label on this site, distinct from "Checked" and from "Expired" — mixing these up is the most common misreading of a status page like this one. A "Checked" label means a reviewer directly tested the record on the date shown. "Expired" means the stated validity period has already ended. "Unconfirmed" sits apart from both: it means the evidence available at review time wasn't enough to place the record into either category, not that it was tested and failed, and not that a validity window has closed.` },
+      {
+        type: 'table',
+        headers: [`Label`, `What you can rely on`, `What you cannot rely on`],
+        rows: [
+          [`Checked`, `A review happened on the date shown`, `That it works today`],
+          [`Unconfirmed`, `It was reviewed and noted`, `Its source or validity either way`],
+          [`Expired`, `It should not be used`, `That a replacement exists`],
+        ],
+      },
+      { type: 'paragraph', text: `Jaiho 91's own FAQ record states it plainly: "It means we couldn't verify the record either way at our last review — not that it's confirmed working or confirmed broken." That's also different from a "Reported" status used elsewhere on this site, which means a reader submitted a code our team hasn't independently checked yet. Jaiho 91's "unconfirmed" label isn't a reader report — it's our own team's review landing on an inconclusive result.` },
+
+      { type: 'heading', level: 2, text: `Downloading Jaiho 91` },
+      { type: 'paragraph', text: `Download Jaiho 91 from its [official listing](https://jaiho91agents.com/?code=C42CFSG9NU1&t=1781970545). That link carries a \`?code=\` parameter in the URL itself — a code string is on record there, but per our no-invented-code policy we don't treat a query-string value like that as a confirmed, copyable promo code, and neither should you. A code only earns a place on our tracker once it's been checked against a date, a source, and ideally a direct test — not because it happens to appear in a download link. The download button itself opens an external listing outside UonoVoucher; we don't host or serve any installer file ourselves, so review the permissions it requests before installing.` },
+
+      { type: 'heading', level: 2, text: `How to check for a real Jaiho 91 code` },
+      { type: 'paragraph', text: `We track Jaiho 91 the same way we track every title on this site: a code only moves from "unconfirmed" to "confirmed" after our team checks it directly, logs the date, and ties it to the window or campaign it actually applies to. Until that happens, it stays labeled exactly as what it is.` },
+      { type: 'list', ordered: true, items: [
+        `Check the [promo-codes tracker](/promo-codes/) for Jaiho 91's current label — Checked, Reported, Unconfirmed, Expired, or None.`,
+        `Look for a specific date attached to any code claim. No date means no way to judge whether it's current.`,
+        `Confirm the source. A code posted on the platform's own channel carries more weight than one forwarded in a chat group.`,
+        `Don't mistake a \`?code=\` value inside a download link for a verified promo code — it isn't the same thing.`,
+        `Recheck older entries like this one periodically — a review from nearly five months back can go stale even if nothing on the page has changed.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `What a legitimate Jaiho 91 promo code would look like` },
+      { type: 'paragraph', text: `If and when a Jaiho 91 code clears independent confirmation, we'll publish it with a date, a source, and the window or campaign it applies to — the same way every confirmed code on this site is recorded. A legitimate code never requires personal information to "unlock," never claims to work forever, and is never buried inside a download link's query string as if that were proof of anything.` },
+
+      { type: 'heading', level: 2, text: `Red flags: when a "Jaiho 91 code" isn't real` },
+      { type: 'list', items: [
+        `No date, no source, no trust.`,
+        `Watch for "universal" or "works for everyone" claims.`,
+        `Never trade personal info — passwords, OTPs, UPI PINs — for a code.`,
+        `Treat urgency ("expires in 1 hour!") as a tactic, not a fact.`,
+        `A code embedded in a download link's URL parameter is not the same thing as a verified promo code.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Welcome bonus and minimum withdrawal` },
+      { type: 'paragraph', text: `Not confirmed. Nothing in our records for Jaiho 91 specifies a welcome-bonus amount or a minimum-withdrawal figure, and we haven't independently verified either. We won't publish a number here until one can be confirmed — treat any specific figure you see elsewhere as unverified until then.` },
+
+      { type: 'heading', level: 2, text: `Status at a glance` },
+      {
+        type: 'table',
+        headers: [`Field`, `Value`],
+        rows: [
+          [`Promo-code status`, `Unconfirmed — not established either way`],
+          [`Voucher status (at last review)`, `Expired`],
+          [`First published`, `4 Sept 2025`],
+          [`Last reviewed`, `28 Jun 2026 (nearly five months stale as of this post)`],
+          [`Welcome bonus`, `Not confirmed`],
+          [`Minimum withdrawal`, `Not confirmed`],
+          [`Official download`, `jaiho91agents.com (official listing only)`],
+        ],
+      },
+    ],
+    faqs: [
+      { question: `Does Jaiho 91 have a promo code right now?`, answer: `The status on file is "unconfirmed" as of our most recent review (28 Jun 2026) — that means we couldn't verify it either way, not that it's confirmed working or confirmed broken.` },
+      { question: `What does "Unconfirmed" mean on this site?`, answer: `It means we couldn't verify the record either way at our last review — not that it's confirmed working or confirmed broken. That's different from "Checked" (directly reviewed and able to be judged) and "Expired" (validity period has ended).` },
+      { question: `Is Jaiho 91's voucher offer still active?`, answer: `No. At our last review (28 Jun 2026), voucher status was recorded as "expired." That review is now nearly five months old, but an expired voucher shouldn't be treated as usable regardless of how much time has passed.` },
+      { question: `How does UonoVoucher verify Jaiho 91's code status?`, answer: `We move a code from "unconfirmed" to "confirmed" only after directly checking it against a date and a source, and we republish the listing once that check is done. Until then, it stays labeled exactly as "unconfirmed."` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
