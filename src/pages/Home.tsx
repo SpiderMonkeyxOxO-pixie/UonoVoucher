@@ -6,6 +6,7 @@ import { PromoCodeSection } from '../components/PromoCodeSection';
 import { GuidesSection } from '../components/GuidesSection';
 import { LatestBlogSection } from '../components/LatestBlogSection';
 import { TransparencySection } from '../components/TransparencySection';
+import { UpcomingGameSection } from '../components/UpcomingGameSection';
 
 export function Home() {
   return (
@@ -16,6 +17,12 @@ export function Home() {
         path="/"
       />
       <Hero />
+      <UpcomingGameSection
+        name="Rush Gala"
+        image="/games/rush-gala.webp"
+        releaseDate="2026-11-23T08:00:00+05:30"
+        releaseTimeLabel="8:00 AM IST"
+      />
       <PromoCodeSection />
       <CategoryRibbon />
       <GamesPreviewSection />
