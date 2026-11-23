@@ -2124,6 +2124,63 @@ export const games: Game[] = [
     "sortOrder": -3
   },
   {
+    "id": "game-rush-gala",
+    "slug": "rush-gala",
+    "name": "Rush Gala",
+    "category": "skill",
+    "image": "/games/rush-gala.webp",
+    "summary": "Rush Gala is one of the few multi-game listings on this site — spanning Slots, Fishing, Fly and Roulette — rather than a single rummy or card title.",
+    "description": [
+      "Rush Gala joined the Uono network on 23 November 2026 at 8:00 AM IST. Unlike most of the titles tracked here, it isn't built around one card format: its own listing describes four separate game types — Slots, Fishing, Fly and Roulette — bundled under one app.",
+      "Per the operator's own listing: a welcome bonus of Rs.50-500, assigned randomly at signup rather than a fixed figure, a minimum deposit of Rs.50-100, a minimum withdrawal of Rs.100, and an app size of 33.4 MB. None of these figures have been independently verified by UonoVoucher as of this review."
+    ],
+    "formatNotes": [
+      "Most entries in this catalogue are organized around one dominant format — a rummy variant, a slot reel, a fish-table shooter. Rush Gala doesn't fit that pattern: its Slots, Fishing, Fly and Roulette modes sit inside a single app, so the usual one-line format description undersells what's actually on offer here. Treat this listing as a bundle rather than a single-genre title, and expect the mechanics of each mode to vary the way they would across four separate apps."
+    ],
+    "accessNotes": [
+      "Rush Gala is downloaded directly from the operator's own site rather than through the Play Store or App Store — the link on this page goes straight to rushgala.club, and the install file comes from there, not from UonoVoucher. At roughly 33.4 MB per the listing, it's a smaller download than most app-store casino titles, but we'd still recommend checking the permissions it asks for before installing anything from outside an official store."
+    ],
+    "promoExplanation": [
+      "As of this review, there isn't a Rush Gala promo code on our records. If and when one surfaces, it'll show up on our promo codes page, which we keep current rather than letting entries go stale — check there before trusting a code posted elsewhere."
+    ],
+    "reviewNotes": [
+      "We haven't put hands on Rush Gala's actual Slots, Fishing, Fly or Roulette modes ourselves — this entry was built from the operator's own listing at launch (23 Nov 2026) rather than from firsthand gameplay. Every figure above, from the bonus range to the app size, should be read as what the operator states, not as something UonoVoucher has confirmed independently."
+    ],
+    "safetyNotes": [
+      "Before putting money into Rush Gala, run it through the same checklist we'd suggest for any title here: confirm you're downloading from the operator's actual domain and not a lookalike, look over what permissions the installer requests, and read through the terms covering deposits and withdrawals before your first one. None of that is unique to Rush Gala — it's just good practice whenever real money is involved."
+    ],
+    "faqs": [
+      {
+        "question": "Is Rush Gala live yet?",
+        "answer": "Yes — it launched 23 November 2026 at 8:00 AM IST and is available via its official listing, linked from this page."
+      },
+      {
+        "question": "Does Rush Gala have a promo code?",
+        "answer": "Not one we've found yet. Check our promo codes page for the current status."
+      },
+      {
+        "question": "What games does Rush Gala include?",
+        "answer": "Four types per its own listing — Slots, Fishing, Fly and Roulette. It isn't a rummy or single-card title."
+      },
+      {
+        "question": "What is Rush Gala's welcome bonus?",
+        "answer": "The operator's own listing states Rs.50-500, assigned randomly at signup rather than a fixed amount."
+      },
+      {
+        "question": "What are Rush Gala's deposit and withdrawal minimums?",
+        "answer": "Per the operator's listing: Rs.50-100 minimum deposit, Rs.100 minimum withdrawal."
+      }
+    ],
+    "metaTitle": "Rush Gala — Promo Codes, Vouchers & Status",
+    "metaDescription": "Rush Gala launched 23 Nov 2026 as a 4-game Slots/Fishing/Fly/Roulette platform. Promo-code status and review dates — independently tracked by UonoVoucher.",
+    "publishedAt": "2026-11-23",
+    "reviewedAt": "2026-11-23",
+    "codeStatus": "none",
+    "featured": true,
+    "downloadUrl": "https://rushgala.club/?code=MBZQC5NXWUP&t=1795408331",
+    "sortOrder": -4
+  },
+  {
     "id": "game-neta-vip",
     "slug": "neta-vip",
     "name": "Neta VIP",
