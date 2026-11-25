@@ -6396,6 +6396,83 @@ const allBlogPosts: BlogPost[] = [
       { question: `How does UonoVoucher verify Bet 213's promo code?`, answer: `We test codes directly and log the result with a date; BET218002 was last tested and confirmed on 5 Jul 2026, recorded under our evening review slot. It will be retested on our normal recurring cadence.` },
     ],
   },
+  {
+    id: 'blog-slots-promo-codes-every-game-status',
+    slug: 'slots-promo-codes-every-game-status',
+    title: `Slots Promo Codes: Every Game, Today's Status`,
+    metaTitle: `Slots Game Promo Codes — Full Status Table (16 Games)`,
+    metaDescription: `One table, all 16 slot-format games UonoVoucher tracks, each with its real current promo-code status and last-reviewed date — no guessed codes.`,
+    excerpt: `There's no universal "slots promo code." Here's the real, current status for all 16 reel-and-spin games we track, in one table.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-25',
+    image: '/s-blog/slots-promo-codes-every-game-status.webp',
+    content: [
+      { type: 'paragraph', text: `There's no single "slots promo code" that works across every reel-and-spin title. UonoVoucher tracks 16 separate slots-format games, each run by its own operator with its own code history. The table below shows each one's real current status label and the date it was last reviewed — not a code copied from a forwarded message.` },
+
+      { type: 'heading', level: 2, text: `Why a slots search doesn't land on one answer` },
+      { type: 'paragraph', text: `"Slots promo code" covers 16 independently-operated apps on this tracker alone, and that's before counting the slots-format titles other sites track. A code that doesn't name which of these 16 it's for isn't a record, it's a guess. The general reason no single code spans every Yono-style game, slots or otherwise, is covered in [Yono Promo Code: Status Across All Games](/blog/yono-promo-code-all-games-status).` },
+
+      { type: 'heading', level: 2, text: `All 16 slots games we track, today's status` },
+      {
+        type: 'table',
+        headers: [`Game`, `Status`, `Last reviewed`],
+        rows: [
+          [`[101z](/blog/101z-promo-code-today-status)`, `Expired`, `7 Jul 2026`],
+          [`[567 Slots](/blog/567-slots-promo-code-today-status)`, `Checked`, `15 Jun 2026`],
+          [`[789 Jackpot](/blog/789-jackpot-promo-code-today-status)`, `Reported`, `14 Jul 2026`],
+          [`[DhanGame](/blog/dhangame-promo-code-today-status)`, `None`, `19 Jul 2026`],
+          [`[Ind Slots](/uono-games/ind-slots)`, `None`, `6 Jun 2026`],
+          [`[Jeet Spin](/blog/jeet-spin-promo-code)`, `None`, `30 Sep 2026`],
+          [`[Saga Slots](/uono-games/saga-slots)`, `Checked`, `15 Jul 2026`],
+          [`[Share Slots](/uono-games/share-slots)`, `Unconfirmed`, `8 Jul 2026`],
+          [`[Slot Spin](/blog/slot-spin-promo-code-today-status)`, `Checked`, `20 Jun 2026`],
+          [`[Slots Winner](/uono-games/slots-winner)`, `Expired`, `22 Jun 2026`],
+          [`[Spin 101](/uono-games/spin-101)`, `Expired`, `22 Jun 2026`],
+          [`[Spin Crush](/uono-games/spin-crush)`, `Checked`, `15 Jul 2026`],
+          [`[Spin Gold](/blog/spin-gold-promo-code-today-status)`, `Expired`, `12 Jul 2026`],
+          [`[Spin Winner](/uono-games/spin-winner)`, `Unconfirmed`, `13 Jul 2026`],
+          [`[Yes Spin](/blog/yes-spin-promo-code-today-status)`, `Expired`, `7 Jul 2026`],
+          [`[Yono Slots](/uono-games/yono-slots)`, `Expired`, `22 Jun 2026`],
+        ],
+      },
+      { type: 'paragraph', text: `This is the same data behind the [promo-code tracker](/promo-codes/), pulled at the same time. It isn't a separately-compiled list that can drift out of sync with it. If a row above looks stale, the tracker holds the live version.` },
+
+      { type: 'heading', level: 2, text: `What the eligibility notes actually show, across all 16` },
+      { type: 'paragraph', text: `Thirteen of these sixteen games currently have some code on record. The other three — DhanGame, Ind Slots and Jeet Spin — simply have nothing on file yet, which is its own kind of answer rather than a gap in the research. Grouping the thirteen codes by their recorded eligibility note shows a pattern worth knowing before you go looking for one:` },
+      { type: 'list', items: [
+        `Availability may vary by region and app version — 5 games (Share Slots, Slots Winner, Spin 101, Spin Gold, Yono Slots). A code that worked for someone else's build or region may simply not apply to yours.`,
+        `First-time code redemption per account — 4 games (101z, Saga Slots, Spin Crush, Yes Spin). These are one-shot; a second account or a second attempt on the same account isn't the intended use.`,
+        `New installs only, subject to in-app terms — 2 games (567 Slots, Spin Winner). Existing players on these two shouldn't expect the listed code to apply to them.`,
+        `Existing users during the promotional window — 2 games (789 Jackpot, Slot Spin). The inverse case: these two are aimed at accounts that already exist, not fresh installs.`,
+      ] },
+      { type: 'paragraph', text: `None of this is UonoVoucher's own characterization of these games — it's a tally of the eligibility field already published per game on the [promo-code tracker](/promo-codes/).` },
+
+      { type: 'heading', level: 2, text: `Reading a status label correctly` },
+      { type: 'list', items: [
+        `Checked — a reviewer looked at it on the date shown. It is not a guarantee that it still works today.`,
+        `Reported — a reader or a public source mentioned it. Nobody on this team has independently confirmed it.`,
+        `Unconfirmed — noted during a review, neither proven nor disproven either way.`,
+        `Expired — don't use it. A label of expired says nothing about whether a replacement exists.`,
+        `None — nothing is on file for that game as of its last review. Three of the sixteen rows above carry this label. The single most common status in the table is actually Expired, which shows up on six of the sixteen rows.`,
+      ] },
+      { type: 'paragraph', text: `A longer walkthrough of how these labels get assigned lives in [How We Assign Status Labels](/guides/how-we-assign-status-labels/).` },
+
+      { type: 'heading', level: 2, text: `Before you act on a slots code from somewhere else` },
+      { type: 'list', items: [
+        `If the source doesn't name one of these 16 apps specifically, it isn't a usable record for any of them.`,
+        `If there's no date attached, there's nothing to compare against the table above — a code with no checked-on date could be from any point in the last year.`,
+        `A request for your account password, OTP or payment PIN before a code is "unlocked" is a scam pattern, not a verification step, regardless of which app is named.`,
+        `A "None" row today isn't permanent. These sixteen games are reviewed on a recurring cycle, and a code can appear between reviews — recheck the tracker itself rather than a screenshot someone sent you.`,
+      ] },
+      { type: 'paragraph', text: `**18+ note:** every game listed above is restricted to users 18 and older. Treat a promo code as a minor incentive on a purchase you'd make anyway, not a reason to deposit beyond what you'd planned.` },
+    ],
+    faqs: [
+      { question: `Is there one promo code that covers every slots game?`, answer: `No. Each of the 16 slots games tracked here is run by a separate operator with its own codes and campaigns. A code for one does not carry over to another.` },
+      { question: `Why does "None" show up for 3 of the 16 games?`, answer: `"None" means no code has been independently recorded for that game as of its last review. It doesn't mean the operator is running no offers at all — only that nothing has reached this tracker and been confirmed.` },
+      { question: `Which slots game has the most recent review?`, answer: `Jeet Spin, last reviewed 30 September 2026, carrying a status of None as of that review.` },
+      { question: `Where can I check if this table is still current?`, answer: `The [promo-code tracker](/promo-codes/) holds the same, live record for every game in this table — check there if a row looks out of date.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
