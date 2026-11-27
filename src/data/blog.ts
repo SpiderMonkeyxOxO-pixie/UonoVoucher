@@ -6477,6 +6477,72 @@ const allBlogPosts: BlogPost[] = [
       { question: `Where can I check if this table is still current?`, answer: `The [promo-code tracker](/promo-codes/) holds the same, live record for every game in this table — check there if a row looks out of date.` },
     ],
   },
+  {
+    id: 'blog-classic-rummy-coupon-codes-every-game-status',
+    slug: 'classic-rummy-coupon-codes-every-game-status',
+    title: `Classic Rummy Coupon Codes: Every Game, Today's Status`,
+    metaTitle: `Classic Rummy Coupon Codes — Real Status (4 Games)`,
+    metaDescription: `There's no single "Classic Rummy" app on file here. See the real, current coupon-code status for the 4 draw-and-discard titles we track that use this format.`,
+    excerpt: `"Classic rummy" describes a card format, not one named app. Here's the real coupon-code status for the 4 titles we track that are built on it.`,
+    category: 'Promo-Code Updates',
+    publishedAt: '2026-11-27',
+    image: '/s-blog/classic-rummy-coupon-codes-every-game-status.webp',
+    content: [
+      { type: 'paragraph', text: `**There is no single app on this tracker named "Classic Rummy," so there is no single "classic rummy coupon code" either. "Classic rummy" is a format description — draw, discard, build sets and sequences — used by several independently-run titles. Below is the real, current coupon-code status for the four we track whose own pages describe them this way.**` },
+
+      { type: 'heading', level: 2, text: `Why "classic rummy coupon codes" doesn't point to one app` },
+      { type: 'paragraph', text: `"Classic rummy" is the name of a card format, the same way "slots" describes a format rather than one game. On this tracker, four titles — Gogo Rummy, Joy Rummy, Ok Rummy and Rummy 91 — are each described on their own pages as following a classic rummy structure: draw a card, discard a card, and race to complete valid sets and sequences before the table does. Each is a separate app, run by its own operator, with its own code history and its own review date. A coupon code tied to one of them has no bearing on the other three.` },
+
+      { type: 'heading', level: 2, text: `All 4 classic-format rummy games we track, today's status` },
+      {
+        type: 'table',
+        headers: [`Game`, `Status`, `Last reviewed`],
+        rows: [
+          [`[Gogo Rummy](/uono-games/gogo-rummy)`, `Checked`, `15 Jun 2026`],
+          [`[Joy Rummy](/uono-games/joy-rummy)`, `Expired`, `7 Jul 2026`],
+          [`[Ok Rummy](/uono-games/ok-rummy)`, `Checked`, `15 Jul 2026`],
+          [`[Rummy 91](/uono-games/rummy-91)`, `Reported`, `9 Jun 2026`],
+        ],
+      },
+      { type: 'paragraph', text: `These four rows are pulled straight from the live [promo-code tracker](/promo-codes/) — not retyped into this page as a separate list. If anything above looks out of date, the tracker is the version to check.` },
+
+      { type: 'heading', level: 2, text: `What the eligibility notes actually show, across all 4` },
+      { type: 'paragraph', text: `Three of the four codes on file — Gogo Rummy, Joy Rummy and Ok Rummy — carry the identical eligibility note: existing users during the promotional window, not new installs. Rummy 91's code is noted separately as availability may vary by region and app version. These groupings aren't an editorial judgment call — they're drawn directly from the eligibility text already attached to each code on the [promo-code tracker](/promo-codes/).` },
+      { type: 'list', items: [
+        `Existing users during the promotional window — 3 games (Gogo Rummy, Joy Rummy, Ok Rummy). A fresh install on these three isn't the intended use case for the listed code.`,
+        `Availability may vary by region and app version — 1 game (Rummy 91). Its listed code may simply not apply to your account if your build or region differs from where it was reported.`,
+      ] },
+
+      { type: 'heading', level: 2, text: `Why Joy Rummy's code is marked Expired` },
+      { type: 'paragraph', text: `Joy Rummy's code is kept visible on its page for the record, but the copy action is disabled once a code is marked Expired. That label means don't use it — it says nothing about whether a replacement has been issued since, which is exactly why these pages are reviewed on a recurring cycle rather than left static.` },
+
+      { type: 'heading', level: 2, text: `Reading a status label correctly` },
+      { type: 'list', items: [
+        `Checked — confirmed by a reviewer as of the date shown. Not a promise that it's still valid today.`,
+        `Reported — passed along by a reader or an outside source, with no independent confirmation from this team.`,
+        `Expired — retired. The label only means this specific code is dead; it doesn't say whether the operator has issued a new one since.`,
+      ] },
+      { type: 'paragraph', text: `For the full process behind how each label gets applied, see [How We Assign Status Labels](/guides/how-we-assign-status-labels/).` },
+
+      { type: 'heading', level: 2, text: `Classic rummy vs. the coupon-code and voucher terms` },
+      { type: 'paragraph', text: `A "coupon code" for one of these four games is the same thing this tracker labels a promo code — a value entered in-app to try to unlock a benefit, as distinct from a [redeem code](/blog/what-is-a-redeem-code), which claims a benefit already sitting on an account. See [What Is a Promo Code?](/blog/what-is-a-promo-code) for the general distinction, which applies to every title on this page the same way it applies to any other game we track.` },
+
+      { type: 'heading', level: 2, text: `Before you act on a "classic rummy" code from somewhere else` },
+      { type: 'list', items: [
+        `A code that doesn't specify which of these four apps it belongs to can't be matched to any of them — treat it as unusable.`,
+        `No date means no way to compare it against the table above; an undated code could just as easily be a year old as a day old.`,
+        `Being asked for a password, OTP or payment PIN before a code supposedly "unlocks" is a scam tactic, full stop — no legitimate verification step works that way.`,
+        `A page advertising one universal "classic rummy" code for every app is describing something that doesn't match how any of these four titles actually issue codes — each runs its own separate campaign.`,
+      ] },
+      { type: 'paragraph', text: `**18+ note:** every game in this table is for users 18 and older. A coupon code is a small bonus on a purchase you'd already make — not a reason to spend beyond what you'd planned.` },
+    ],
+    faqs: [
+      { question: `Is there a game called "Classic Rummy" on this site?`, answer: `No. "Classic rummy" is a format description, not the name of an app we track. Four separate titles — Gogo Rummy, Joy Rummy, Ok Rummy and Rummy 91 — are each described on their own pages as following this format.` },
+      { question: `Is there one coupon code that works for all classic-format rummy games?`, answer: `No. Each of the four games above is run by a separate operator with its own code history. A code tied to one app has no bearing on the other three.` },
+      { question: `Which of the 4 classic rummy games currently has a working code?`, answer: `Gogo Rummy and Ok Rummy both carry a "Checked" status as of their last reviews (15 Jun 2026 and 15 Jul 2026). Rummy 91 is "Reported" and Joy Rummy is "Expired."` },
+      { question: `Where can I check if this table is still current?`, answer: `Check the [promo-code tracker](/promo-codes/) itself — it's the live record this table was built from, so it reflects any change first.` },
+    ],
+  },
 ];
 
 // Scheduled posts stay hidden (list page, detail page, HTML sitemap) until 07:00 IST on their publishedAt date.
